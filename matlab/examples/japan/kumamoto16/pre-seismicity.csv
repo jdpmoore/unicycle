@@ -1,0 +1,1066 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2016-04-15T06:27:52.420Z,32.8657,130.7484,5.97,4.4,mb,,106,0.28,0.71,us,us20005idk,2016-06-27T23:01:35.040Z,"7km ESE of Ueki, Japan",earthquake,4.7,3.6,0.149,13,reviewed,us,us
+2016-04-15T04:50:01.860Z,32.8197,130.6781,10,4.2,mb,,103,0.347,0.89,us,us20005kyu,2016-06-27T23:01:34.040Z,"6km WNW of Kumamoto-shi, Japan",earthquake,4.4,1.9,0.303,3,reviewed,us,us
+2016-04-14T22:46:53.490Z,32.7627,130.7115,10,4.5,mb,,89,0.387,1.1,us,us20005i7c,2016-06-21T01:14:13.040Z,"4km SW of Kumamoto-shi, Japan",earthquake,3.5,1.8,0.082,44,reviewed,us,us
+2016-04-14T22:29:56.820Z,32.8511,130.7839,10,4.6,mb,,78,0.284,0.65,us,us20005i75,2016-06-21T01:14:13.040Z,"7km NNE of Kumamoto-shi, Japan",earthquake,3.6,1.8,0.094,34,reviewed,us,us
+2016-04-14T20:10:37.370Z,32.7456,130.7048,10,4.7,mb,,85,0.405,0.74,us,us20005i51,2016-06-21T01:14:13.040Z,"5km SW of Kumamoto-shi, Japan",earthquake,4.4,1.6,0.064,73,reviewed,us,us
+2016-04-14T17:14:36.340Z,32.7113,130.6768,10,4.5,mb,,91,0.445,0.88,us,us20005i33,2016-06-21T01:14:13.040Z,"3km NNE of Uto, Japan",earthquake,4.3,1.9,0.097,31,reviewed,us,us
+2016-04-14T16:53:02.170Z,32.6909,130.7685,10.68,4.6,mwr,,85,0.442,0.75,us,us20005i2q,2016-06-21T01:14:13.040Z,"9km E of Uto, Japan",earthquake,4.9,4.1,0.086,13,reviewed,us,us
+2016-04-14T15:50:31.400Z,32.7422,130.7298,10,4.5,mb,,85,0.401,0.78,us,us20005i1z,2016-06-21T01:14:13.040Z,"5km SSW of Kumamoto-shi, Japan",earthquake,1.8,1.9,0.087,39,reviewed,us,us
+2016-04-14T15:34:17.430Z,32.7017,130.7679,10,4.7,mb,,85,0.431,0.73,us,us20005i1r,2016-06-21T01:14:12.040Z,"9km ENE of Uto, Japan",earthquake,5.5,1.5,0.058,91,reviewed,us,us
+2016-04-14T15:06:22.190Z,32.716,130.6904,10,5.3,mb,,22,0.436,0.97,us,us20005i1i,2016-06-21T01:14:12.040Z,"4km NNE of Uto, Japan",earthquake,3,1.7,0.044,174,reviewed,us,us
+2016-04-14T15:03:47.240Z,32.6973,130.7204,8,6,mww,,32,0.446,0.86,us,us20005i1a,2016-07-01T10:56:32.000Z,"5km ENE of Uto, Japan",earthquake,3.9,1.7,,,reviewed,us,us
+2016-04-14T14:43:41.580Z,32.7805,130.7516,10,4.9,mb,,85,0.359,0.82,us,us20005i14,2016-06-21T01:14:12.040Z,"1km SE of Kumamoto-shi, Japan",earthquake,4.3,1.9,0.085,43,reviewed,us,us
+2016-04-14T14:29:57.880Z,32.7574,130.8119,10,4.5,mb,,101,0.37,0.85,us,us20005i1b,2016-06-21T01:14:12.040Z,"7km ESE of Kumamoto-shi, Japan",earthquake,4.1,1.5,0.124,19,reviewed,us,us
+2016-04-14T14:28:13.360Z,32.7911,130.728,10,4.4,mb,,85,0.355,0.88,us,us20005i10,2016-06-21T01:14:12.040Z,"1km W of Kumamoto-shi, Japan",earthquake,3.9,1.9,0.149,13,reviewed,us,us
+2016-04-14T13:43:15.870Z,32.7076,130.6892,10,4.5,mb,,107,0.445,0.94,us,us20005i0p,2016-06-21T01:14:12.040Z,"3km NE of Uto, Japan",earthquake,3.3,1.9,0.145,14,reviewed,us,us
+2016-04-14T13:38:43.590Z,32.6823,130.7151,10,4.8,mb,,85,0.461,0.83,us,us20005i0k,2016-06-21T01:14:12.040Z,"4km E of Uto, Japan",earthquake,2.9,1.9,0.088,40,reviewed,us,us
+2016-04-14T13:22:19.040Z,32.6649,130.687,10,4.8,mb,,100,0.485,0.86,us,us20005i0i,2016-06-21T01:14:12.040Z,"2km SE of Uto, Japan",earthquake,4.6,1.9,0.107,27,reviewed,us,us
+2016-04-14T13:07:35.490Z,32.7429,130.8235,10,5.4,mww,,58,0.383,0.9,us,us20005i0c,2016-06-21T01:14:12.040Z,"9km SE of Kumamoto-shi, Japan",earthquake,6.1,1.8,,,reviewed,us,us
+2016-04-14T13:06:53.440Z,32.8259,130.6901,10,4.4,mb,,101,0.337,1.27,us,us20005kv9,2016-06-21T01:14:12.040Z,"6km NW of Kumamoto-shi, Japan",earthquake,5,1.9,0.179,9,reviewed,us,us
+2016-04-14T12:42:24.870Z,32.5394,130.6376,10,4.7,mb,,51,0.617,0.85,us,us20005hzv,2016-06-21T01:14:12.040Z,"5km NE of Yatsushiro, Japan",earthquake,5.1,1.9,0.071,60,reviewed,us,us
+2016-04-14T12:26:35.730Z,32.788,130.7042,9,6.2,mww,,18,0.366,1.14,us,us20005hzn,2016-06-21T01:14:12.040Z,"3km W of Kumamoto-shi, Japan",earthquake,4.6,1.7,,,reviewed,us,us
+2016-03-14T07:03:17.710Z,29.8888,128.9567,210.5,5.5,mww,,12,2.066,0.89,us,us10004xbb,2016-05-21T00:05:30.040Z,"176km NNW of Naze, Japan",earthquake,6.7,1.8,,,reviewed,us,us
+2016-03-03T07:11:16.090Z,31.7483,131.4272,55.49,5.3,mb,,54,0.864,0.93,us,us10004u9q,2016-05-06T23:34:25.040Z,"17km NNE of Nichinan, Japan",earthquake,2.2,5.2,0.055,113,reviewed,us,us
+2016-02-23T10:05:44.670Z,31.0644,130.2156,146.3,4.2,mb,,102,0.487,1.09,us,us10004sxc,2016-05-03T23:44:18.040Z,"24km SSW of Makurazaki, Japan",earthquake,11.4,6.2,0.235,5,reviewed,us,us
+2016-02-22T16:47:46.620Z,30.6069,132.7973,10,4.3,mb,,124,2.204,0.76,us,us10004smf,2016-05-03T23:44:17.040Z,"172km E of Nishinoomote, Japan",earthquake,4.2,1.9,0.119,20,reviewed,us,us
+2016-02-20T19:14:37.440Z,30.0849,131.0844,40.81,4.6,mb,,122,1.52,0.6,us,us10004rf6,2016-05-03T23:44:14.040Z,"72km S of Nishinoomote, Japan",earthquake,6.9,7.2,0.065,70,reviewed,us,us
+2016-01-21T18:07:25.500Z,30.5767,132.8069,10,4.2,mb,,143,2.224,0.48,us,us20004ush,2016-04-06T17:30:29.040Z,"174km E of Nishinoomote, Japan",earthquake,8.6,1.9,0.146,13,reviewed,us,us
+2016-01-18T22:55:36.160Z,30.6712,132.776,10,4.3,mb,,123,2.161,0.85,us,us10004gdi,2016-04-06T17:30:26.040Z,"169km SE of Nichinan, Japan",earthquake,7.2,1.8,0.116,21,reviewed,us,us
+2016-01-18T03:35:53.570Z,30.7162,132.75,10,4.6,mb,,123,2.123,0.76,us,us10004faa,2016-04-06T17:30:25.040Z,"164km SE of Nichinan, Japan",earthquake,8.8,1.9,0.089,38,reviewed,us,us
+2016-01-17T23:38:47.780Z,30.7066,132.834,10,4.6,mb,,106,2.193,1.15,us,us10004gc5,2016-04-06T17:30:24.040Z,"171km SE of Nichinan, Japan",earthquake,6.2,1.9,0.122,20,reviewed,us,us
+2016-01-17T14:23:51.510Z,30.6138,132.7949,8.95,4.6,mb,,123,2.199,0.84,us,us10004gbr,2016-04-06T17:30:24.040Z,"172km E of Nishinoomote, Japan",earthquake,7.7,4.2,0.113,23,reviewed,us,us
+2016-01-17T13:01:12.220Z,30.6448,132.7969,10,4.8,mb,,100,2.188,0.57,us,us10004f77,2016-05-13T18:58:29.000Z,"172km SE of Nichinan, Japan",earthquake,7.2,1.9,0.073,57,reviewed,us,us
+2016-01-15T04:17:00.870Z,32.1885,131.0709,115.61,4,mb,,149,0.857,0.65,us,us10004g0s,2016-04-06T17:30:20.040Z,"24km NNE of Kobayashi, Japan",earthquake,6.1,9,0.259,4,reviewed,us,us
+2016-01-13T12:25:55.310Z,31.9872,130.9355,114.42,4.4,mb,,101,0.629,0.94,us,us10004fld,2016-03-30T02:27:58.040Z,"4km W of Kobayashi, Japan",earthquake,6.9,6.2,0.24,5,reviewed,us,us
+2016-01-13T12:10:08.870Z,30.6921,132.7602,27.45,4.4,mb,,142,2.14,0.77,us,us10004flc,2016-03-30T02:27:58.040Z,"166km SE of Nichinan, Japan",earthquake,8.2,1.2,0.179,10,reviewed,us,us
+2016-01-09T04:48:06.340Z,30.6366,132.6237,32.42,4.3,mb,,141,2.055,0.73,us,us10004eii,2016-03-30T02:27:50.040Z,"155km E of Nishinoomote, Japan",earthquake,8.4,6.1,0.142,14,reviewed,us,us
+2016-01-09T04:44:07.620Z,30.6046,132.7153,29.54,4.3,mb,,123,2.14,0.77,us,us10004eih,2016-03-30T02:27:50.040Z,"164km E of Nishinoomote, Japan",earthquake,4.7,5.5,0.118,20,reviewed,us,us
+2016-01-08T01:00:32.400Z,30.5536,132.7512,30.7,4,mb,,142,2.19,1.37,us,us10004efu,2016-03-30T02:27:48.040Z,"169km E of Nishinoomote, Japan",earthquake,6.5,5.5,0.211,7,reviewed,us,us
+2016-01-05T12:23:21.540Z,30.5581,132.8029,10,4.5,mb,,107,2.229,0.7,us,us10004e1b,2016-03-28T22:09:38.040Z,"173km E of Nishinoomote, Japan",earthquake,7.6,1.9,0.131,17,reviewed,us,us
+2016-01-05T02:21:11.340Z,30.6132,132.7337,4.71,5.8,mww,,29,2.151,0.48,us,us10004ben,2016-07-08T15:55:08.273Z,"166km E of Nishinoomote, Japan",earthquake,2,3.2,,,reviewed,us,us
+2016-01-04T20:17:34.000Z,32.2436,131.1595,100.11,4,mb,,95,0.91,0.6,us,us10004e0k,2016-03-28T22:09:37.040Z,"27km NW of Tsuma, Japan",earthquake,6.8,6.9,0.173,9,reviewed,us,us
+2015-12-25T02:20:38.980Z,33.6127,134.4272,26.09,4.1,mb,,110,0.474,0.67,us,us100049eq,2016-03-18T01:13:00.040Z,"39km SSW of Anan, Japan",earthquake,6.3,6.3,0.151,12,reviewed,us,us
+2015-12-22T16:51:41.490Z,30.4742,132.5327,10,4.5,mb,,100,2.062,0.61,us,us100048uc,2016-03-12T02:29:22.040Z,"149km E of Nishinoomote, Japan",earthquake,6.6,1.9,0.096,32,reviewed,us,us
+2015-12-15T21:53:57.440Z,30.8421,131.3548,31.72,4.5,mb,,106,1.019,0.68,us,us20004hf6,2016-03-05T01:42:08.040Z,"36km ENE of Nishinoomote, Japan",earthquake,6.8,5.8,0.101,29,reviewed,us,us
+2015-12-13T16:51:17.770Z,30.8547,131.3784,35,4.1,mb,,125,1.027,0.63,us,us100047wd,2016-03-05T01:42:05.040Z,"38km ENE of Nishinoomote, Japan",earthquake,7.4,2,0.145,13,reviewed,us,us
+2015-12-12T22:04:01.430Z,31.23,129.3468,10,4.4,mb,,95,0.986,0.85,us,us20004gtj,2016-03-05T01:42:04.040Z,"92km W of Makurazaki, Japan",earthquake,6,1.9,0.096,31,reviewed,us,us
+2015-12-08T09:28:03.570Z,30.965,130.4075,129.3,4.7,mb,,58,0.544,1.17,us,us10004539,2016-03-02T03:36:38.040Z,"34km SSE of Makurazaki, Japan",earthquake,7.7,6.8,0.081,46,reviewed,us,us
+2015-12-07T16:24:24.660Z,31.3413,128.7683,10.94,4.8,mb,,97,1.449,0.61,us,us20004g5x,2016-03-02T03:36:37.040Z,"147km W of Makurazaki, Japan",earthquake,8.7,4.8,0.076,54,reviewed,us,us
+2015-12-03T12:08:40.800Z,31.2596,129.4301,40.28,4.5,mb,,95,0.909,1.11,us,us1000430z,2016-03-02T03:36:29.040Z,"84km W of Makurazaki, Japan",earthquake,3.3,8.7,0.111,24,reviewed,us,us
+2015-11-29T09:48:20.410Z,31.2913,129.2914,25.38,4.6,mb,,96,1.016,0.71,us,us1000420t,2016-02-25T22:33:00.040Z,"97km W of Makurazaki, Japan",earthquake,6.2,5.1,0.125,19,reviewed,us,us
+2015-11-28T12:13:07.500Z,30.2947,131.3723,30.72,4.6,mb,,81,1.445,0.61,us,us100041vm,2016-02-25T22:32:58.040Z,"60km SE of Nishinoomote, Japan",earthquake,3,5.4,0.078,50,reviewed,us,us
+2015-11-19T14:41:48.180Z,31.2239,128.8522,16.87,4.7,mb,,82,1.398,0.65,us,us10003zkd,2016-03-25T13:58:51.000Z,"139km W of Makurazaki, Japan",earthquake,6.1,4,0.13,18,reviewed,us,us
+2015-11-18T19:56:49.210Z,31.2078,128.9892,10,4.5,mb,,78,1.287,0.53,us,us10003zd4,2016-02-13T02:08:30.040Z,"126km W of Makurazaki, Japan",earthquake,4.5,1.9,0.092,35,reviewed,us,us
+2015-11-18T16:09:59.960Z,31.3715,128.9703,10,4.2,mb,,136,1.274,1.18,us,us10003zty,2016-02-13T02:08:29.040Z,"128km W of Makurazaki, Japan",earthquake,4.3,1.9,0.264,4,reviewed,us,us
+2015-11-18T12:18:04.590Z,31.0852,128.5119,10,4.7,mb,,60,1.714,0.87,us,us10003z8b,2016-02-13T02:08:29.040Z,"173km W of Makurazaki, Japan",earthquake,6.1,1.9,0.096,35,reviewed,us,us
+2015-11-18T04:38:50.880Z,31.3706,128.961,27.5,5.1,mb,,76,1.282,0.88,us,us10003z79,2016-03-25T13:58:39.000Z,"129km W of Makurazaki, Japan",earthquake,6.1,4.9,0.048,139,reviewed,us,us
+2015-11-17T02:07:12.820Z,31.2208,128.7322,10,4.3,mb,,95,1.499,1.11,us,us10003zkx,2016-02-13T02:08:26.040Z,"151km W of Makurazaki, Japan",earthquake,6.2,1.9,0.154,12,reviewed,us,us
+2015-11-16T07:31:14.500Z,31.1872,128.9206,10,4.8,mb,,83,1.349,1.04,us,us10003ylp,2016-02-13T02:08:24.040Z,"133km W of Makurazaki, Japan",earthquake,6.4,1.9,0.079,49,reviewed,us,us
+2015-11-16T05:11:36.530Z,30.7149,128.7587,10,4.3,mb,,94,1.654,1.28,us,us10003zj0,2016-02-13T02:08:24.040Z,"160km WSW of Makurazaki, Japan",earthquake,7.2,1.9,0.16,11,reviewed,us,us
+2015-11-15T06:07:28.310Z,31.139,128.7456,10,4.2,mb,,116,1.506,0.64,us,us10003zb8,2016-02-13T02:08:22.040Z,"150km W of Makurazaki, Japan",earthquake,7.4,1.9,0.146,14,reviewed,us,us
+2015-11-15T05:13:57.810Z,31.9194,128.8519,10,4.8,mb,,64,1.424,0.7,us,us10003ygk,2016-02-13T02:08:22.040Z,"85km S of Fukue, Japan",earthquake,4.4,1.9,0.073,58,reviewed,us,us
+2015-11-15T01:12:23.920Z,30.9746,128.8751,10,4.4,mb,,106,1.452,0.93,us,us10003yfh,2016-02-13T02:08:22.040Z,"141km WSW of Makurazaki, Japan",earthquake,7.1,1.9,0.115,24,reviewed,us,us
+2015-11-14T22:35:00.890Z,30.8913,128.7122,10,4.3,mb,,106,1.613,0.69,us,us10003z9x,2016-02-13T02:08:22.040Z,"158km WSW of Makurazaki, Japan",earthquake,6.6,1.5,0.129,17,reviewed,us,us
+2015-11-14T21:41:50.460Z,31.3033,128.812,10,4.5,mb,,92,1.417,0.7,us,us10003yem,2016-02-13T02:08:22.040Z,"143km W of Makurazaki, Japan",earthquake,6.1,1.9,0.081,45,reviewed,us,us
+2015-11-14T20:34:29.340Z,31.3303,128.853,10,5.1,mww,,59,1.379,0.83,us,us10003ye7,2016-03-25T13:58:22.000Z,"139km W of Makurazaki, Japan",earthquake,6.6,1.7,,,reviewed,us,us
+2015-11-14T19:20:21.390Z,31.4417,128.8428,10,5.7,mww,,22,1.377,0.76,us,us10003ydz,2016-03-25T13:58:21.000Z,"138km S of Fukue, Japan",earthquake,5.8,1.7,,,reviewed,us,us
+2015-11-14T08:40:56.000Z,31.2782,128.9344,6.69,4.7,mb,,80,1.318,0.56,us,us10003ybg,2016-03-25T13:58:16.000Z,"131km W of Makurazaki, Japan",earthquake,3.6,5,0.106,27,reviewed,us,us
+2015-11-14T05:26:28.020Z,31.2712,128.6902,10,4.2,mb,,117,1.525,0.5,us,us10003z8z,2016-02-13T02:08:20.040Z,"154km W of Makurazaki, Japan",earthquake,6.1,1.9,0.2,7,reviewed,us,us
+2015-11-14T04:29:25.930Z,30.9216,128.6945,10,4.2,mb,,105,1.616,0.94,us,us10003z8w,2016-02-13T02:08:20.040Z,"159km WSW of Makurazaki, Japan",earthquake,7.9,1.9,0.158,11,reviewed,us,us
+2015-11-14T03:51:54.160Z,31.4544,128.8805,10,4.6,mb,,72,1.344,0.94,us,us10003yag,2016-02-13T02:08:20.040Z,"134km WSW of Kushikino, Japan",earthquake,5.1,1.7,0.101,29,reviewed,us,us
+2015-11-14T01:11:53.620Z,31.3889,128.9065,10,4.3,mb,,89,1.326,1.3,us,us10003y8q,2016-02-13T02:08:20.040Z,"134km WSW of Kushikino, Japan",earthquake,5.6,1.4,0.138,15,reviewed,us,us
+2015-11-13T22:14:21.770Z,31.1281,128.7527,10,4.4,mb,,71,1.503,1.05,us,us10003yyz,2016-02-13T02:08:20.040Z,"149km W of Makurazaki, Japan",earthquake,6,1.9,0.117,21,reviewed,us,us
+2015-11-13T21:36:28.450Z,31.2189,128.8638,10,4.4,mb,,63,1.389,0.85,us,us10003yyw,2016-02-13T02:08:20.040Z,"138km W of Makurazaki, Japan",earthquake,5.2,1.5,0.144,14,reviewed,us,us
+2015-11-13T21:29:00.710Z,30.7365,128.7845,10,4.3,mb,,94,1.624,1.2,us,us10003yyx,2016-02-13T02:08:20.040Z,"157km WSW of Makurazaki, Japan",earthquake,6.1,1.9,0.201,7,reviewed,us,us
+2015-11-13T21:17:26.580Z,31.0207,128.7986,10,4.9,mb,,61,1.497,0.92,us,us10003y7j,2016-02-13T02:08:20.040Z,"147km W of Makurazaki, Japan",earthquake,6.3,1.8,0.064,77,reviewed,us,us
+2015-11-13T20:51:31.030Z,31.0009,128.8729,12,6.7,mww,,17,1.444,1.25,us,us10003y71,2016-03-25T13:58:13.000Z,"140km WSW of Makurazaki, Japan",earthquake,5.9,1.7,,,reviewed,us,us
+2015-11-03T15:55:40.180Z,32.6969,131.9769,42.37,4.5,mb,,67,1.019,0.85,us,us200041lm,2016-01-30T02:11:05.040Z,"28km SSE of Saiki, Japan",earthquake,6,8.6,0.113,23,reviewed,us,us
+2015-10-31T01:37:52.180Z,30.9845,132.4226,26.93,4.3,mb,,123,1.766,1.25,us,us200041lt,2016-01-30T02:10:58.040Z,"121km SE of Nichinan, Japan",earthquake,6.4,4.1,0.168,10,reviewed,us,us
+2015-10-30T22:25:18.400Z,30.0198,131.7035,37.48,4.4,mb,,104,1.834,1.09,us,us200041kk,2016-01-30T02:10:58.040Z,"104km SE of Nishinoomote, Japan",earthquake,7.6,8.8,0.134,16,reviewed,us,us
+2015-10-19T22:05:11.930Z,30.6279,131.4408,10,4.3,mb,,136,1.221,1.1,us,us10003ptk,2016-01-15T20:51:18.040Z,"43km ESE of Nishinoomote, Japan",earthquake,7.9,1.9,0.129,17,reviewed,us,us
+2015-10-19T21:49:34.960Z,30.714,131.3828,10,4.4,mb,,132,1.124,0.79,us,us10003r0b,2016-01-15T20:51:18.040Z,"36km E of Nishinoomote, Japan",earthquake,7.4,1.9,0.139,15,reviewed,us,us
+2015-10-19T21:47:01.770Z,30.6336,131.2539,10,4.5,mb,,132,1.111,0.59,us,us10003r09,2016-01-15T20:51:18.040Z,"26km ESE of Nishinoomote, Japan",earthquake,6.2,1.9,0.15,13,reviewed,us,us
+2015-10-19T21:44:44.450Z,30.7005,131.4604,15.64,4.6,mwr,,123,1.182,0.7,us,us10003pst,2016-01-15T20:51:17.040Z,"44km E of Nishinoomote, Japan",earthquake,6.6,4.4,0.093,11,reviewed,us,us
+2015-10-03T09:09:39.390Z,30.3784,131.4548,31.94,4.1,mb,,109,1.418,0.7,us,us10003nc1,2016-01-04T22:28:54.040Z,"58km SE of Nishinoomote, Japan",earthquake,7.6,7.4,0.233,7,reviewed,us,us
+2015-10-02T19:09:58.810Z,32.0363,130.3533,4.42,4.2,mb,,125,0.532,1.07,us,us10003jvv,2016-01-04T22:28:48.040Z,"5km SSW of Izumi, Japan",earthquake,5.4,5.3,0.187,9,reviewed,us,us
+2015-09-29T04:24:26.360Z,30.1402,131.1925,41.39,4.5,mb,,128,1.505,0.87,us,us10003mzh,2015-12-28T23:08:48.040Z,"68km SSE of Nishinoomote, Japan",earthquake,7.2,8.2,0.163,11,reviewed,us,us
+2015-09-07T00:07:17.510Z,30.2251,130.9906,43.9,4.4,mb,,134,1.361,0.82,us,us20003l95,2015-12-05T01:40:33.040Z,"56km S of Nishinoomote, Japan",earthquake,7.7,6,0.134,16,reviewed,us,us
+2015-09-06T15:20:36.390Z,30.6547,131.4094,29.29,4.5,mb,,85,1.183,0.66,us,us20003knf,2015-12-05T01:40:32.040Z,"40km ESE of Nishinoomote, Japan",earthquake,7,6.2,0.144,14,reviewed,us,us
+2015-09-02T07:07:46.940Z,33.1732,134.5449,16.54,4.7,mb,,91,0.789,0.78,us,us20003fmh,2015-12-01T00:36:10.040Z,"38km ESE of Muroto, Japan",earthquake,5.7,4.5,0.051,118,reviewed,us,us
+2015-08-25T22:51:36.710Z,32.0765,131.733,36.49,5.2,mwr,,40,1.228,0.83,us,us100034x5,2015-11-24T02:09:36.040Z,"22km ESE of Takanabe, Japan",earthquake,5.4,4.2,0.052,35,reviewed,us,us
+2015-08-21T07:54:37.120Z,33.3163,132.1859,46.91,4.4,mwr,,52,1.113,0.83,us,us100033w5,2015-11-24T02:09:26.040Z,"36km WNW of Uwajima, Japan",earthquake,5.8,6.2,0.078,16,reviewed,us,us
+2015-08-17T11:40:33.820Z,30.8186,131.0266,7.83,5.1,mb,,43,0.846,0.7,us,us100032uc,2015-11-17T00:13:33.040Z,"9km NNE of Nishinoomote, Japan",earthquake,5.6,3.6,0.036,253,reviewed,us,us
+2015-08-04T04:39:47.800Z,30.7055,131.5222,24.03,4.8,mb,,136,1.218,0.66,us,us10002xsz,2015-10-30T02:47:47.040Z,"50km E of Nishinoomote, Japan",earthquake,6.5,6.1,0.08,49,reviewed,us,us
+2015-08-02T02:50:36.010Z,30.6708,131.4944,28.99,4.1,mb,,134,1.223,0.89,us,us100033pa,2015-10-30T02:47:43.040Z,"47km E of Nishinoomote, Japan",earthquake,7.4,6.2,0.234,5,reviewed,us,us
+2015-08-01T21:51:42.150Z,30.6746,131.4282,34.42,4.8,mb,,107,1.18,0.67,us,us10002x76,2015-10-30T02:47:42.040Z,"41km E of Nishinoomote, Japan",earthquake,6.9,5.7,0.068,66,reviewed,us,us
+2015-08-01T15:52:34.380Z,30.5967,131.4249,35.65,4.5,mb,,70,1.234,0.81,us,us10002x57,2015-10-30T02:47:42.040Z,"43km ESE of Nishinoomote, Japan",earthquake,6.6,9,0.221,6,reviewed,us,us
+2015-07-24T08:53:36.130Z,33.4073,132.3823,44.11,4.6,mwr,,46,1.288,0.87,us,us20002zsq,2015-10-22T20:04:55.040Z,"18km WSW of Ozu, Japan",earthquake,5.2,4.7,0.071,19,reviewed,us,us
+2015-07-18T17:13:21.250Z,31.0298,131.4774,27.78,4.7,mwr,,47,0.999,1.12,us,us20002yec,2015-10-14T21:05:42.040Z,"52km SSE of Kushima, Japan",earthquake,5.1,4.8,0.089,12,reviewed,us,us
+2015-07-18T09:28:07.170Z,32.0802,131.7846,57.92,4.3,mb,,85,1.269,0.72,us,us20002yc8,2015-10-14T21:05:41.040Z,"27km ESE of Takanabe, Japan",earthquake,5.4,4.7,0.125,21,reviewed,us,us
+2015-07-13T06:52:37.700Z,31.5042,131.757,46.19,4.7,mb,,123,1.114,0.93,us,us20002x29,2015-10-09T20:19:15.040Z,"38km ESE of Nichinan, Japan",earthquake,7.2,7.4,0.055,100,reviewed,us,us
+2015-07-12T17:52:06.170Z,33.0229,131.7493,53,5.5,mww,,57,0.739,0.95,us,us20002wz9,2015-10-09T20:19:14.040Z,"10km SSW of Usuki, Japan",earthquake,5.7,1.9,,,reviewed,us,us
+2015-06-27T20:44:41.830Z,30.0953,130.3277,73.62,4.1,mb,,102,1.413,1.04,us,us20002wt7,2015-09-02T22:37:21.040Z,"95km SW of Nishinoomote, Japan",earthquake,8.5,7.9,0.185,8,reviewed,us,us
+2015-06-11T09:19:23.300Z,29.794,131.4189,36.9,5.1,mb,,107,1.901,0.75,us,us20002nxu,2015-08-20T00:43:53.040Z,"111km SSE of Nishinoomote, Japan",earthquake,7.1,5.3,0.034,283,reviewed,us,us
+2015-05-27T01:51:26.110Z,31.2919,130.4608,152.22,4.7,mb,,60,0.216,1.02,us,us10002cdg,2015-07-29T01:35:48.040Z,"14km ENE of Makurazaki, Japan",earthquake,7.4,5.6,0.055,100,reviewed,us,us
+2015-05-25T16:35:22.040Z,31.7839,131.8137,25.25,4.4,mb,,74,1.192,0.85,us,us10002c1i,2015-07-29T01:35:44.040Z,"39km ESE of Miyazaki-shi, Japan",earthquake,5.9,4.8,0.078,48,reviewed,us,us
+2015-05-24T00:09:38.400Z,31.2324,130.3868,160.74,4.5,mb,,94,0.281,0.77,us,us10002bva,2015-07-29T01:35:37.040Z,"7km ESE of Makurazaki, Japan",earthquake,6.8,4.3,0.068,63,reviewed,us,us
+2015-05-13T14:10:07.570Z,30.8058,130.2259,155.47,4.5,mb,,89,0.727,0.83,us,us20002ezy,2015-07-17T07:06:15.040Z,"51km S of Makurazaki, Japan",earthquake,6.8,5.6,0.099,30,reviewed,us,us
+2015-04-21T13:19:12.110Z,30.9911,130.1263,161.45,4.4,mb,,128,0.587,0.71,us,us200029vj,2015-06-26T23:16:00.040Z,"35km SSW of Makurazaki, Japan",earthquake,10.1,6.6,0.218,6,reviewed,us,us
+2015-04-18T09:34:54.260Z,31.9061,132.0243,35,4.5,mb,,38,1.396,0.75,us,us200027it,2015-06-26T23:15:56.040Z,"55km ESE of Takanabe, Japan",earthquake,5.1,1.8,0.082,44,reviewed,us,us
+2015-04-07T23:51:25.550Z,33.5968,132.5462,49.71,4.3,mb,,96,1.117,0.92,us,us200024wm,2015-06-16T01:00:32.040Z,"10km N of Ozu, Japan",earthquake,5.7,7.8,0.153,12,reviewed,us,us
+2015-03-29T03:23:22.520Z,31.4176,130.5383,144.38,4.6,mb,,49,0.117,0.64,us,us10001rq6,2015-06-12T01:53:27.040Z,"15km S of Kagoshima-shi, Japan",earthquake,6.8,3.9,0.047,133,reviewed,us,us
+2015-02-15T14:34:36.830Z,30.0604,131.1018,29.89,4.6,mb,,134,1.548,0.7,us,usb000tpiw,2015-05-11T23:20:16.040Z,"75km S of Nishinoomote, Japan",earthquake,4.8,5.7,0.109,30,reviewed,us,us
+2015-02-06T01:25:11.750Z,33.757,134.3989,10.8,4.7,mwr,,77,0.436,0.54,us,usc000tmlt,2015-05-04T22:47:42.040Z,"29km SW of Anan, Japan",earthquake,5,4.1,0.068,21,reviewed,us,us
+2015-02-03T05:07:38.980Z,33.5045,132.7343,52.98,4.5,mb,,86,0.979,0.85,us,usc000tl6h,2015-05-02T14:07:08.040Z,"17km E of Ozu, Japan",earthquake,6.2,9.7,0.382,6,reviewed,us,us
+2015-01-30T07:45:53.290Z,31.7162,131.7952,28.98,4.4,mwr,,101,1.163,1.18,us,usc000tkaf,2015-05-02T14:06:01.040Z,"41km ESE of Miyazaki-shi, Japan",earthquake,5.2,5.4,0.089,12,reviewed,us,us
+2015-01-14T04:10:35.310Z,30.0781,130.5838,77.45,4,mb,,259,1.431,0.24,us,usc000tinj,2015-04-10T18:56:37.040Z,"82km SSW of Nishinoomote, Japan",earthquake,7,11.6,0.259,5,reviewed,us,us
+2015-01-13T05:26:59.180Z,30.5992,131.432,41.14,5,mb,,75,1.236,1.04,us,usc000tf3a,2015-04-10T18:56:31.040Z,"43km ESE of Nishinoomote, Japan",earthquake,5.6,6.5,0.063,84,reviewed,us,us
+2015-01-12T23:51:35.620Z,31.4441,131.0491,55.8,4.5,mb,,128,0.513,1.3,us,usc000tf2a,2015-04-10T18:56:31.040Z,"5km WSW of Shibushi, Japan",earthquake,7.7,5.9,0.145,16,reviewed,us,us
+2015-01-05T14:42:31.500Z,32.5098,131.0657,133.23,4.2,mb,,59,0.633,0.57,us,usc000tbu5,2015-03-27T07:01:59.040Z,"40km ESE of Matsubase, Japan",earthquake,5.7,4.3,0.125,20,reviewed,us,us
+2015-01-01T16:14:08.180Z,32.0638,131.7949,38.61,4.2,mwr,,41,1.269,1.19,us,usc000tb66,2015-03-27T07:01:02.040Z,"28km ESE of Takanabe, Japan",earthquake,6,6.5,0.093,11,reviewed,us,us
+2014-12-29T07:02:02.370Z,30.5632,131.7416,32.99,4.3,mb,,135,1.453,0.48,us,usc000tf8s,2015-03-17T02:37:52.040Z,"73km ESE of Nishinoomote, Japan",earthquake,6.1,6.4,0.154,12,reviewed,us,us
+2014-12-19T03:34:51.510Z,31.9766,129.8421,19.34,4.3,mb,,92,0.698,0.53,us,usc000tcsc,2015-03-06T02:59:02.040Z,"29km SW of Ushibuka, Japan",earthquake,6.2,3.8,0.375,4,reviewed,us,us
+2014-11-21T05:47:41.440Z,30.5126,131.4607,10,4.5,mb,,146,1.317,1.01,us,usc000t3xp,2015-02-18T03:30:49.040Z,"50km ESE of Nishinoomote, Japan",earthquake,7.8,2,0.204,9,reviewed,us,us
+2014-11-21T05:00:50.190Z,30.4096,131.5179,7.76,4.4,mb,,128,1.427,0.69,us,usb000syh1,2015-02-18T03:30:49.040Z,"61km SE of Nishinoomote, Japan",earthquake,6.9,4.8,0.179,12,reviewed,us,us
+2014-11-21T04:28:49.380Z,30.6262,131.3248,18.56,4.4,mb,,123,1.155,0.7,us,usc000t3ye,2015-02-18T03:30:49.040Z,"33km ESE of Nishinoomote, Japan",earthquake,6.9,4.7,0.139,23,reviewed,us,us
+2014-11-21T04:28:26.880Z,30.557,131.4948,10,4.2,mb,,134,1.304,0.78,us,usc000t3xf,2015-02-18T03:30:49.040Z,"51km ESE of Nishinoomote, Japan",earthquake,7.8,1.8,0.152,14,reviewed,us,us
+2014-11-19T14:39:36.830Z,30.6551,131.5143,10,4.5,mb,,78,1.246,0.97,us,usc000sywe,2015-02-18T03:30:46.040Z,"50km E of Nishinoomote, Japan",earthquake,6,1.9,0.104,33,reviewed,us,us
+2014-11-19T14:34:42.850Z,30.6106,131.3516,22.6,5.1,mb,,38,1.182,0.7,us,usc000syw5,2015-02-18T03:30:46.040Z,"36km ESE of Nishinoomote, Japan",earthquake,6.6,4.5,0.052,129,reviewed,us,us
+2014-11-18T15:20:49.640Z,30.0444,131.1233,18.64,5,mb,,55,1.57,0.56,us,usc000syhr,2015-02-12T01:42:59.040Z,"77km S of Nishinoomote, Japan",earthquake,6.1,3.7,0.054,122,reviewed,us,us
+2014-11-17T21:07:14.310Z,34.5892,135.0651,14.54,4.3,mb,,116,0.746,0.42,us,usb000t25k,2015-02-12T01:42:55.040Z,"8km ESE of Akashi, Japan",earthquake,4.4,4.7,0.265,5,reviewed,us,us
+2014-11-13T02:45:48.860Z,30.4577,132.3955,30.78,4.5,mb,,123,1.97,0.66,us,usc000swtw,2015-02-12T01:42:38.040Z,"137km ESE of Nishinoomote, Japan",earthquake,6.9,4.4,0.171,12,reviewed,us,us
+2014-11-09T16:12:00.080Z,31.2782,130.3672,154.18,4.1,mb,,134,0.241,0.57,us,usb000sysz,2015-01-31T02:50:13.040Z,"4km ENE of Makurazaki, Japan",earthquake,13.6,7.4,0.301,3,reviewed,us,us
+2014-11-01T10:36:27.680Z,33.6533,131.9462,73.97,4.5,mb,,79,1.038,0.82,us,usc000stbq,2015-01-20T09:03:08.040Z,"22km ENE of Kunisaki-shi, Japan",earthquake,4.4,5.7,0.135,22,reviewed,us,us
+2014-10-22T18:39:00.400Z,30.4939,131.2852,43.44,4,mb,,127,1.239,0.76,us,usc000sup0,2015-01-17T01:25:32.040Z,"38km SE of Nishinoomote, Japan",earthquake,8.3,10.2,0.196,29,reviewed,us,us
+2014-10-17T19:17:26.470Z,29.7876,128.6024,44.55,4.2,mb,,99,2.342,1.48,us,usb000srqa,2015-01-15T20:03:30.040Z,"179km NNW of Naze, Japan",earthquake,6,6.9,0.167,10,reviewed,us,us
+2014-10-15T19:39:36.920Z,33.6742,132.6513,49.96,4.1,mb,,135,1.022,0.59,us,usb000smk3,2015-01-15T20:03:26.040Z,"9km SSW of Iyo, Japan",earthquake,4,10.4,0.303,4,reviewed,us,us
+2014-09-20T14:44:30.600Z,30.0785,130.3546,89.02,4.5,mb,,130,1.428,0.53,us,usb000shd2,2014-12-19T00:05:23.040Z,"95km SW of Nishinoomote, Japan",earthquake,10.8,6.6,0.221,7,reviewed,us,us
+2014-09-14T02:18:24.680Z,29.9461,131.0782,23.48,4.8,mb,,74,1.648,0.7,us,usb000sc7d,2014-12-08T23:31:00.040Z,"87km S of Nishinoomote, Japan",earthquake,6.6,4.1,0.056,131,reviewed,us,us
+2014-08-29T10:14:57.770Z,30.2312,132.1359,35,4.6,mb,,82,3.078,1.25,us,usb000sb0p,2014-11-29T00:09:20.000Z,"122km ESE of Nishinoomote, Japan",earthquake,8.2,2,0.194,9,reviewed,us,us
+2014-08-28T19:32:00.400Z,31.918,132.0843,10,4.5,mb,,117,1.577,1.44,us,usb000saq0,2014-11-29T00:09:18.000Z,"60km ESE of Takanabe, Japan",earthquake,7.2,1.9,0.171,13,reviewed,us,us
+2014-08-28T19:14:35.550Z,32.0864,132.0682,20,5.8,mww,,18,1.443,1.27,us,usc000s7q8,2015-04-07T06:53:20.555Z,"53km E of Takanabe, Japan",earthquake,5.9,1.7,,,reviewed,us,us
+2014-08-28T16:30:22.080Z,31.9052,132.0756,21.57,4.4,mb,,38,1.582,0.87,us,usb000sapx,2014-11-29T00:09:17.000Z,"59km ESE of Takanabe, Japan",earthquake,5.6,5.4,0.115,24,reviewed,us,us
+2014-08-25T18:42:19.280Z,34.353,134.9298,27.59,4.6,mb,,75,3.454,0.82,us,usb000s9qx,2014-11-22T02:06:36.000Z,"2km E of Sumoto, Japan",earthquake,5.7,6,0.173,10,reviewed,us,us
+2014-08-25T07:31:43.690Z,29.8942,129.88,111.4,4.7,mb,,67,3.331,0.76,us,usb000s5zz,2014-11-22T02:06:35.000Z,"142km SW of Nishinoomote, Japan",earthquake,7.3,5.9,0.048,144,reviewed,us,us
+2014-08-17T20:34:34.770Z,30.8547,131.0542,92.64,4.4,mb,,118,2.268,0.73,us,usb000s3m9,2014-11-15T04:07:13.000Z,"14km NNE of Nishinoomote, Japan",earthquake,,8.3,0.203,11,reviewed,us,us
+2014-08-13T22:51:28.660Z,33.8501,131.888,81.85,4.5,mb,,77,1.112,0.48,us,usb000s2hh,2014-11-15T04:07:07.000Z,"12km SSW of Hikari, Japan",earthquake,,6.4,0.096,34,reviewed,us,us
+2014-08-06T22:15:24.120Z,31.1305,132.2681,49.12,4.2,mb,,124,2.312,0.65,us,usb000s447,2014-11-07T21:47:34.000Z,"100km ESE of Nichinan, Japan",earthquake,,7.5,0.2,9,reviewed,us,us
+2014-08-02T16:09:56.580Z,33.2997,131.6528,94.87,4.7,mb,,56,0.673,0.82,us,usb000s2qe,2014-10-29T19:52:54.000Z,"7km NNE of Oita-shi, Japan",earthquake,,6.2,0.134,17,reviewed,us,us
+2014-07-20T13:30:21.290Z,32.1242,134.3928,26.32,4.6,mb,,55,3.13,0.47,us,usb000russ,2014-10-17T21:12:12.000Z,"130km S of Muroto, Japan",earthquake,,5.1,0.157,14,reviewed,us,us
+2014-07-08T02:14:54.270Z,30.5029,130.9757,61.02,4,mb,,157,2.615,0.76,us,usb000rv5a,2014-10-04T20:00:00.000Z,"25km S of Nishinoomote, Japan",earthquake,,7.6,0.183,8,reviewed,us,us
+2014-07-01T16:28:14.650Z,31.1584,130.2481,169.03,4.7,mb,,65,2.032,0.6,us,usc000rp7q,2014-09-26T11:49:52.000Z,"13km SSW of Makurazaki, Japan",earthquake,,5.2,0.043,170,reviewed,us,us
+2014-06-20T16:10:36.940Z,31.2023,131.283,54.98,4.7,mb,,129,1.947,1,us,usc000riuq,2014-09-19T17:22:53.000Z,"28km S of Kushima, Japan",earthquake,,7.2,0.275,5,reviewed,us,us
+2014-06-19T15:22:41.510Z,31.0091,131.4666,44.54,4.6,mb,,118,2.168,0.61,us,usb000rrsm,2014-09-19T17:22:05.000Z,"54km SSE of Kushima, Japan",earthquake,,9.1,0.182,10,reviewed,us,us
+2014-06-01T15:27:59.230Z,30.5315,131.5586,36.79,4.6,mb,,109,2.65,0.69,us,usc000r9ui,2014-08-26T01:21:09.000Z,"58km ESE of Nishinoomote, Japan",earthquake,,6,0.08,49,reviewed,us,us
+2014-05-27T17:54:28.180Z,31.6269,131.4509,43.63,4.2,mb,,213,1.57,0.35,us,usc000rf1v,2014-08-23T08:36:51.000Z,"8km ENE of Nichinan, Japan",earthquake,,9.9,0.187,8,reviewed,us,us
+2014-05-21T01:11:23.340Z,33.5942,131.9293,88.85,4.3,mb,,62,0.997,0.89,us,usc000rc3s,2014-08-23T08:36:41.000Z,"18km E of Kunisaki-shi, Japan",earthquake,,7.8,0.168,10,reviewed,us,us
+2014-05-04T10:01:09.550Z,32.0747,132.0353,40.64,4.5,mb,,81,1.432,1.24,us,usb000r16b,2014-07-27T21:51:20.000Z,"50km E of Takanabe, Japan",earthquake,,7,0.139,15,reviewed,us,us
+2014-04-03T15:46:44.620Z,32.5421,132.0696,37.4,4.6,mb,,65,1.16,1.32,us,usc000p33x,2014-06-11T06:06:06.000Z,"38km E of Nobeoka, Japan",earthquake,,5.5,0.073,59,reviewed,us,us
+2014-04-01T22:16:51.970Z,31.1506,128.1716,10,4.7,mb,,109,3.023,1.43,us,usc000nzsl,2014-05-29T23:32:12.000Z,"181km SSW of Fukue, Japan",earthquake,,1.8,0.081,49,reviewed,us,us
+2014-03-22T11:05:39.270Z,33.6617,131.8645,85.66,4.6,mb,,52,0.984,1.05,us,usc000nkyw,2015-01-31T00:12:19.693Z,"16km NE of Kunisaki-shi, Japan",earthquake,,6.4,0.063,81,reviewed,us,us
+2014-03-22T07:24:51.420Z,31.2552,130.2798,157.41,4.6,mb,,68,1.931,0.91,us,usc000nkvh,2014-05-24T00:54:39.000Z,"3km WSW of Makurazaki, Japan",earthquake,,2.1,0.061,82,reviewed,us,us
+2014-03-18T21:00:38.530Z,31.4006,131.1078,68.92,4.2,mb,,101,1.73,0.64,us,usc000ng46,2014-05-16T21:51:48.000Z,"7km S of Shibushi, Japan",earthquake,,7.9,0.237,8,reviewed,us,us
+2014-03-13T17:06:50.770Z,33.6842,131.8249,79,6.3,mww,,12,0.969,1.28,us,usc000nabv,2015-01-28T21:02:15.312Z,"15km NNE of Kunisaki-shi, Japan",earthquake,,1.8,,,reviewed,us,us
+2014-03-12T22:35:54.640Z,31.0351,131.4596,50.75,4.6,mb,,131,2.141,0.96,us,usc000n9ty,2014-05-16T21:51:38.000Z,"51km SSE of Kushima, Japan",earthquake,,7,0.098,34,reviewed,us,us
+2014-02-26T06:03:52.540Z,30.4156,131.0195,48.6,4.3,mb,,133,2.704,0.46,us,usc000n4yn,2014-05-13T21:36:42.000Z,"35km S of Nishinoomote, Japan",earthquake,,9.6,0.238,5,reviewed,us,us
+2014-02-24T23:39:29.510Z,31.297,130.3832,160.36,4.6,mb,,60,1.87,0.78,us,usc000mxmy,2014-05-07T00:03:10.000Z,"7km ENE of Makurazaki, Japan",earthquake,,5.6,0.076,51,reviewed,us,us
+2014-02-14T01:53:51.630Z,32.4228,131.5758,138.13,4.3,mb,,113,0.915,0.68,us,usc000mq9q,2014-04-30T21:18:19.000Z,"19km SSW of Nobeoka, Japan",earthquake,,7.3,0.142,18,reviewed,us,us
+2013-12-30T06:15:06.530Z,34.2902,134.8971,411.14,4.1,mb,,115,2.047,0.69,us,usb000m2p9,2014-02-28T08:44:13.000Z,"6km S of Sumoto, Japan",earthquake,,7.4,0.087,,reviewed,us,us
+2013-12-12T02:24:57.730Z,31.2224,131.3207,52.94,4.7,mb,,129,1.934,0.86,us,usc000lipy,2014-02-21T23:00:52.000Z,"27km SSE of Kushima, Japan",earthquake,,7.5,0.11,,reviewed,us,us
+2013-12-11T07:36:48.060Z,30.845,130.8607,69.33,4.7,mb,,98,2.273,0.59,us,usc000lhx8,2014-02-21T23:00:51.000Z,"18km NW of Nishinoomote, Japan",earthquake,,6.4,0.079,,reviewed,us,us
+2013-11-30T10:04:19.190Z,31.3456,130.2277,158.4,4.4,mb,,118,1.857,0.54,us,usb000lbcd,2014-02-12T01:08:38.000Z,"11km SW of Kaseda, Japan",earthquake,,8.6,0.309,,reviewed,us,us
+2013-11-25T16:38:49.480Z,30.0642,131.0807,37.77,4.7,mb,,129,3.056,0.66,us,usb000l69b,2014-02-11T02:18:59.000Z,"74km S of Nishinoomote, Japan",earthquake,,6.9,0.092,,reviewed,us,us
+2013-11-18T18:22:01.860Z,30.9635,130.4512,121.28,4.3,mb,,111,2.185,0.82,us,usb000l1gq,2014-01-31T21:22:28.000Z,"35km SSW of Ibusuki, Japan",earthquake,,7.4,0.188,,reviewed,us,us
+2013-11-11T17:10:00.150Z,30.7466,130.9706,66.05,4.4,mb,,130,2.372,0.22,us,usb000kz58,2014-01-17T00:29:16.000Z,"3km WNW of Nishinoomote, Japan",earthquake,,9.6,0.239,,reviewed,us,us
+2013-11-10T13:29:21.690Z,31.1209,130.2256,168.32,4.7,mb,,87,2.073,0.79,us,usb000kviz,2014-01-17T00:29:15.000Z,"18km SSW of Makurazaki, Japan",earthquake,,6.6,0.082,,reviewed,us,us
+2013-10-15T08:46:43.300Z,31.2544,130.5144,164.17,4.4,mb,,125,1.89,0.36,us,usb000kixw,2013-12-30T23:41:08.000Z,"13km W of Ibusuki, Japan",earthquake,,7.5,0.24,,reviewed,us,us
+2013-10-08T11:45:20.910Z,31.6636,131.7599,37.55,4.8,mb,,68,1.637,0.93,us,usb000k8i6,2013-12-24T01:42:56.000Z,"37km E of Nichinan, Japan",earthquake,,5.4,0.083,,reviewed,us,us
+2013-09-27T19:37:49.930Z,31.3228,131.3222,46.53,4.8,mb,,80,1.836,1.02,us,usb000k189,2013-12-13T09:00:35.000Z,"17km SSE of Kushima, Japan",earthquake,,6.4,0.069,,reviewed,us,us
+2013-09-21T20:29:45.890Z,30.0201,131,37.87,4.6,mb,,110,3.097,0.73,us,usb000k0sy,2013-12-09T21:11:12.000Z,"79km S of Nishinoomote, Japan",earthquake,,8.4,0.129,,reviewed,us,us
+2013-09-21T20:26:48.640Z,30.101,131.1832,40.79,4.8,mb,,62,3.026,0.38,us,usb000jx9r,2013-12-09T21:11:12.000Z,"72km SSE of Nishinoomote, Japan",earthquake,,6.4,0.073,,reviewed,us,us
+2013-09-21T20:05:45.510Z,30.1235,131.103,41.61,4.7,mb,,122,2.998,0.49,us,usb000jx93,2013-12-09T21:11:12.000Z,"68km S of Nishinoomote, Japan",earthquake,,6.7,0.076,,reviewed,us,us
+2013-09-20T06:50:27.660Z,30.0386,131.1453,31.58,5,mb,,95,3.085,1.03,us,usb000jwjk,2013-12-09T21:11:09.000Z,"78km S of Nishinoomote, Japan",earthquake,,4.8,0.053,,reviewed,us,us
+2013-09-19T23:23:01.170Z,30.7291,129.4414,249.69,4.5,mb,,85,2.682,0.51,us,usb000jwgq,2013-12-09T21:11:09.000Z,"102km SW of Makurazaki, Japan",earthquake,,6.7,0.05,,reviewed,us,us
+2013-09-15T17:35:42.140Z,30.0611,130.9982,31.63,4.7,mb,,128,3.056,0.64,us,usc000juy2,2013-11-19T17:38:05.000Z,"74km S of Nishinoomote, Japan",earthquake,,5.1,0.083,,reviewed,us,us
+2013-08-22T10:13:22.790Z,33.3703,134.8657,45.38,3.3,ml,,175,2.664,0.13,us,usb000j9a7,2013-10-25T20:09:38.000Z,"61km SW of Tanabe, Japan",earthquake,,36.1,0.128,,reviewed,us,us
+2013-07-17T03:07:54.060Z,34.641,135.033,59.4,4.4,mb,15,115,,0.98,us,usp000k232,2014-11-07T01:51:17.139Z,"near the south coast of western Honshu, Japan",earthquake,,11.7,,8,reviewed,us,us
+2013-04-24T23:47:20.400Z,32.631,131.486,67,4.7,mb,95,112.6,,0.8,us,usb000gfca,2014-11-07T01:50:38.670Z,"11km SSE of Takedamachi, Japan",earthquake,,4.4,,53,reviewed,us,us
+2013-04-12T20:33:17.540Z,34.369,134.828,14,5.8,mww,535,13,,0.77,us,usb000g5yg,2015-01-28T16:30:50.663Z,"6km WNW of Sumoto, Japan",earthquake,,,,,reviewed,us,us
+2013-04-01T08:45:15.640Z,30.573,130.994,43.8,4.6,mb,45,124.7,,0.68,us,usb000fx99,2014-11-07T01:50:27.428Z,"13km SSW of Nishinoomote, Japan",earthquake,,6.3,,24,reviewed,us,us
+2013-03-18T18:59:47.840Z,29.924,132.058,22.8,4.4,mb,29,122.9,,0.68,us,usb000fw5d,2014-11-07T01:50:21.369Z,"138km SE of Nishinoomote, Japan",earthquake,,14,,2,reviewed,us,us
+2013-03-11T09:59:43.730Z,31.598,131.632,33.7,4.7,mb,96,121.7,,0.92,us,usb000fiqj,2014-11-07T01:50:19.553Z,"24km E of Nichinan, Japan",earthquake,,,,46,reviewed,us,us
+2013-03-11T09:34:52.170Z,31.603,131.534,36.9,5.2,mb,311,37.4,,1,us,usb000fiqa,2015-01-31T01:17:24.437Z,"14km NE of Nichinan, Japan",earthquake,,3.8,,222,reviewed,us,us
+2013-03-11T05:34:57.360Z,31.138,130.348,162.7,4.7,mb,186,34.6,,1.06,us,usb000fink,2014-11-07T01:50:19.475Z,"9km SW of Makurazaki, Japan",earthquake,,,,130,reviewed,us,us
+2013-02-21T19:59:46.290Z,30.183,130.994,35.4,4.8,mb,69,79.2,,0.68,us,usc000fb5j,2014-11-07T01:50:10.585Z,"61km S of Nishinoomote, Japan",earthquake,,5,,26,reviewed,us,us
+2013-02-13T03:57:42.500Z,30.252,131.412,10,5.2,mwb,450,25.9,,0.87,us,usc000f6fa,2014-11-07T01:50:07.186Z,"63km SE of Nishinoomote, Japan",earthquake,,,,,reviewed,us,us
+2013-02-04T04:00:54.390Z,30.299,131.02,60.3,4.3,mb,17,108.7,,0.48,us,usc000f0sp,2014-11-07T01:50:00.491Z,"44km S of Nishinoomote, Japan",earthquake,,9.3,,3,reviewed,us,us
+2012-12-22T06:15:31.180Z,33.472,132.123,54.9,4.6,mb,146,77.2,,0.88,us,usp000jx8q,2015-03-24T01:36:40.515Z,"Shikoku, Japan",earthquake,,4.5,,80,reviewed,us,us
+2012-10-26T19:44:37.130Z,33.438,133.412,27.6,4.6,mb,65,80.6,,0.68,us,usp000juft,2014-11-07T01:49:08.934Z,"Shikoku, Japan",earthquake,,7.9,,24,reviewed,us,us
+2012-10-25T16:54:16.050Z,31.926,131.611,34.5,4.8,mb,145,51.2,,1.04,us,usp000juef,2014-11-07T01:49:08.651Z,"Kyushu, Japan",earthquake,,9.4,,86,reviewed,us,us
+2012-10-20T02:49:15.290Z,30.11,130.991,24.7,4.5,mb,64,113.4,,0.87,us,usp000ju6r,2014-11-07T01:49:07.117Z,"Kyushu, Japan",earthquake,,11,,15,reviewed,us,us
+2012-10-16T13:39:25.580Z,31.216,130.199,168.6,5.3,mb,308,55.9,,0.84,us,usp000ju20,2014-11-07T01:49:06.148Z,"Kyushu, Japan",earthquake,,,,97,reviewed,us,us
+2012-10-09T20:49:35.430Z,32.657,132.349,37.6,4.7,mb,83,43.3,,0.96,us,usp000jtt1,2014-11-07T01:49:04.245Z,"Shikoku, Japan",earthquake,,4.7,,32,reviewed,us,us
+2012-09-22T04:14:54.010Z,30.806,131.354,51.9,4.3,mb,20,122.6,,0.72,us,usp000jspv,2014-11-07T01:48:53.674Z,"Kyushu, Japan",earthquake,,11.5,,3,reviewed,us,us
+2012-09-08T01:41:25.180Z,33.773,132.206,52.8,4.6,mb,129,70.1,,0.88,us,usp000jrys,2015-03-24T02:15:04.869Z,"Shikoku, Japan",earthquake,,,,45,reviewed,us,us
+2012-08-27T10:58:44.730Z,31.157,131.223,36,4.4,mb,46,128.5,,0.88,us,usp000jqww,2014-11-07T01:48:38.199Z,"Kyushu, Japan",earthquake,,6.6,,6,reviewed,us,us
+2012-08-16T23:46:48.540Z,32.024,130.009,23.4,4.9,mb,193,49.3,,0.78,us,usp000jqda,2015-03-24T01:32:07.744Z,"Kyushu, Japan",earthquake,,6.7,,105,reviewed,us,us
+2012-07-25T17:20:11.140Z,30.981,130.348,137.2,5,mb,245,34.8,,0.96,us,usp000jpes,2015-03-24T02:15:15.176Z,"Kyushu, Japan",earthquake,,,,98,reviewed,us,us
+2012-06-25T08:22:58.720Z,30.072,131.084,33.8,4.7,mb,32,84.6,,0.63,us,usp000jn7b,2014-11-07T01:48:09.056Z,"Kyushu, Japan",earthquake,,12.2,,5,reviewed,us,us
+2012-06-25T04:53:38.220Z,31.179,131.786,56.6,4.4,mb,35,203.7,,0.96,us,usp000jn75,2014-11-07T01:48:09.027Z,"Kyushu, Japan",earthquake,,15,,5,reviewed,us,us
+2012-06-19T18:35:35.600Z,32.124,132.107,41.7,4.8,mb,60,64.7,,0.96,us,usp000jmze,2014-11-07T01:48:07.049Z,"Shikoku, Japan",earthquake,,6.7,,21,reviewed,us,us
+2012-06-10T17:11:31.400Z,30.973,130.826,77.3,4.7,mb,66,97.7,,1.03,us,usp000jmkt,2014-11-07T01:48:03.089Z,"Kyushu, Japan",earthquake,,5.8,,19,reviewed,us,us
+2012-06-10T16:43:40.070Z,30.363,132.009,22,4,mb,29,122.9,,0.58,us,usp000jmkr,2014-11-07T01:48:03.085Z,"southeast of Shikoku, Japan",earthquake,,12.2,,2,reviewed,us,us
+2012-06-08T05:15:51.810Z,31.01,130.956,74.3,4.5,mb,47,103.8,,0.76,us,usp000jmgw,2014-11-07T01:48:01.966Z,"Kyushu, Japan",earthquake,,5.4,,12,reviewed,us,us
+2012-06-04T06:51:01.060Z,32.071,130.894,15.6,4.7,mb,59,120.2,,0.78,us,usp000jmaf,2014-11-07T01:48:00.526Z,"Kyushu, Japan",earthquake,,7.6,,26,reviewed,us,us
+2012-05-22T18:45:28.270Z,31.093,131.28,43.9,4.6,mb,81,62.9,,1.01,us,usp000jksy,2014-11-07T01:47:51.409Z,"Kyushu, Japan",earthquake,,5.1,,31,reviewed,us,us
+2012-05-14T03:36:48.260Z,31.77,131.52,40.1,4.9,mb,208,60.1,,0.93,us,usp000jkdn,2015-03-24T02:38:53.999Z,"Kyushu, Japan",earthquake,,4,,117,reviewed,us,us
+2012-04-14T12:39:57.690Z,30.063,130.312,56.1,4.7,mb,77,105.9,,0.95,us,usp000jhyd,2014-11-07T01:47:31.376Z,"Kyushu, Japan",earthquake,,6.4,,31,reviewed,us,us
+2012-03-11T22:58:11.460Z,32.759,130.75,31.2,4.6,mb,28,124.2,,1.04,us,usp000jg41,2014-11-07T01:47:13.831Z,"Kyushu, Japan",earthquake,,21.6,,7,reviewed,us,us
+2012-02-28T16:23:03.400Z,31.828,131.639,52.1,4.6,mb,57,64,,0.97,us,usp000jfj0,2014-11-07T01:47:05.545Z,"Kyushu, Japan",earthquake,,5.8,,13,reviewed,us,us
+2012-02-09T03:55:19.870Z,31.506,131.497,34.9,4.8,mb,114,95.4,,0.92,us,usp000jeqc,2014-11-07T01:46:59.580Z,"Kyushu, Japan",earthquake,,9.3,,44,reviewed,us,us
+2012-01-29T18:18:24.190Z,32.588,131.806,62.4,5.1,mb,94,88.6,,1.21,us,usp000je51,2015-03-24T02:24:06.334Z,"Kyushu, Japan",earthquake,,6.1,,38,reviewed,us,us
+2012-01-20T08:36:44.850Z,31.943,131.488,49.3,4.4,mb,34,128.9,,0.66,us,usp000jdrg,2014-11-07T01:46:48.519Z,"Kyushu, Japan",earthquake,,8.2,,10,reviewed,us,us
+2011-12-13T17:51:05.170Z,30.259,131.449,15.1,4.9,mb,86,42.8,,0.81,us,usp000jc5d,2014-11-07T01:46:33.641Z,"Kyushu, Japan",earthquake,,11.4,,34,reviewed,us,us
+2011-11-21T10:16:33.810Z,34.847,132.715,35,5.1,mwc,137,60.3,,0.86,us,usp000jb72,2015-03-24T01:56:35.601Z,"western Honshu, Japan",earthquake,,,,,reviewed,us,gcmt
+2011-10-23T12:04:49.710Z,30.041,130.658,59.4,4.9,mb,77,126.9,,0.91,us,usp000j9s7,2014-11-07T01:46:10.182Z,"Kyushu, Japan",earthquake,,5.6,,36,reviewed,us,us
+2011-10-19T02:36:53.540Z,32.557,131.22,89.4,4.9,mb,54,72.6,,0.81,us,usp000j9hm,2014-11-07T01:46:07.858Z,"Kyushu, Japan",earthquake,,4.1,,15,reviewed,us,us
+2011-10-07T21:11:38.090Z,33.792,135.039,11.5,4.1,mb,24,75.6,,0.78,us,usp000j928,2014-11-07T01:46:05.069Z,"near the south coast of western Honshu, Japan",earthquake,,18,,1,reviewed,us,us
+2011-10-05T14:33:28.740Z,32.912,130.798,15.5,4.8,mb,59,83.8,,0.95,us,usp000j8yh,2015-03-24T02:19:18.626Z,"Kyushu, Japan",earthquake,,6.6,,17,reviewed,us,us
+2011-10-04T10:19:30.410Z,33.969,134.041,42.5,4.8,mb,61,81.2,,0.71,us,usp000j8wx,2014-11-07T01:46:03.370Z,"Shikoku, Japan",earthquake,,4.4,,18,reviewed,us,us
+2011-09-17T21:58:52.970Z,31.132,130.297,246,4,mb,16,90.7,,0.85,us,usp000j87g,2014-11-07T01:45:54.950Z,"Kyushu, Japan",earthquake,,11.4,,8,reviewed,us,us
+2011-08-28T00:52:05.200Z,31.162,131.422,48.8,4.9,mb,54,125.7,,0.88,us,usp000j75d,2014-11-07T01:45:44.097Z,"Kyushu, Japan",earthquake,,6.4,,11,reviewed,us,us
+2011-08-04T15:09:22.520Z,30.516,130.327,104.5,4.8,mb,82,89.7,,0.88,us,usp000j5yz,2014-11-07T01:45:33.822Z,"Kyushu, Japan",earthquake,,4.5,,34,reviewed,us,us
+2011-07-30T01:07:09.280Z,33.995,135.087,42.1,4.2,mb,10,225.5,,0.56,us,usp000j5qe,2014-11-07T01:45:28.039Z,"near the south coast of western Honshu, Japan",earthquake,,33.3,,2,reviewed,us,us
+2011-07-07T19:10:45.200Z,31.345,130.409,162.9,4.9,mb,90,80.3,,0.89,us,usp000j4b5,2014-11-07T01:45:18.167Z,"Kyushu, Japan",earthquake,,,,25,reviewed,us,us
+2011-06-23T11:38:32.870Z,30.284,131.467,26,5.1,mwc,228,39.8,,0.83,us,usp000j3m1,2014-11-07T01:45:09.348Z,"Kyushu, Japan",earthquake,,7.2,,,reviewed,us,gcmt
+2011-05-28T20:18:41.170Z,31.652,129.591,24.4,4.6,mb,56,117.9,,0.63,us,usp000j2cd,2014-11-07T01:44:56.025Z,"Kyushu, Japan",earthquake,,9.3,,32,reviewed,us,us
+2011-04-29T04:38:37.770Z,30.256,130.782,51.1,4.8,mb,126,58.3,,0.98,us,usp000j0rb,2014-11-07T01:44:38.999Z,"Kyushu, Japan",earthquake,,4.5,,58,reviewed,us,us
+2011-04-09T12:57:47.820Z,29.999,131.78,11,5.9,mww,319,12.6,,0.73,us,usp000hzky,2015-06-30T16:59:03.823Z,"southeast of the Ryukyu Islands, Japan",earthquake,,,,,reviewed,us,us
+2011-03-21T22:40:19.560Z,30.682,132.326,19.6,4.3,mb,24,139.1,,0.67,us,usp000hy70,2014-11-07T01:44:16.955Z,"southeast of Shikoku, Japan",earthquake,,19.4,,5,reviewed,us,us
+2011-03-17T23:15:53.450Z,31.044,130.641,10,4,mb,9,145.9,,1.03,us,usp000hxr7,2014-11-07T01:44:12.941Z,"Kyushu, Japan",earthquake,,,,2,reviewed,us,us
+2011-03-17T21:14:56.420Z,30.728,132.344,30.8,4.1,mb,24,123.1,,0.69,us,usp000hxqt,2014-11-07T01:44:12.845Z,"southeast of Shikoku, Japan",earthquake,,15,,3,reviewed,us,us
+2011-03-11T09:24:04.420Z,33.806,134.631,10,4.5,mb,18,68.5,,0.86,us,usp000hvsh,2014-11-07T01:43:55.946Z,"Shikoku, Japan",earthquake,,,,7,reviewed,us,us
+2011-02-28T00:04:34.420Z,32.085,131.672,40.8,4.7,mb,55,118.2,,0.98,us,usp000hv59,2014-11-07T01:43:44.630Z,"Kyushu, Japan",earthquake,,6.5,,14,reviewed,us,us
+2011-02-06T19:40:32.340Z,31.204,130.28,150.2,4.7,mb,203,74.3,,1.02,us,usp000hu61,2014-11-07T01:43:37.833Z,"Kyushu, Japan",earthquake,,,,122,reviewed,us,us
+2011-02-04T09:11:25.890Z,31.069,131.394,48.1,4.9,mb,106,52.3,,0.99,us,usp000hu2j,2014-11-07T01:43:36.963Z,"Kyushu, Japan",earthquake,,4.4,,36,reviewed,us,us
+2011-01-31T17:32:28.810Z,31.812,131.88,44.5,4.2,mb,23,124.5,,0.93,us,usp000htx2,2014-11-07T01:43:32.049Z,"Kyushu, Japan",earthquake,,10.4,,5,reviewed,us,us
+2011-01-16T11:33:24.930Z,33.936,133.739,41.4,4.6,mb,57,72.2,,0.79,us,usp000ht7d,2015-03-24T01:14:27.254Z,"Shikoku, Japan",earthquake,,4.7,,11,reviewed,us,us
+2010-12-27T04:20:14.470Z,30.956,130.385,142.1,4,mb,25,127.8,,0.79,us,usp000hs3a,2014-11-07T01:43:15.610Z,"Kyushu, Japan",earthquake,,8.6,,4,reviewed,us,us
+2010-12-26T11:25:06.000Z,33.974,131.261,10.1,4.4,mb,12,112.6,,1,us,usp000hs1d,2014-11-07T01:43:15.345Z,"Kyushu, Japan",earthquake,,14.8,,1,reviewed,us,us
+2010-12-07T00:36:48.540Z,32.652,132.073,57.5,4.1,mb,14,94.7,,1.04,us,usp000hqkw,2014-11-07T01:43:05.096Z,"Shikoku, Japan",earthquake,,12.8,,7,reviewed,us,us
+2010-11-27T00:16:32.050Z,29.851,130.983,59,4.2,mb,17,99.7,,1.28,us,usp000hq62,2014-11-07T01:42:58.434Z,"Ryukyu Islands, Japan",earthquake,,13.8,,10,reviewed,us,us
+2010-10-17T19:02:36.260Z,30.022,130.919,37.1,4,mb,6,143.9,,0.65,us,usp000hn7n,2014-11-07T01:42:43.214Z,"Kyushu, Japan",earthquake,,23.4,,1,reviewed,us,us
+2010-10-06T17:36:09.330Z,29.867,131.661,36.8,4.4,mb,12,138.9,,0.53,us,usp000hmpk,2014-11-07T01:42:39.417Z,"southeast of the Ryukyu Islands, Japan",earthquake,,9.4,,1,reviewed,us,us
+2010-10-06T04:51:51.110Z,33.523,133.748,36.9,4.2,mwr,33,130,,0.64,us,usp000hmp2,2014-11-07T01:42:39.322Z,"Shikoku, Japan",earthquake,,6.5,,,reviewed,us,nied
+2010-09-25T23:24:58.630Z,30.76,130.311,126.5,4.5,mwr,54,127.9,,1.12,us,usp000hm69,2014-11-07T01:42:30.749Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,nied
+2010-09-21T05:11:43.120Z,30.189,130.272,88,4.1,mb,21,113.8,,0.79,us,usp000hm0p,2014-11-07T01:42:29.891Z,"Kyushu, Japan",earthquake,,7.7,,1,reviewed,us,us
+2010-08-30T04:25:04.120Z,30.786,132.19,27.7,4.5,mwr,64,102.7,,0.82,us,usp000hjxu,2014-11-07T01:42:18.776Z,"southeast of Shikoku, Japan",earthquake,,10.1,,,reviewed,us,nied
+2010-07-23T05:25:46.360Z,34.001,132.83,15.7,4.3,mb,21,113.3,,1.14,us,usp000hgjf,2014-11-07T01:41:59.496Z,"western Honshu, Japan",earthquake,,26.1,,5,reviewed,us,us
+2010-06-07T11:07:23.090Z,30.011,130.956,29.3,4.8,mwr,75,122.4,,1.01,us,usp000hdpg,2014-11-07T01:41:39.229Z,"Kyushu, Japan",earthquake,,12.9,,,reviewed,us,nied
+2010-05-13T11:01:14.690Z,33.367,131.495,104,4.8,mwc,141,31.6,,0.79,us,usp000hcq1,2015-03-24T18:31:10.115Z,"Kyushu, Japan",earthquake,,3,,,reviewed,us,gcmt
+2010-02-21T02:49:44.850Z,33.813,132.182,10,4.1,mb,24,118.1,,1.11,us,usp000h7he,2014-11-07T01:40:43.968Z,"Shikoku, Japan",earthquake,,,,4,reviewed,us,us
+2010-02-04T11:29:50.410Z,31.323,131.587,43.8,4.3,mb,39,114.9,,0.98,us,usp000h6y5,2014-11-07T01:40:39.651Z,"Kyushu, Japan",earthquake,,7.8,,8,reviewed,us,us
+2010-01-25T07:15:08.980Z,30.964,130.888,38.2,5.5,mwb,299,28.1,,0.96,us,usp000h6kk,2015-03-24T02:36:33.938Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,us
+2010-01-05T19:33:47.760Z,30.087,131.018,37.9,4.3,mb,35,128.5,,1.05,us,usp000h5s9,2014-11-07T01:40:25.381Z,"Kyushu, Japan",earthquake,,8.6,,13,reviewed,us,us
+2009-12-16T05:12:51.400Z,33.108,133.303,29.7,4.4,mb,39,123.5,,0.52,us,usp000h531,2014-11-07T01:40:16.834Z,"Shikoku, Japan",earthquake,,10.2,,9,reviewed,us,us
+2009-12-01T00:57:44.190Z,32.123,129.266,35,4.3,mb,22,126.2,,0.63,us,usp000h4mc,2014-11-07T01:40:11.508Z,"Kyushu, Japan",earthquake,,,,4,reviewed,us,us
+2009-11-28T10:45:48.530Z,31.368,130.41,166.8,4.7,mwr,103,56.9,,0.72,us,usp000h4hb,2014-11-07T01:40:09.415Z,"Kyushu, Japan",earthquake,,3.8,,,reviewed,us,nied
+2009-10-28T17:37:09.940Z,32.332,131.907,42.6,4.8,mwr,49,113.9,,0.99,us,usp000h3gz,2014-11-07T01:39:58.981Z,"Kyushu, Japan",earthquake,,7.5,,,reviewed,us,nied
+2009-10-20T12:28:11.710Z,30.934,130.227,162.2,4.1,mwr,36,121.4,,0.9,us,usp000h36y,2014-11-07T01:39:57.420Z,"Kyushu, Japan",earthquake,,6.5,,,reviewed,us,nied
+2009-09-03T13:26:17.950Z,31.14,130.014,163,6.2,mwc,460,20.7,,1,us,usp000h16f,2015-07-01T17:03:54.000Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,us
+2009-09-01T21:40:22.420Z,33.822,132.714,35,4,mb,8,224.3,,1.16,us,usp000h14k,2014-11-07T01:39:38.209Z,"Shikoku, Japan",earthquake,,,,5,reviewed,us,us
+2009-09-01T15:26:06.880Z,29.835,130.207,46.2,4.5,mwr,40,94.7,,0.97,us,usp000h146,2014-11-07T01:39:37.790Z,"Ryukyu Islands, Japan",earthquake,,7.8,,,reviewed,us,nied
+2009-08-28T11:00:13.480Z,29.922,130.593,54.1,4.5,mwr,34,122.2,,0.81,us,usp000h0z9,2014-11-07T01:39:34.406Z,"Ryukyu Islands, Japan",earthquake,,7.3,,,reviewed,us,nied
+2009-08-28T05:47:53.880Z,29.918,130.528,64.8,5.2,mwr,123,100.4,,0.88,us,usp000h0yv,2014-11-07T01:39:34.340Z,"Ryukyu Islands, Japan",earthquake,,5.2,,,reviewed,us,nied
+2009-08-05T03:51:15.620Z,32.538,131.856,45.6,5,mwc,170,43.1,,0.84,us,usp000gzzu,2015-03-24T02:40:43.898Z,"Kyushu, Japan",earthquake,,3.9,,,reviewed,us,gcmt
+2009-08-03T11:18:19.210Z,32.394,130.485,35,4.4,mb,36,87.8,,1.01,us,usp000gzxz,2014-11-07T01:39:26.707Z,"Kyushu, Japan",earthquake,,,,5,reviewed,us,us
+2009-07-22T14:51:02.260Z,33.025,134.303,19.9,4.5,mwr,33,130.8,,0.53,us,usp000gzhq,2015-03-24T02:42:15.034Z,"Shikoku, Japan",earthquake,,14.5,,,reviewed,us,nied
+2009-07-17T20:16:45.030Z,33.455,131.788,70.8,4.3,mwr,46,73.8,,1.15,us,usp000gzd0,2015-03-24T02:21:09.756Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,nied
+2009-06-29T21:18:14.990Z,30.927,130.345,142.3,4,mb,24,127.8,,0.77,us,usp000gyry,2014-11-07T01:39:12.552Z,"Kyushu, Japan",earthquake,,6.1,,2,reviewed,us,us
+2009-06-28T00:35:28.450Z,32.981,129.895,22,4,mb,17,131.5,,,us,usp000gypm,2014-11-07T01:39:12.184Z,"Kyushu, Japan",earthquake,,,,1,reviewed,jma,us
+2009-06-25T14:03:56.270Z,33.276,130.754,14.4,4.5,mwr,61,86.1,,0.97,us,usp000gykg,2014-11-07T01:39:11.656Z,"Kyushu, Japan",earthquake,,6.5,,,reviewed,us,nied
+2009-06-19T19:22:15.660Z,32.754,134.924,10,4.4,mwr,50,131.3,,1.19,us,usp000gycy,2014-11-07T01:39:10.604Z,"Shikoku, Japan",earthquake,,0,,,reviewed,us,nied
+2009-06-14T10:17:55.720Z,33.139,131.993,63.6,4.2,mwr,27,116.3,,1.04,us,usp000gy6h,2014-11-07T01:39:09.614Z,"Kyushu, Japan",earthquake,,5.8,,,reviewed,us,nied
+2009-04-22T11:31:55.390Z,30.052,131.323,33.5,4.3,mb,4,262.3,,,us,usp000gwg5,2014-11-07T01:38:49.356Z,"Kyushu, Japan",earthquake,,,,3,reviewed,jma,us
+2009-04-22T11:24:12.120Z,30.12,131.001,26.8,4.9,mwr,101,121.1,,0.74,us,usp000gwg4,2014-11-07T01:38:49.345Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,nied
+2009-04-05T09:53:16.020Z,31.954,131.748,10,4.2,mb,23,129,,1.41,us,usp000gvsr,2014-11-07T01:38:44.199Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+2009-04-05T09:36:26.240Z,32.007,131.417,26,5.8,mwc,266,34.9,,0.94,us,usp000gvsp,2015-06-30T16:59:03.574Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,us
+2009-03-30T21:59:53.040Z,31.16,130.402,156.7,4.4,mb,51,121.1,,0.68,us,usp000gvka,2014-11-07T01:38:39.289Z,"Kyushu, Japan",earthquake,,4.8,,15,reviewed,us,us
+2009-03-19T10:40:12.780Z,32.039,129.368,33.9,4.3,mb,28,63.3,,0.92,us,usp000gv57,2014-11-07T01:38:36.231Z,"Kyushu, Japan",earthquake,,17.8,,6,reviewed,us,us
+2009-01-24T17:33:38.640Z,33.524,131.686,81.7,4.7,mwr,106,104.4,,0.76,us,usp000gt25,2015-03-24T02:06:31.134Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,nied
+2009-01-22T15:24:36.060Z,30.125,131.146,25.7,4.5,mwr,59,128.6,,0.99,us,usp000gszj,2014-11-07T01:38:14.401Z,"Kyushu, Japan",earthquake,,14.1,,,reviewed,us,nied
+2008-12-19T03:44:17.620Z,33.617,131.5,133.4,4.2,mb,36,107.5,,0.7,us,usp000gqwy,2014-11-07T01:37:59.703Z,"Kyushu, Japan",earthquake,,4.9,,9,reviewed,us,us
+2008-12-13T12:32:44.040Z,31.383,129.656,10,4.3,mwr,43,116.9,,1.38,us,usp000gqh6,2014-11-07T01:37:57.824Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,nied
+2008-11-15T20:39:22.680Z,30.096,131.267,48.8,4.1,mb,11,179.5,,1.07,us,usp000gnsh,2014-11-07T01:37:44.520Z,"Kyushu, Japan",earthquake,,13.8,,1,reviewed,us,us
+2008-11-08T03:59:51.420Z,31.259,130.355,178.1,3.4,mb,11,161.9,,0.88,us,usp000gn77,2014-11-07T01:37:42.046Z,"Kyushu, Japan",earthquake,,8.7,,1,reviewed,us,us
+2008-11-05T20:28:49.380Z,31.206,130.467,156.2,4.2,mb,21,128.9,,0.72,us,usp000gn1d,2014-11-07T01:37:41.272Z,"Kyushu, Japan",earthquake,,7.1,,3,reviewed,us,us
+2008-10-30T07:47:21.860Z,32.659,132.23,36.6,3.6,m,6,127.3,,,us,usp000gmdu,2014-11-07T01:37:34.365Z,"Shikoku, Japan",earthquake,,,,,reviewed,jma,jma
+2008-10-29T22:59:25.980Z,33.573,131.783,84.2,3.8,mb,8,118.1,,,us,usp000gmch,2014-11-07T01:37:34.178Z,"Kyushu, Japan",earthquake,,,,1,reviewed,jma,us
+2008-10-16T04:32:53.040Z,32.896,130.09,9.9,3.9,m,7,141,,,us,usp000gkbx,2014-11-07T01:37:29.658Z,"Kyushu, Japan",earthquake,,,,,reviewed,jma,jma
+2008-10-11T07:17:04.820Z,31.546,133.252,35,4.2,mb,11,127.2,,0.67,us,usp000gjxy,2014-11-07T01:37:27.231Z,"southeast of Shikoku, Japan",earthquake,,,,1,reviewed,us,us
+2008-10-10T23:34:30.130Z,31.16,131.688,35,3.7,m,6,326.1,,0.45,us,usp000gjx6,2014-11-07T01:37:27.076Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,jma
+2008-10-02T19:57:27.870Z,30.833,130.199,137.6,3,m,14,127.6,,1,us,usp000gj62,2014-11-07T01:37:22.218Z,"Kyushu, Japan",earthquake,,9.2,,,reviewed,us,jma
+2008-09-25T19:05:20.260Z,32.229,131.027,111.5,4.4,mb,44,117.9,,0.83,us,usp000ghqj,2014-11-07T01:37:14.961Z,"Kyushu, Japan",earthquake,,,,9,reviewed,us,us
+2008-09-18T22:23:32.290Z,33.817,132.211,59.3,4.1,mb,30,104.5,,0.84,us,usp000ghar,2014-11-07T01:37:13.316Z,"Shikoku, Japan",earthquake,,6.8,,9,reviewed,us,us
+2008-09-17T22:58:58.950Z,31.65,130.018,6.3,3.5,m,4,246.7,,,us,usp000gh8h,2014-11-07T01:37:12.967Z,"Kyushu, Japan",earthquake,,,,,reviewed,jma,jma
+2008-09-12T01:24:09.430Z,32.729,131.309,100,3.8,mb,7,123.7,,0.74,us,usp000ggwq,2014-11-07T01:37:11.375Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+2008-09-03T14:32:06.830Z,33.435,131.029,4.8,4.1,mb,13,128.4,,1.07,us,usp000ggay,2014-11-07T01:37:07.357Z,"Kyushu, Japan",earthquake,,18.9,,2,reviewed,us,us
+2008-08-24T00:25:45.450Z,30.457,131.008,35,4.5,mwr,30,128,,0.84,us,usp000gfcd,2014-11-07T01:36:58.268Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,nied
+2008-08-06T03:10:27.880Z,32.291,131.09,86.8,3.7,mb,13,129.1,,0.61,us,usp000gdy8,2014-11-07T01:36:50.753Z,"Kyushu, Japan",earthquake,,,,2,reviewed,us,us
+2008-07-10T19:21:56.830Z,32.159,132.016,30.1,4.1,m,9,129.2,,,us,usp000gbus,2014-11-07T01:36:36.571Z,"Shikoku, Japan",earthquake,,,,,reviewed,jma,jma
+2008-06-10T19:09:51.890Z,30.191,131.126,57.3,4.7,mwr,37,122.5,,0.94,us,usp000g959,2014-11-07T01:36:18.409Z,"Kyushu, Japan",earthquake,,9.9,,,reviewed,us,nied
+2008-05-22T19:47:14.850Z,30.807,131.329,35,4.5,mwr,43,127,,0.78,us,usp000g7gy,2014-11-07T01:36:04.491Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,nied
+2008-05-17T22:15:06.500Z,30.84,129.463,243.2,4.4,mb,71,102.1,,0.92,us,usp000g740,2014-11-07T01:36:02.292Z,"Kyushu, Japan",earthquake,,5.9,,31,reviewed,us,us
+2008-05-10T19:19:14.080Z,32.006,130.878,26.9,4.1,mb,13,125.3,,1.1,us,usp000g615,2014-11-07T01:35:55.038Z,"Kyushu, Japan",earthquake,,23.3,,4,reviewed,us,us
+2008-04-30T20:51:48.480Z,32.607,131.905,10,4,mb,21,119.7,,1.01,us,usp000g573,2014-11-07T01:35:45.455Z,"Kyushu, Japan",earthquake,,,,5,reviewed,us,us
+2008-04-26T18:56:51.510Z,32.588,131.826,10,4.1,mb,10,122.4,,0.32,us,usp000g4xd,2014-11-07T01:35:44.070Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+2008-04-22T09:25:59.900Z,31.186,131.718,10,4.3,mb,20,121.5,,0.96,us,usp000g4jb,2014-11-07T01:35:41.497Z,"Kyushu, Japan",earthquake,,,,5,reviewed,us,us
+2008-04-22T09:07:10.410Z,31.174,131.562,36,4.4,mb,27,122.7,,0.88,us,usp000g4j8,2014-11-07T01:35:41.489Z,"Kyushu, Japan",earthquake,,11.3,,9,reviewed,us,us
+2008-04-20T01:39:17.320Z,31.835,131.666,31.5,3.9,mb,14,129.5,,1.19,us,usp000g4cn,2014-11-07T01:35:40.878Z,"Kyushu, Japan",earthquake,,,,2,reviewed,us,us
+2008-03-17T11:46:15.870Z,30.227,131.68,48.8,3.5,m,8,137.5,,,us,usp000g1p4,2014-11-07T01:35:16.217Z,"Kyushu, Japan",earthquake,,,,,reviewed,jma,jma
+2008-03-16T00:00:06.580Z,30.274,131.446,38.2,3.2,m,9,136.1,,0.69,us,usp000g1jr,2014-11-07T01:35:15.830Z,"Kyushu, Japan",earthquake,,14.4,,,reviewed,us,jma
+2008-03-10T02:14:11.220Z,30.25,131.481,35,3.5,m,12,128.8,,0.8,us,usp000g149,2014-11-07T01:35:13.514Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,jma
+2008-03-10T01:44:33.130Z,31.793,131.462,53.8,5.1,mwc,189,95.7,,0.83,us,usp000g145,2015-03-24T02:30:08.449Z,"Kyushu, Japan",earthquake,,6.7,,,reviewed,us,gcmt
+2008-03-07T18:52:19.090Z,33.971,132.543,50.3,4.2,mb,25,112.1,,0.8,us,usp000g0xf,2014-11-07T01:35:12.457Z,"Shikoku, Japan",earthquake,,10.1,,5,reviewed,us,us
+2008-03-06T14:31:53.490Z,30.245,131.69,43.9,4.6,mb,44,122.7,,,us,usp000g0v4,2014-11-07T01:35:11.867Z,"Kyushu, Japan",earthquake,,,,15,reviewed,jma,us
+2008-03-03T15:15:47.410Z,31.384,132.283,32.9,3.6,m,11,128.5,,0.34,us,usp000g0km,2014-11-07T01:35:10.741Z,"southeast of Shikoku, Japan",earthquake,,,,,reviewed,us,jma
+2008-03-03T12:41:02.330Z,31.222,129.828,9.5,4.2,mb,12,124.1,,,us,usp000g0jz,2014-11-07T01:35:10.612Z,"Kyushu, Japan",earthquake,,,,2,reviewed,jma,us
+2008-02-22T08:34:47.930Z,31.129,132.035,19.8,4.4,mb,32,115.2,,0.47,us,usp000fznc,2014-11-07T01:35:01.590Z,"southeast of Shikoku, Japan",earthquake,,14.8,,9,reviewed,us,us
+2008-02-17T15:40:36.890Z,31.78,131.564,27.3,3.8,mb,13,122.7,,0.52,us,usp000fz46,2014-11-07T01:34:58.186Z,"Kyushu, Japan",earthquake,,19.8,,1,reviewed,us,us
+2008-02-04T10:00:31.850Z,31.174,130.377,160.7,3.9,m,7,126.7,,,us,usp000fy4w,2014-11-07T01:34:53.661Z,"Kyushu, Japan",earthquake,,,,,reviewed,jma,jma
+2008-02-02T17:56:48.200Z,32.477,131.032,164.4,3.8,mb,27,116.4,,0.54,us,usp000fy0a,2014-11-07T01:34:52.387Z,"Kyushu, Japan",earthquake,,7.7,,7,reviewed,us,us
+2008-02-01T14:40:22.310Z,34.207,135.081,10.1,3.4,m,5,134.1,,,us,usp000fxxp,2014-11-07T01:34:50.652Z,"near the south coast of western Honshu, Japan",earthquake,,,,,reviewed,jma,jma
+2008-01-25T02:14:38.230Z,32.453,130.972,178.2,4.1,mb,27,116.3,,0.51,us,usp000fxde,2014-11-07T01:34:45.784Z,"Kyushu, Japan",earthquake,,10.9,,4,reviewed,us,us
+2008-01-21T22:32:44.440Z,30.964,131.852,30.4,4,mb,22,115,,0.7,us,usp000fx6e,2014-11-07T01:34:44.534Z,"Kyushu, Japan",earthquake,,14.1,,4,reviewed,us,us
+2008-01-17T03:29:27.940Z,31.335,130.349,163.1,3.7,m,9,131.8,,0.99,us,usp000fwvk,2014-11-07T01:34:43.077Z,"Kyushu, Japan",earthquake,,52.9,,,reviewed,us,jma
+2008-01-16T00:07:42.010Z,30.557,130.306,93.9,3.7,mb,14,129.3,,0.91,us,usp000fwt8,2014-11-07T01:34:42.751Z,"Kyushu, Japan",earthquake,,10,,2,reviewed,us,us
+2008-01-11T06:47:51.950Z,31.679,131.934,48.1,4.2,m,8,172.1,,,us,usp000fwf1,2014-11-07T01:34:40.211Z,"Kyushu, Japan",earthquake,,,,,reviewed,jma,jma
+2007-12-24T21:33:57.280Z,32.864,135.097,35,4.3,mb,25,139.8,,1.29,us,usp000fv5x,2014-11-07T01:34:28.725Z,"southeast of Shikoku, Japan",earthquake,,,,8,reviewed,us,us
+2007-12-22T17:49:08.030Z,31.381,131.398,34.3,4.9,mwc,95,107,,0.89,us,usp000fv16,2015-02-11T17:18:45.000Z,"Kyushu, Japan",earthquake,,13.5,,,reviewed,us,gcmt
+2007-12-22T17:48:03.070Z,31.46,131.399,24.9,4.4,mb,26,128.8,,0.98,us,usp000fv15,2014-11-07T01:34:28.154Z,"Kyushu, Japan",earthquake,,19.1,,9,reviewed,us,us
+2007-12-11T05:05:55.740Z,30.453,131.113,35.4,4.4,mb,24,122.5,,0.78,us,usp000fu84,2014-11-07T01:34:23.665Z,"Kyushu, Japan",earthquake,,9.1,,7,reviewed,us,us
+2007-12-10T23:52:23.680Z,31.131,130.429,160.1,3.8,m,8,156.2,,0.87,us,usp000fu7n,2014-11-07T01:34:23.604Z,"Kyushu, Japan",earthquake,,15.7,,,reviewed,us,jma
+2007-11-29T11:17:51.510Z,32.841,131.807,68.8,4.2,mb,23,117.6,,0.92,us,usp000fthg,2014-11-07T01:34:15.975Z,"Kyushu, Japan",earthquake,,10.9,,8,reviewed,us,us
+2007-11-02T14:20:22.750Z,32.093,131.891,23,4.1,m,8,128.3,,,us,usp000fruj,2014-11-07T01:34:06.093Z,"Kyushu, Japan",earthquake,,,,,reviewed,jma,jma
+2007-10-28T05:40:03.960Z,32.2,132.144,16.5,4.3,m,5,165.7,,,us,usp000frep,2014-11-07T01:34:00.152Z,"Shikoku, Japan",earthquake,,,,,reviewed,jma,jma
+2007-10-22T09:39:07.560Z,30.117,132.317,26.9,4.2,mwr,23,129.5,,0.81,us,usp000fr27,2014-11-07T01:33:58.418Z,"southeast of Shikoku, Japan",earthquake,,17.9,,,reviewed,us,nied
+2007-10-20T17:09:24.510Z,32.184,131.734,10,4.4,mwr,34,121.5,,0.71,us,usp000fqyr,2014-11-07T01:33:57.956Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,nied
+2007-10-14T08:47:33.680Z,33.188,132.664,36.2,3.9,m,4,233.5,,,us,usp000fqhf,2014-11-07T01:33:55.821Z,"Shikoku, Japan",earthquake,,,,,reviewed,jma,jma
+2007-10-11T14:55:36.160Z,31.3,130.328,161.9,3.9,m,11,120,,1,us,usp000fqb0,2014-11-07T01:33:54.359Z,"Kyushu, Japan",earthquake,,12.4,,,reviewed,us,jma
+2007-10-07T19:57:45.980Z,31,131.78,40.5,4.3,mb,20,94.5,,0.81,us,usp000fq2q,2014-11-07T01:33:51.940Z,"Kyushu, Japan",earthquake,,10.2,,4,reviewed,us,us
+2007-09-24T08:12:35.970Z,32.577,129.969,13.8,4.4,m,7,135.8,,,us,usp000fp0f,2014-11-07T01:33:38.772Z,"Kyushu, Japan",earthquake,,,,,reviewed,jma,jma
+2007-09-19T15:06:49.160Z,31.751,131.674,7.5,4.2,mb,8,130,,0.58,us,usp000fnpx,2014-11-07T01:33:37.399Z,"Kyushu, Japan",earthquake,,61.6,,1,reviewed,us,us
+2007-09-19T08:38:48.330Z,31.126,131.722,36.9,4.4,m,11,119.5,,,us,usp000fnp0,2014-11-07T01:33:37.264Z,"Kyushu, Japan",earthquake,,,,,reviewed,jma,jma
+2007-09-06T06:27:10.920Z,31.031,131.568,33.8,3.9,m,5,229.5,,,us,usp000fmhv,2014-11-07T01:33:30.984Z,"Kyushu, Japan",earthquake,,,,,reviewed,jma,jma
+2007-08-13T06:47:13.020Z,30.021,131.274,33,4.6,mwr,46,122.5,,,us,usp000fjjh,2014-11-07T01:33:15.481Z,"Kyushu, Japan",earthquake,,,,,reviewed,jma,nied
+2007-08-12T21:22:25.750Z,30.147,130.979,10.5,4.4,mb,23,134.3,,0.84,us,usp000fjhe,2014-11-07T01:33:15.349Z,"Kyushu, Japan",earthquake,,20.2,,2,reviewed,us,us
+2007-08-11T18:28:45.590Z,30.792,131.374,46.9,4.4,mb,13,127.3,,0.94,us,usp000fje6,2014-11-07T01:33:14.874Z,"Kyushu, Japan",earthquake,,31.2,,2,reviewed,us,us
+2007-08-11T16:48:31.360Z,30.608,131.575,37.5,4.6,mwr,68,107.9,,,us,usp000fje2,2014-11-07T01:33:14.815Z,"Kyushu, Japan",earthquake,,,,,reviewed,jma,nied
+2007-08-10T21:52:37.770Z,30.036,131.061,26.9,4.8,mwr,56,114.3,,0.7,us,usp000fjc3,2014-11-07T01:33:14.141Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,nied
+2007-08-10T20:54:10.330Z,30.076,131.085,35,4.3,mwr,16,135.1,,0.81,us,usp000fjc0,2014-11-07T01:33:14.136Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,nied
+2007-08-10T20:33:56.980Z,30.466,131.052,58.9,4.3,m,10,130.9,,0.95,us,usp000fjbv,2014-11-07T01:33:14.121Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,jma
+2007-08-10T14:45:01.210Z,29.963,131.388,35.2,3.5,m,7,137.1,,,us,usp000fjb7,2014-11-07T01:33:14.045Z,"southeast of the Ryukyu Islands, Japan",earthquake,,,,,reviewed,jma,jma
+2007-08-09T20:30:12.380Z,30.074,131.153,29,5,mwc,86,91.9,,1.04,us,usp000fj9h,2015-02-11T17:18:39.000Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,gcmt
+2007-08-07T07:39:26.330Z,32.594,131.109,148.2,3.9,m,9,128.7,,,us,usp000fj36,2014-11-07T01:33:12.901Z,"Kyushu, Japan",earthquake,,,,,reviewed,jma,jma
+2007-08-01T03:50:24.310Z,30.396,130.67,26.3,4.6,mwr,52,121,,1.06,us,usp000fhk4,2014-11-07T01:33:08.384Z,"Kyushu, Japan",earthquake,,42,,,reviewed,us,nied
+2007-07-31T01:22:41.080Z,32.163,131.878,21.3,4.1,m,7,175.1,,,us,usp000fhfs,2014-11-07T01:33:05.611Z,"Kyushu, Japan",earthquake,,,,,reviewed,jma,jma
+2007-07-07T23:44:05.410Z,33.433,134.804,37.5,4.4,mb,22,125.1,,,us,usp000ffq6,2014-11-07T01:32:55.334Z,"Shikoku, Japan",earthquake,,,,3,reviewed,jma,us
+2007-06-11T20:30:11.790Z,30.533,130.53,56,4.4,mb,28,124.6,,1.6,us,usp000fdum,2014-11-07T01:32:41.238Z,"Kyushu, Japan",earthquake,,11.7,,6,reviewed,us,us
+2007-06-09T18:38:32.290Z,31.316,130.276,157.8,4.3,mb,14,125.6,,1,us,usp000fdqh,2014-11-07T01:32:40.758Z,"Kyushu, Japan",earthquake,,8.3,,2,reviewed,us,us
+2007-06-07T11:50:42.110Z,33.342,131.686,10,4.6,mwr,28,122.8,,1,us,usp000fdjc,2014-11-07T01:32:40.044Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,nied
+2007-06-07T08:22:18.830Z,33.119,131.429,23.9,4.5,mwr,35,113.9,,0.98,us,usp000fdj0,2014-11-07T01:32:39.999Z,"Kyushu, Japan",earthquake,,8.9,,,reviewed,us,nied
+2007-06-07T05:58:35.680Z,30.945,131.876,10,4.1,mb,8,259.6,,0.75,us,usp000fdht,2014-11-07T01:32:39.986Z,"Kyushu, Japan",earthquake,,,,4,reviewed,us,us
+2007-06-07T02:19:09.280Z,33.197,131.709,10,4.4,mb,15,121.1,,1.04,us,usp000fdhd,2014-11-07T01:32:39.940Z,"Kyushu, Japan",earthquake,,,,3,reviewed,us,us
+2007-06-06T15:18:35.860Z,33.334,131.273,10,4.2,m,11,127.8,,1.25,us,usp000fdga,2014-11-07T01:32:39.776Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,jma
+2007-06-06T14:42:53.870Z,33.319,131.409,18.8,4.8,mwc,48,112.3,,1.39,us,usp000fdg7,2015-02-11T17:18:36.000Z,"Kyushu, Japan",earthquake,,26.8,,,reviewed,us,gcmt
+2007-06-06T14:05:04.120Z,33.312,131.399,10,3.9,mb,13,117.9,,0.8,us,usp000fdg5,2014-11-07T01:32:39.761Z,"Kyushu, Japan",earthquake,,0,,2,reviewed,us,us
+2007-06-03T18:07:18.530Z,30.072,130.568,63.2,4.5,mwr,100,120.9,,0.83,us,usp000fda5,2014-11-07T01:32:38.634Z,"Kyushu, Japan",earthquake,,6,,,reviewed,us,nied
+2007-05-28T03:39:48.910Z,31.145,131.365,30,4.1,mwr,16,131.6,,,us,usp000fcwq,2014-11-07T01:32:32.770Z,"Kyushu, Japan",earthquake,,,,,reviewed,jma,nied
+2007-05-23T17:04:15.220Z,29.795,130.954,33.7,3.5,m,10,135.6,,0.9,us,usp000fcjz,2014-11-07T01:32:31.104Z,"Ryukyu Islands, Japan",earthquake,,24.1,,,reviewed,us,jma
+2007-05-22T23:49:26.860Z,29.769,131.058,36.5,4.4,mb,24,136.2,,0.79,us,usp000fchm,2014-11-07T01:32:30.877Z,"southeast of the Ryukyu Islands, Japan",earthquake,,7.7,,5,reviewed,us,us
+2007-05-19T05:12:21.590Z,33.257,131.507,133.2,3.1,m,7,198.4,,0.8,us,usp000fc9p,2014-11-07T01:32:29.802Z,"Kyushu, Japan",earthquake,,16.7,,,reviewed,us,jma
+2007-05-11T11:44:35.820Z,30.138,130.964,36,4.4,mb,12,134.3,,0.97,us,usp000fbrx,2014-11-07T01:32:26.760Z,"Kyushu, Japan",earthquake,,11.7,,1,reviewed,us,us
+2007-05-07T00:29:06.410Z,30.007,130.177,51.8,5.2,mwc,221,58,,0.9,us,usp000fbe2,2015-02-11T17:18:35.000Z,"Kyushu, Japan",earthquake,,4.3,,,reviewed,us,gcmt
+2007-05-06T21:11:14.580Z,30.616,131.427,44.5,4,mb,11,145.4,,0.44,us,usp000fbdm,2014-11-07T01:32:25.098Z,"Kyushu, Japan",earthquake,,,,3,reviewed,us,us
+2007-04-30T01:23:38.790Z,30.378,131.296,25.3,4.1,mwr,15,128.8,,,us,usp000fawt,2014-11-07T01:32:18.560Z,"Kyushu, Japan",earthquake,,,,,reviewed,jma,nied
+2007-04-26T00:02:58.500Z,33.901,133.453,49.7,5.1,mwc,152,95.6,,0.83,us,usp000fame,2015-03-24T18:28:05.449Z,"Shikoku, Japan",earthquake,,4.5,,,reviewed,us,gcmt
+2007-04-21T04:39:14.800Z,31.566,131.496,63.6,3.9,mb,14,130.1,,0.75,us,usp000fa82,2014-11-07T01:32:14.751Z,"Kyushu, Japan",earthquake,,9,,3,reviewed,us,us
+2007-04-10T23:06:14.200Z,31.528,130.329,187.1,4.3,mwr,9,124.7,,0.82,us,usp000f9cu,2014-11-07T01:32:10.062Z,"Kyushu, Japan",earthquake,,9.7,,,reviewed,us,nied
+2007-04-08T08:43:18.420Z,30.451,130.547,92.4,4.4,mb,17,125,,1.03,us,usp000f926,2014-11-07T01:32:08.668Z,"Kyushu, Japan",earthquake,,10,,1,reviewed,us,us
+2007-03-23T13:37:05.760Z,32.619,130.828,6,4.1,m,8,120.6,,,us,usp000f77u,2014-11-07T01:31:54.900Z,"Kyushu, Japan",earthquake,,,,,reviewed,jma,jma
+2007-03-22T09:27:30.440Z,32.619,130.828,5.5,4,m,8,140,,,us,usp000f75r,2014-11-07T01:31:54.676Z,"Kyushu, Japan",earthquake,,,,,reviewed,jma,jma
+2007-03-19T01:26:50.230Z,30.441,131.505,43.5,4.1,mwr,20,122.7,,,us,usp000f6z9,2014-11-07T01:31:53.902Z,"Kyushu, Japan",earthquake,,,,,reviewed,jma,nied
+2007-03-16T08:40:19.980Z,31.328,130.42,150.8,3.1,m,6,127,,,us,usp000f6tm,2014-11-07T01:31:52.921Z,"Kyushu, Japan",earthquake,,,,,reviewed,jma,jma
+2007-03-11T15:04:04.440Z,31.077,130.093,163,3.5,m,11,131.5,,0.74,us,usp000f6gt,2014-11-07T01:31:51.535Z,"Kyushu, Japan",earthquake,,13.7,,,reviewed,us,jma
+2007-02-06T12:01:42.520Z,33.113,131.395,121.3,4.4,mb,27,87,,,us,usp000f4cm,2014-11-07T01:31:35.138Z,"Kyushu, Japan",earthquake,,,,7,reviewed,jma,us
+2007-01-17T18:26:13.380Z,30.123,130.797,53.3,4.4,mb,15,134.3,,0.98,us,usp000f2vx,2014-11-07T01:31:24.032Z,"Kyushu, Japan",earthquake,,10.9,,4,reviewed,us,us
+2007-01-10T12:13:44.810Z,33.228,132.539,35.8,4,m,11,124.8,,,us,usp000f241,2014-11-07T01:31:20.602Z,"Shikoku, Japan",earthquake,,,,,reviewed,jma,jma
+2007-01-05T16:18:01.620Z,32.361,130.871,147.8,4.4,mb,64,116.5,,0.96,us,usp000f1rz,2014-11-07T01:31:18.867Z,"Kyushu, Japan",earthquake,,,,24,reviewed,us,us
+2006-12-29T06:28:58.150Z,30.982,131.211,37,3.8,mb,7,262.6,,,us,usp000f18b,2014-11-07T01:31:12.947Z,"Kyushu, Japan",earthquake,,,,1,reviewed,jma,us
+2006-12-28T09:07:55.380Z,30.974,131.202,36.9,4,mb,6,183.4,,,us,usp000f16d,2014-11-07T01:31:12.769Z,"Kyushu, Japan",earthquake,,,,1,reviewed,jma,us
+2006-12-18T18:28:51.680Z,31.922,131.438,49.7,4,mb,18,121.7,,0.69,us,usp000f0gn,2014-11-07T01:31:09.783Z,"Kyushu, Japan",earthquake,,7.5,,1,reviewed,us,us
+2006-12-17T17:15:28.670Z,30.002,132.817,10,3.8,mb,9,144.9,,1.32,us,usp000f0ea,2014-11-07T01:31:09.480Z,"southeast of Shikoku, Japan",earthquake,,,,1,reviewed,us,us
+2006-12-12T21:44:44.610Z,32.22,130.38,37.7,4.2,mb,17,121.1,,1.1,us,usp000f03g,2014-11-07T01:31:07.841Z,"Kyushu, Japan",earthquake,,12.7,,1,reviewed,us,us
+2006-12-09T02:36:05.370Z,31.401,130.725,136.4,3.8,mb,19,157.4,,1.16,us,usp000ezup,2014-11-07T01:31:06.363Z,"Kyushu, Japan",earthquake,,9.9,,4,reviewed,us,us
+2006-12-04T19:28:21.030Z,32.574,130.882,165.2,4.2,mb,16,115.2,,0.41,us,usp000ezh3,2014-11-07T01:31:05.039Z,"Kyushu, Japan",earthquake,,5.1,,1,reviewed,us,us
+2006-12-03T00:00:02.360Z,33.412,134.3,16.7,0,,4,220.5,,,us,usp000ezcy,2014-11-07T01:31:04.140Z,"Shikoku, Japan",earthquake,,,,,reviewed,jma,us
+2006-11-25T06:39:43.740Z,32.014,132.157,16.2,4.3,m,10,152.6,,,us,usp000eysk,2014-11-07T01:30:56.830Z,"Shikoku, Japan",earthquake,,,,,reviewed,jma,jma
+2006-11-19T04:29:03.670Z,33.418,132.37,59.1,4.4,mb,23,122.3,,0.76,us,usp000ey7r,2014-11-07T01:30:54.000Z,"Shikoku, Japan",earthquake,,7,,4,reviewed,us,us
+2006-11-17T16:08:37.700Z,31.913,131.823,37.7,4.2,mb,16,95.8,,0.92,us,usp000ey0z,2014-11-07T01:30:52.889Z,"Kyushu, Japan",earthquake,,10.5,,3,reviewed,us,us
+2006-09-26T22:51:18.520Z,33.577,131.806,91,4.3,mb,23,87.2,,0.83,us,usp000etw2,2014-11-07T01:30:16.983Z,"Kyushu, Japan",earthquake,,7.2,,3,reviewed,us,us
+2006-09-25T22:03:47.910Z,33.46,131.514,72.7,5.3,mwc,355,29.7,,0.89,us,usp000ettt,2015-03-24T00:48:08.707Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,gcmt
+2006-09-24T00:26:09.980Z,31.747,131.67,31.2,4.3,mb,22,128.9,,,us,usp000etph,2014-11-07T01:30:16.212Z,"Kyushu, Japan",earthquake,,,,6,reviewed,jma,us
+2006-08-16T13:10:59.270Z,30.631,131.333,35.4,4.4,mb,16,127.8,,,us,usp000er2c,2014-11-07T01:29:58.605Z,"Kyushu, Japan",earthquake,,,,6,reviewed,jma,us
+2006-07-31T04:50:10.440Z,33.03,131.363,117.5,3.8,mb,6,128.7,,,us,usp000epyc,2014-11-07T01:29:49.117Z,"Kyushu, Japan",earthquake,,,,1,reviewed,jma,us
+2006-07-07T23:02:55.930Z,30.136,131.31,32.5,0,,5,136.8,,,us,usp000en3q,2014-11-07T01:29:36.511Z,"Kyushu, Japan",earthquake,,,,,reviewed,jma,us
+2006-06-23T10:17:57.570Z,30.599,131.045,54,4.4,mb,23,125.6,,0.87,us,usp000em2f,2014-11-07T01:29:26.577Z,"Kyushu, Japan",earthquake,,8.5,,4,reviewed,us,us
+2006-06-12T06:10:05.200Z,31.932,133.032,35,4.4,mb,28,123.4,,1.12,us,usp000ek70,2014-11-07T01:29:21.696Z,"southeast of Shikoku, Japan",earthquake,,0,,10,reviewed,us,us
+2006-06-11T20:01:26.350Z,33.134,131.145,140,6.3,mwb,623,24.1,,0.79,us,usp000ek60,2016-02-24T22:01:55.200Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,us
+2006-06-06T14:28:58.910Z,33.585,132.241,72.7,3.9,m,9,150.8,,0.24,us,usp000eju5,2014-11-07T01:29:19.918Z,"Shikoku, Japan",earthquake,,10.3,,,reviewed,us,jma
+2006-05-28T11:36:32.640Z,33.246,131.698,82.4,4.2,mwr,22,87.4,,0.76,us,usp000ej5d,2014-11-07T01:29:12.207Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,nied
+2006-05-23T17:03:09.090Z,30.084,131.028,39.1,4.8,mwc,45,134.4,,0.87,us,usp000ehsp,2015-02-11T17:18:18.000Z,"Kyushu, Japan",earthquake,,6.1,,,reviewed,us,hrv
+2006-05-22T18:33:59.170Z,30.08,130.861,36.4,4.4,mb,8,134.8,,1.12,us,usp000ehqn,2014-11-07T01:29:09.759Z,"Kyushu, Japan",earthquake,,17.5,,1,reviewed,us,us
+2006-05-22T15:16:20.530Z,30.011,131.011,39,5.3,mwc,84,72.7,,0.79,us,usp000ehq5,2015-02-11T17:18:18.000Z,"Kyushu, Japan",earthquake,,4.8,,,reviewed,us,hrv
+2006-05-19T22:21:21.810Z,34.191,135.126,5.8,4,mb,12,134.7,,,us,usp000ehh5,2014-11-07T01:29:08.703Z,"near the south coast of western Honshu, Japan",earthquake,,,,1,reviewed,jma,us
+2006-05-13T10:14:31.000Z,34.045,129.137,20.3,4.3,m,5,176.9,,,us,usp000eh0k,2014-11-07T01:29:06.411Z,"Korea Strait",earthquake,,,,,reviewed,jma,jma
+2006-05-10T20:01:01.670Z,32.656,132.102,54.1,4.1,mb,14,120.4,,1.03,us,usp000egt2,2014-11-07T01:29:05.379Z,"Shikoku, Japan",earthquake,,9.4,,1,reviewed,us,us
+2006-05-08T03:45:44.330Z,34.022,133.528,12.6,4.2,m,9,193.3,,,us,usp000egjb,2014-11-07T01:29:04.300Z,"near the south coast of western Honshu, Japan",earthquake,,,,,reviewed,jma,jma
+2006-05-06T11:05:46.540Z,30.034,130.929,27.2,3.6,m,8,175.6,,,us,usp000egdp,2014-11-07T01:29:03.712Z,"Kyushu, Japan",earthquake,,,,,reviewed,jma,jma
+2006-05-03T23:04:09.950Z,30.577,131.1,36.3,4.1,mb,19,122.5,,0.65,us,usp000eg6s,2014-11-07T01:29:02.253Z,"Kyushu, Japan",earthquake,,7.9,,6,reviewed,us,us
+2006-04-30T11:35:13.180Z,29.971,130.321,65.2,0,,11,131.9,,1.01,us,usp000efua,2014-11-07T01:28:56.462Z,"Ryukyu Islands, Japan",earthquake,,11,,,reviewed,us,us
+2006-04-21T17:24:56.380Z,33.289,132.202,68.3,3.9,mb,22,108.8,,1.04,us,usp000ef6s,2014-11-07T01:28:53.557Z,"Shikoku, Japan",earthquake,,7.8,,7,reviewed,us,us
+2006-04-06T22:42:06.500Z,31.116,130.41,169.2,4.4,mb,12,134.2,,0.92,us,usp000edv7,2014-11-07T01:28:44.017Z,"Kyushu, Japan",earthquake,,8.7,,3,reviewed,us,us
+2006-03-27T02:50:26.370Z,32.602,132.157,34.8,5.5,mwc,266,62.2,,,us,usp000ed1s,2015-03-24T00:46:58.103Z,"Shikoku, Japan",earthquake,,,,,reviewed,jma,hrv
+2006-02-22T19:09:32.630Z,30.264,131.772,39,3.6,mb,18,93.3,,0.6,us,usp000eama,2014-11-07T01:28:21.015Z,"Kyushu, Japan",earthquake,,7.5,,1,reviewed,us,us
+2006-02-19T17:11:14.540Z,32.295,129.814,8.5,3.9,mb,14,112.6,,1.17,us,usp000eacx,2014-11-07T01:28:20.242Z,"Kyushu, Japan",earthquake,,15,,1,reviewed,us,us
+2006-02-19T07:08:31.220Z,30.583,131.176,29.8,3.5,m,12,143.8,,,us,usp000eac2,2014-11-07T01:28:20.142Z,"Kyushu, Japan",earthquake,,,,,reviewed,jma,jma
+2006-02-15T18:46:29.890Z,33.358,132.227,44.3,4,m,11,122.1,,,us,usp000ea3z,2014-11-07T01:28:18.635Z,"Shikoku, Japan",earthquake,,,,,reviewed,jma,jma
+2006-02-11T04:01:11.180Z,31.509,132.076,47.1,4.3,mb,30,123,,0.91,us,usp000e9x0,2014-11-07T01:28:17.919Z,"southeast of Shikoku, Japan",earthquake,,,,6,reviewed,us,us
+2006-02-03T15:11:59.820Z,32.098,129.854,35.4,4.8,mwr,52,105.9,,0.81,us,usp000e9df,2014-11-07T01:28:15.493Z,"Kyushu, Japan",earthquake,,6.4,,,reviewed,us,nied
+2006-02-01T03:15:04.290Z,33.453,132.204,49.9,4.3,mb,40,114.9,,0.94,us,usp000e983,2014-11-07T01:28:12.838Z,"Shikoku, Japan",earthquake,,,,14,reviewed,us,us
+2006-01-24T12:36:49.100Z,31.518,131.921,24.8,4.3,m,17,129.1,,,us,usp000e8ss,2014-11-07T01:28:09.258Z,"Kyushu, Japan",earthquake,,,,,reviewed,jma,jma
+2006-01-16T19:26:54.670Z,31.22,130.343,164.4,4.4,mb,16,120.5,,1.09,us,usp000e8b0,2014-11-07T01:28:06.701Z,"Kyushu, Japan",earthquake,,9.2,,2,reviewed,us,us
+2006-01-04T04:48:03.470Z,31.553,131.769,14,4.1,mb,11,125.4,,1.18,us,usp000e7jd,2014-11-07T01:28:03.594Z,"Kyushu, Japan",earthquake,,33.9,,1,reviewed,us,us
+2006-01-03T15:42:41.160Z,31.648,131.893,35,4.2,mb,14,131.7,,1.27,us,usp000e7h5,2014-11-07T01:28:03.379Z,"Kyushu, Japan",earthquake,,,,2,reviewed,us,us
+2005-12-31T13:26:42.220Z,33.04,131.307,125.7,4.7,mwr,53,106.2,,1.12,us,usp000e79g,2014-11-07T01:27:58.512Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,nied
+2005-12-10T09:32:10.260Z,32.018,131.955,30.2,4.5,mwr,40,95.9,,1.14,us,usp000e5x1,2014-11-07T01:27:52.441Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,nied
+2005-12-06T19:42:35.380Z,32.56,128.994,17.9,4.1,mwr,23,98.2,,1.11,us,usp000e5nz,2014-11-07T01:27:51.352Z,"Kyushu, Japan",earthquake,,25.1,,,reviewed,us,nied
+2005-12-02T18:28:19.960Z,30.966,130.007,159.7,3.5,m,9,126.1,,0.62,us,usp000e5cg,2014-11-07T01:27:49.264Z,"Kyushu, Japan",earthquake,,9.7,,,reviewed,us,jma
+2005-11-28T23:55:42.530Z,30.129,131.991,20.8,4.3,mb,15,133.3,,0.59,us,usp000e545,2014-11-07T01:27:44.892Z,"Kyushu, Japan",earthquake,,16.3,,3,reviewed,us,us
+2005-11-21T15:36:30.980Z,31.019,129.997,145,6.1,mwb,566,23.1,,0.91,us,usp000e4nm,2015-05-13T18:53:50.000Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,us
+2005-11-07T08:35:47.010Z,31.276,131.517,35,4.1,mwr,16,122.7,,1.1,us,usp000e3p1,2014-11-07T01:27:36.817Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,nied
+2005-11-01T07:23:40.200Z,29.986,130.348,62.3,4.4,mwr,39,112.5,,1.02,us,usp000e39a,2014-11-07T01:27:33.080Z,"Ryukyu Islands, Japan",earthquake,,9,,,reviewed,us,nied
+2005-11-01T03:47:38.870Z,33.817,135.018,48.6,4.3,mwr,27,131.2,,0.61,us,usp000e390,2014-11-07T01:27:32.821Z,"near the south coast of western Honshu, Japan",earthquake,,,,,reviewed,us,nied
+2005-10-24T05:21:49.120Z,31.098,130.295,156.2,3.8,m,11,126.7,,,us,usp000e2q6,2014-11-07T01:27:28.379Z,"Kyushu, Japan",earthquake,,,,,reviewed,jma,jma
+2005-10-06T23:25:30.590Z,31.193,130.238,165.5,0,,15,126,,1.22,us,usp000e0zy,2014-11-07T01:27:17.848Z,"Kyushu, Japan",earthquake,,10.7,,,reviewed,us,us
+2005-09-12T11:18:51.180Z,33.571,130.033,35,4.4,mb,12,79.5,,1.07,us,usp000dza9,2014-11-07T01:27:03.612Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+2005-09-06T18:52:24.000Z,30.328,131.7,45.2,4.6,mb,54,117.9,,,us,usp000dyw7,2014-11-07T01:27:01.100Z,"Kyushu, Japan",earthquake,,,,15,reviewed,jma,us
+2005-09-05T16:17:45.490Z,29.91,129.116,209.3,4.5,mwr,72,111.7,,0.95,us,usp000dyu2,2014-11-07T01:27:00.743Z,"Ryukyu Islands, Japan",earthquake,,4.8,,,reviewed,us,nied
+2005-09-05T05:42:06.140Z,30.534,131.101,35,4.5,mwr,20,119.1,,0.72,us,usp000dyt2,2014-11-07T01:27:00.597Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,nied
+2005-09-04T10:06:24.810Z,33.516,131.966,61.1,4.2,mb,21,113.3,,0.7,us,usp000dyr9,2014-11-07T01:27:00.262Z,"Kyushu, Japan",earthquake,,,,4,reviewed,us,us
+2005-08-28T06:49:20.050Z,30.233,131.087,35.5,4.2,mb,14,126.9,,0.72,us,usp000dy6t,2014-11-07T01:26:53.620Z,"Kyushu, Japan",earthquake,,9.5,,2,reviewed,us,us
+2005-08-12T22:09:27.880Z,30.698,131.89,35,3.9,mb,6,239.7,,0.25,us,usp000dx7f,2014-11-07T01:26:48.547Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+2005-08-04T08:58:01.390Z,32.81,131.725,80.5,4.4,mb,14,123.6,,1.1,us,usp000dwn7,2014-11-07T01:26:43.752Z,"Kyushu, Japan",earthquake,,7.6,,1,reviewed,us,us
+2005-07-04T20:10:02.000Z,33.742,130.124,14.5,3.9,mwr,8,140.3,,,us,usp000duhs,2014-11-07T01:26:25.693Z,"Kyushu, Japan",earthquake,,,,,reviewed,jma,nied
+2005-07-02T14:28:07.520Z,30.051,130.955,10,4,mb,11,266.9,,0.57,us,usp000ducg,2014-11-07T01:26:23.084Z,"Kyushu, Japan",earthquake,,0,,2,reviewed,us,us
+2005-06-29T14:18:04.780Z,34.352,129.227,14.6,4.5,mb,19,108,,1.38,us,usp000du5a,2014-11-07T01:26:18.387Z,"Korea Strait",earthquake,,32.9,,5,reviewed,us,us
+2005-06-27T12:41:23.730Z,31.177,130.227,173.9,4.6,mb,176,108.4,,0.83,us,usp000du0q,2014-11-07T01:26:17.928Z,"Kyushu, Japan",earthquake,,,,87,reviewed,us,us
+2005-06-26T17:16:49.140Z,31.593,131.898,32.5,3.7,mb,9,129.5,,1.12,us,usp000dtyu,2014-11-07T01:26:17.727Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+2005-06-24T19:52:33.470Z,29.824,130.043,92.8,4,mb,16,125.4,,0.93,us,usp000dtum,2014-11-07T01:26:17.244Z,"Ryukyu Islands, Japan",earthquake,,9.1,,3,reviewed,us,us
+2005-06-14T21:25:56.860Z,30.406,131.108,29.7,3.2,m,5,278.2,,,us,usp000dt14,2014-11-07T01:26:12.720Z,"Kyushu, Japan",earthquake,,,,,reviewed,jma,jma
+2005-06-05T16:07:15.310Z,31.109,130.16,149.3,0,,10,126.1,,0.66,us,usp000ds9v,2014-11-07T01:26:07.754Z,"Kyushu, Japan",earthquake,,8.6,,,reviewed,us,us
+2005-06-02T19:16:41.840Z,32.495,130.548,10,4.5,mwr,60,114.3,,,us,usp000ds33,2014-11-07T01:26:04.995Z,"Kyushu, Japan",earthquake,,,,,reviewed,jma,nied
+2005-05-31T02:04:15.240Z,31.4,131.202,34.2,5.7,mwb,281,83.5,,0.86,us,usp000drxp,2015-05-13T18:53:49.000Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,us
+2005-05-26T18:17:20.970Z,34.07,133.623,38.3,4.8,mwc,150,90.6,,0.8,us,usp000drmn,2015-02-11T17:18:02.000Z,"near the south coast of western Honshu, Japan",earthquake,,,,,reviewed,us,hrv
+2005-05-25T11:31:31.050Z,33.336,132.102,54.6,4.5,mwr,38,107.9,,1.06,us,usp000drj3,2014-11-07T01:25:58.065Z,"Shikoku, Japan",earthquake,,,,,reviewed,us,nied
+2005-05-11T19:22:51.770Z,32.029,131.797,38.2,4.4,mwr,28,115.1,,0.98,us,usp000dqhz,2014-11-07T01:25:51.944Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,nied
+2005-05-01T16:23:57.940Z,33.611,130.244,10,4.6,mwr,43,105.8,,0.96,us,usp000dpq1,2016-02-24T22:09:56.048Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,nied
+2005-04-20T00:09:46.860Z,33.646,130.275,39.3,4.7,mwr,55,79.1,,1.05,us,usp000dnsw,2014-11-07T01:25:38.409Z,"Kyushu, Japan",earthquake,,6.7,,,reviewed,us,nied
+2005-04-19T21:44:52.140Z,33.536,130.25,10,4.3,mb,32,106.3,,1.13,us,usp000dnsp,2014-11-07T01:25:38.395Z,"Kyushu, Japan",earthquake,,,,10,reviewed,us,us
+2005-04-19T21:22:50.620Z,33.7,130.45,10,4.4,mb,37,105.8,,1.41,us,usp000dnsn,2014-11-07T01:25:38.392Z,"Kyushu, Japan",earthquake,,,,14,reviewed,us,us
+2005-04-19T21:11:28.420Z,33.637,130.179,18.7,5.5,mwb,242,78.9,,0.89,us,usp000dnsk,2016-02-24T22:53:28.769Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,us
+2005-04-17T13:56:13.350Z,33.378,132.261,34.5,0,,9,135.6,,0.37,us,usp000dnkh,2014-11-07T01:25:37.194Z,"Shikoku, Japan",earthquake,,59,,,reviewed,us,us
+2005-04-10T11:34:41.360Z,33.655,130.226,23.9,4.7,mb,36,111.2,,1.32,us,usp000dmuh,2014-11-07T01:25:32.198Z,"Kyushu, Japan",earthquake,,20,,18,reviewed,us,us
+2005-04-04T19:35:27.590Z,31.901,131.936,55.5,4,mb,7,130.5,,1.01,us,usp000dm8h,2014-11-07T01:25:29.288Z,"Kyushu, Japan",earthquake,,,,2,reviewed,us,us
+2005-04-01T12:52:14.310Z,33.447,130.367,10,4.4,mb,7,113.2,,1.54,us,usp000dkwy,2014-11-07T01:25:26.424Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+2005-04-01T00:41:50.940Z,31.241,131.344,38.9,4.3,mwr,38,124.9,,0.88,us,usp000dkv4,2014-11-07T01:25:24.287Z,"Kyushu, Japan",earthquake,,10.5,,,reviewed,us,nied
+2005-03-25T12:03:29.840Z,33.826,130.364,94.7,3.7,mb,9,128.3,,1.14,us,usp000dk12,2014-11-07T01:25:19.291Z,"Kyushu, Japan",earthquake,,23.7,,2,reviewed,us,us
+2005-03-23T06:37:21.630Z,32.018,131.837,10,4,mb,8,129.3,,1.21,us,usp000djve,2014-11-07T01:25:18.045Z,"Kyushu, Japan",earthquake,,,,3,reviewed,us,us
+2005-03-22T06:55:35.140Z,33.718,130.208,10,4.9,mwr,64,97.2,,1.12,us,usp000djss,2014-11-07T01:25:17.695Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,nied
+2005-03-21T14:59:23.320Z,33.862,130.021,10,4.3,mb,30,95.5,,0.81,us,usp000djqq,2014-11-07T01:25:17.477Z,"Kyushu, Japan",earthquake,,,,10,reviewed,us,us
+2005-03-20T11:38:17.530Z,33.843,130.066,10,3.9,mb,15,117.4,,1.42,us,usp000djmq,2014-11-07T01:25:16.839Z,"Kyushu, Japan",earthquake,,,,2,reviewed,us,us
+2005-03-20T11:08:23.420Z,33.614,129.897,10,0,,7,141,,1.09,us,usp000djmn,2014-11-07T01:25:16.834Z,"Kyushu, Japan",earthquake,,0,,,reviewed,us,us
+2005-03-20T10:52:03.460Z,33.758,129.961,10,4.1,mb,18,134.8,,1.03,us,usp000djmm,2014-11-07T01:25:16.831Z,"Kyushu, Japan",earthquake,,,,4,reviewed,us,us
+2005-03-20T05:32:24.660Z,33.735,130.031,10,4.1,mb,12,134.7,,0.87,us,usp000djm4,2014-11-07T01:25:16.793Z,"Kyushu, Japan",earthquake,,,,3,reviewed,us,us
+2005-03-20T01:53:41.830Z,33.807,130.131,10,6.6,mwc,401,22.9,,1.3,us,usp000djku,2016-02-25T16:41:45.677Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,hrv
+2005-03-08T08:43:44.800Z,32.193,131.281,69.5,4,mb,17,119.3,,1.36,us,usp000dht7,2014-11-07T01:25:12.531Z,"Kyushu, Japan",earthquake,,13.6,,5,reviewed,us,us
+2005-03-07T18:45:46.410Z,34.264,132.43,20,4,mb,8,134.3,,0.85,us,usp000dhrt,2014-11-07T01:25:12.283Z,"western Honshu, Japan",earthquake,,,,1,reviewed,us,us
+2005-03-05T05:58:54.810Z,31.631,131.266,79.4,4.3,mwr,36,128.5,,1.09,us,usp000dhjd,2014-11-07T01:25:11.115Z,"Kyushu, Japan",earthquake,,10.3,,,reviewed,us,nied
+2005-02-22T11:55:34.700Z,32.849,130.156,38.8,4.1,mb,8,143.5,,0.77,us,usp000dgr3,2014-11-07T01:25:02.613Z,"Kyushu, Japan",earthquake,,23.3,,3,reviewed,us,us
+2005-02-18T03:40:07.250Z,31.697,131.313,46.3,0,,9,122.3,,0.62,us,usp000dgdj,2014-11-07T01:25:00.885Z,"Kyushu, Japan",earthquake,,12.2,,,reviewed,us,us
+2005-02-11T04:26:26.640Z,32.459,131.986,40.5,0,,8,136.5,,0.92,us,usp000dfwj,2014-11-07T01:24:58.245Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,us
+2004-12-22T02:56:12.190Z,30.665,131.17,58.3,4.4,mb,39,122.5,,1.02,us,usp000db6h,2014-11-07T01:24:20.177Z,"Kyushu, Japan",earthquake,,8.8,,10,reviewed,us,us
+2004-12-13T17:27:03.000Z,31.822,129.322,16.3,5.1,mwc,74,105.3,,0.97,us,usp000damg,2015-02-11T17:17:52.000Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,hrv
+2004-12-12T22:53:39.940Z,31.902,129.03,10,4.4,mb,29,103.8,,1.19,us,usp000dajs,2014-11-07T01:24:16.225Z,"Kyushu, Japan",earthquake,,,,10,reviewed,us,us
+2004-12-12T06:58:23.270Z,31.786,129.044,10,4.3,mb,30,111.7,,1.11,us,usp000dah9,2014-11-07T01:24:16.001Z,"Kyushu, Japan",earthquake,,,,9,reviewed,us,us
+2004-12-12T05:30:38.260Z,31.823,129.485,15,4.6,mwr,11,197.4,,1.12,us,usp000dah3,2014-11-07T01:24:15.992Z,"Kyushu, Japan",earthquake,,0,,,reviewed,us,nied
+2004-12-12T05:28:45.970Z,31.756,128.865,10,5,mwc,70,110.7,,1.53,us,usp000dah2,2015-02-11T17:17:52.000Z,"northwest of the Ryukyu Islands, Japan",earthquake,,0,,,reviewed,us,hrv
+2004-11-27T03:20:27.650Z,31.874,131.554,46,4,mb,17,122.5,,1.34,us,usp000d9c6,2014-11-07T01:24:06.132Z,"Kyushu, Japan",earthquake,,,,2,reviewed,us,us
+2004-11-21T00:27:44.510Z,32.578,130.521,10,4.3,mb,10,120.3,,1.4,us,usp000d8v3,2014-11-07T01:24:03.466Z,"Kyushu, Japan",earthquake,,,,2,reviewed,us,us
+2004-11-16T16:54:09.580Z,30.617,130.505,75.1,4.1,mb,15,122.2,,0.84,us,usp000d8kq,2014-11-07T01:24:01.569Z,"Kyushu, Japan",earthquake,,11.5,,4,reviewed,us,us
+2004-11-10T17:22:26.690Z,33.507,134.23,10,4,mwr,8,133.8,,1.34,us,usp000d83k,2014-11-07T01:23:58.315Z,"Shikoku, Japan",earthquake,,,,,reviewed,us,nied
+2004-11-08T09:22:35.870Z,31.828,131.999,38.8,3.9,mb,8,131.3,,1.11,us,usp000d7xv,2014-11-07T01:23:57.273Z,"Kyushu, Japan",earthquake,,16.5,,1,reviewed,us,us
+2004-11-03T20:28:34.300Z,30.634,131.014,45.4,4.9,mwr,64,122.4,,1.11,us,usp000d7n4,2014-11-07T01:23:55.540Z,"Kyushu, Japan",earthquake,,8.3,,,reviewed,us,nied
+2004-11-03T18:13:21.440Z,33.165,130.414,10,0,,13,109.5,,1.13,us,usp000d7ms,2014-11-07T01:23:55.469Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,us
+2004-10-16T10:41:07.420Z,30.163,131.111,40.4,4.4,mb,30,122.5,,0.79,us,usp000d6g1,2014-11-07T01:23:46.227Z,"Kyushu, Japan",earthquake,,7.6,,7,reviewed,us,us
+2004-09-21T01:13:17.150Z,34.18,132.792,41.7,4.2,mwr,15,117.8,,1.46,us,usp000d4rj,2014-11-07T01:23:31.873Z,"western Honshu, Japan",earthquake,,,,,reviewed,us,nied
+2004-09-19T09:35:20.930Z,30.683,132.645,30,4.3,mb,16,126.8,,0.85,us,usp000d4mz,2014-11-07T01:23:31.081Z,"southeast of Shikoku, Japan",earthquake,,0,,2,reviewed,us,us
+2004-09-16T20:09:46.330Z,29.807,129.364,179.6,4.5,mwr,47,129.2,,0.76,us,usp000d4du,2014-11-07T01:23:29.957Z,"Ryukyu Islands, Japan",earthquake,,5.6,,,reviewed,us,nied
+2004-09-04T15:21:27.140Z,30.827,132.132,39.1,4.2,mb,18,135.2,,0.9,us,usp000d3hr,2014-11-07T01:23:25.229Z,"southeast of Shikoku, Japan",earthquake,,12.3,,10,reviewed,us,us
+2004-08-30T21:17:52.500Z,32.663,134.148,29.7,3.8,mb,8,140,,0.81,us,usp000d37z,2014-11-07T01:23:17.987Z,"Shikoku, Japan",earthquake,,,,1,reviewed,us,us
+2004-08-17T19:55:41.920Z,30.68,131.143,57,4.2,mb,10,130.6,,1.16,us,usp000d2bf,2014-11-07T01:23:13.647Z,"Kyushu, Japan",earthquake,,23.9,,3,reviewed,us,us
+2004-08-16T05:09:12.650Z,31.334,130.823,112.2,4.4,mb,15,168.3,,0.46,us,usp000d28k,2014-11-07T01:23:13.285Z,"Kyushu, Japan",earthquake,,7,,2,reviewed,us,us
+2004-08-02T00:08:03.110Z,34.739,135.094,397.2,4.6,mwr,52,120.2,,0.69,us,usp000d19u,2014-11-07T01:23:07.033Z,"near the south coast of western Honshu, Japan",earthquake,,,,,reviewed,us,nied
+2004-08-01T20:25:16.360Z,30.069,130.468,65.1,0,,15,122.2,,0.73,us,usp000d19f,2014-11-07T01:23:06.672Z,"Kyushu, Japan",earthquake,,9.8,,,reviewed,us,us
+2004-07-28T13:54:14.290Z,31.91,131.637,44.4,0,,9,122.7,,0.49,us,usp000d10q,2014-11-07T01:23:00.315Z,"Kyushu, Japan",earthquake,,10.3,,,reviewed,us,us
+2004-07-26T01:58:39.870Z,30.53,131.332,44.5,4,mb,21,122.6,,0.78,us,usp000d0w7,2014-11-07T01:22:59.175Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+2004-07-17T10:41:25.750Z,33.822,131.969,73.8,3.6,mb,11,117,,0.78,us,usp000d0ay,2014-11-07T01:22:55.096Z,"Kyushu, Japan",earthquake,,8.4,,1,reviewed,us,us
+2004-07-14T22:39:59.180Z,31.079,130.245,167.6,4.3,mb,19,135.5,,0.92,us,usp000d068,2014-11-07T01:22:53.941Z,"Kyushu, Japan",earthquake,,8,,3,reviewed,us,us
+2004-06-15T13:56:47.590Z,30.72,131.323,43.7,4.7,mb,23,122.6,,0.86,us,usp000cxyu,2014-11-07T01:22:38.036Z,"Kyushu, Japan",earthquake,,,,2,reviewed,us,us
+2004-06-07T23:05:25.060Z,34.13,135.1,10,4.3,mb,25,124.5,,0.91,us,usp000cxd1,2014-11-07T01:22:34.948Z,"near the south coast of western Honshu, Japan",earthquake,,,,7,reviewed,us,us
+2004-06-01T04:58:35.730Z,30.088,131.006,35,0,,13,187.8,,1.27,us,usp000cwsx,2014-11-07T01:22:28.991Z,"Kyushu, Japan",earthquake,,31.2,,,reviewed,us,us
+2004-04-30T15:55:49.550Z,31.674,133.281,32.8,0,,9,126.7,,1.03,us,usp000ctv2,2014-11-07T01:22:09.087Z,"southeast of Shikoku, Japan",earthquake,,36.1,,,reviewed,us,us
+2004-04-21T03:20:54.190Z,31.614,131.482,32.6,5.2,mwc,88,114.9,,1.07,us,usp000ct11,2015-02-11T17:17:43.000Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,hrv
+2004-04-21T03:10:41.670Z,31.619,131.601,32.1,4.8,mb,61,122.7,,1.03,us,usp000ct10,2014-11-07T01:22:03.823Z,"Kyushu, Japan",earthquake,,,,24,reviewed,us,us
+2004-04-20T13:26:33.170Z,33.534,132.204,49.8,4.4,mb,31,120.5,,1.49,us,usp000cszm,2014-11-07T01:22:03.589Z,"Shikoku, Japan",earthquake,,,,5,reviewed,us,us
+2004-04-18T10:10:31.060Z,31.437,130.429,163.3,4.2,mb,28,119.8,,0.64,us,usp000csuq,2014-11-07T01:22:01.946Z,"Kyushu, Japan",earthquake,,5.4,,2,reviewed,us,us
+2004-04-14T09:16:48.670Z,31.971,132.353,28.2,4.2,mb,15,126.1,,0.85,us,usp000csf9,2014-11-07T01:21:59.229Z,"southeast of Shikoku, Japan",earthquake,,19.8,,3,reviewed,us,us
+2004-04-13T16:43:46.710Z,31.226,130.65,153.9,4.1,mb,13,121.8,,1.78,us,usp000csdp,2014-11-07T01:21:58.378Z,"Kyushu, Japan",earthquake,,12.9,,2,reviewed,us,us
+2004-04-05T22:51:10.300Z,33.986,134.376,42.8,4.4,mb,10,123.5,,1.54,us,usp000crta,2014-11-07T01:21:55.176Z,"Shikoku, Japan",earthquake,,16,,1,reviewed,us,us
+2004-04-05T04:02:41.660Z,30.111,130.965,44.8,0,,13,129.2,,0.53,us,usp000crqw,2014-11-07T01:21:54.689Z,"Kyushu, Japan",earthquake,,10.2,,,reviewed,us,us
+2004-04-04T06:00:48.630Z,29.905,127.776,44.7,4.3,mb,21,120.9,,1.36,us,usp000crnc,2014-11-07T01:21:54.218Z,"northwest of the Ryukyu Islands, Japan",earthquake,,11.6,,3,reviewed,us,us
+2004-04-02T21:45:11.670Z,29.804,127.507,24.6,4.8,mb,47,116.2,,0.83,us,usp000crhf,2014-11-07T01:21:53.009Z,"northwest of the Ryukyu Islands, Japan",earthquake,,10.2,,8,reviewed,us,us
+2004-03-01T12:27:20.640Z,31.8,130.575,181.5,4.8,mb,45,110.5,,0.99,us,usp000cntr,2014-11-07T01:21:35.465Z,"Kyushu, Japan",earthquake,,,,12,reviewed,us,us
+2004-01-20T01:48:18.030Z,31.123,132.591,29.5,4.4,mb,18,130.3,,0.62,us,usp000cj9m,2014-11-07T01:21:06.169Z,"southeast of Shikoku, Japan",earthquake,,,,3,reviewed,us,us
+2004-01-07T02:26:38.650Z,30.205,130.784,30,0,,14,129.1,,0.82,us,usp000chb0,2014-11-07T01:20:59.851Z,"Kyushu, Japan",earthquake,,24.2,,,reviewed,us,us
+2004-01-04T21:03:14.900Z,30.166,131.051,34.4,4.9,mwc,93,113.8,,0.95,us,usp000ch4p,2015-02-11T17:17:38.000Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,hrv
+2003-12-28T16:56:47.980Z,29.939,131.34,29.3,0,,11,174.3,,0.65,us,usp000cgd6,2014-11-07T01:20:50.925Z,"southeast of the Ryukyu Islands, Japan",earthquake,,,,,reviewed,us,us
+2003-12-28T11:56:33.490Z,30.098,131.006,33,4,mb,14,128.5,,1.35,us,usp000cgcb,2014-11-07T01:20:50.697Z,"Kyushu, Japan",earthquake,,,,2,reviewed,us,us
+2003-12-28T10:42:52.160Z,30.01,131.08,31.9,0,,12,128.5,,1.04,us,usp000cgc6,2014-11-07T01:20:50.689Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,us
+2003-12-28T04:45:48.370Z,30.015,131.002,31.9,5.2,mwc,58,113.3,,0.94,us,usp000cgbm,2015-02-11T17:17:38.000Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,hrv
+2003-12-19T00:56:19.200Z,31.157,130.356,145.6,4.2,mb,26,149.1,,0.94,us,usp000cfhf,2014-11-07T01:20:46.793Z,"Kyushu, Japan",earthquake,,8.3,,6,reviewed,us,us
+2003-12-16T04:26:34.520Z,32.008,131.238,33,4.1,mb,6,146.3,,0.64,us,usp000cfc2,2014-11-07T01:20:46.107Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+2003-12-13T03:32:32.140Z,34.5,134.221,14.4,4.7,mb,41,105.1,,1.1,us,usp000cf4v,2014-11-07T01:20:44.755Z,"near the south coast of western Honshu, Japan",earthquake,,,,13,reviewed,us,us
+2003-12-09T15:44:41.320Z,30.917,132.108,33,4.5,mb,13,129.3,,1.17,us,usp000cewc,2014-11-07T01:20:43.567Z,"southeast of Shikoku, Japan",earthquake,,,,2,reviewed,us,us
+2003-12-07T22:12:27.040Z,30.29,130.603,33,0,,7,146,,0.69,us,usp000cesj,2014-11-07T01:20:42.537Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,us
+2003-12-07T01:04:11.200Z,30.326,132.091,33,4.5,mb,30,129.3,,1.05,us,usp000ceq2,2014-11-07T01:20:42.273Z,"southeast of Shikoku, Japan",earthquake,,,,5,reviewed,us,us
+2003-12-06T04:48:20.310Z,30.346,131.931,33,4.3,mb,13,129.2,,1.02,us,usp000cen2,2014-11-07T01:20:41.973Z,"Kyushu, Japan",earthquake,,,,2,reviewed,us,us
+2003-12-05T00:44:21.800Z,30.367,132.121,33,4.6,mb,19,129.3,,0.91,us,usp000cehn,2014-11-07T01:20:41.374Z,"southeast of Shikoku, Japan",earthquake,,,,7,reviewed,us,us
+2003-11-30T03:45:37.830Z,32.08,130.177,10,4.5,mb,43,115.3,,1.24,us,usp000ce64,2014-11-07T01:20:34.591Z,"Kyushu, Japan",earthquake,,,,11,reviewed,us,us
+2003-11-24T16:38:16.930Z,31.964,130.878,33,4.1,mb,9,101.6,,1.18,us,usp000cdtv,2014-11-07T01:20:33.194Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+2003-10-07T10:47:32.290Z,31.274,130.605,170.3,0,,9,168.4,,1.04,us,usp000c9uh,2014-11-07T01:20:09.336Z,"Kyushu, Japan",earthquake,,9.8,,,reviewed,us,us
+2003-08-31T01:41:22.150Z,33.56,134.189,33,0,,11,126.3,,1.09,us,usp000c6b5,2014-11-07T01:19:37.137Z,"Shikoku, Japan",earthquake,,,,,reviewed,us,us
+2003-08-14T14:45:52.650Z,33.657,133.958,33,4.2,mb,19,130.3,,1.06,us,usp000c4vm,2014-11-07T01:19:31.111Z,"Shikoku, Japan",earthquake,,,,6,reviewed,us,us
+2003-08-13T09:19:46.320Z,33.666,131.631,159.8,4.4,mb,13,127.7,,0.63,us,usp000c4rj,2014-11-07T01:19:30.509Z,"Kyushu, Japan",earthquake,,20.5,,1,reviewed,us,us
+2003-08-10T08:47:30.400Z,30.176,130.743,33,4.4,mb,25,122.3,,1.04,us,usp000c4j4,2014-11-07T01:19:29.742Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+2003-08-06T12:07:40.280Z,29.84,130.755,33,0,,14,122.3,,0.76,us,usp000c496,2014-11-07T01:19:28.167Z,"Ryukyu Islands, Japan",earthquake,,,,,reviewed,us,us
+2003-07-29T18:22:07.000Z,31.291,131.462,79.9,3.8,mb,12,125.2,,0.74,us,usp000c3nn,2014-11-07T01:19:19.393Z,"Kyushu, Japan",earthquake,,13.2,,1,reviewed,us,us
+2003-07-28T16:40:33.870Z,31.394,131.615,33,4.5,mb,27,122.7,,1.11,us,usp000c3kp,2014-11-07T01:19:19.189Z,"Kyushu, Japan",earthquake,,,,5,reviewed,us,us
+2003-07-23T23:19:30.240Z,31.231,130.137,163.1,4.6,mb,11,125.4,,0.85,us,usp000c361,2014-11-07T01:19:17.071Z,"Kyushu, Japan",earthquake,,9,,1,reviewed,us,us
+2003-07-20T23:46:50.130Z,31.967,128.876,96,3.5,mb,10,132,,0.85,us,usp000c2zg,2014-11-07T01:19:16.150Z,"northwest of the Ryukyu Islands, Japan",earthquake,,15.7,,1,reviewed,us,us
+2003-07-19T22:03:03.720Z,31.831,128.69,33,0,,18,122.3,,1.2,us,usp000c2x3,2014-11-07T01:19:15.957Z,"northwest of the Ryukyu Islands, Japan",earthquake,,,,,reviewed,us,us
+2003-07-12T04:19:49.450Z,31.879,128.61,33,4.3,mb,12,116.6,,0.95,us,usp000c28z,2014-11-07T01:19:11.678Z,"northwest of the Ryukyu Islands, Japan",earthquake,,,,3,reviewed,us,us
+2003-06-25T10:46:21.600Z,32.594,132.138,49,0,,9,121,,1.11,us,usp000c0xm,2014-11-07T01:18:59.871Z,"Shikoku, Japan",earthquake,,15.8,,,reviewed,us,us
+2003-06-23T15:33:28.990Z,33.094,132.248,33,0,,6,141.5,,1.09,us,usp000c0rv,2014-11-07T01:18:59.281Z,"Shikoku, Japan",earthquake,,,,,reviewed,us,us
+2003-06-20T10:47:05.080Z,29.831,129.296,161.3,0,,13,122.4,,0.97,us,usp000c0b1,2014-11-07T01:18:57.905Z,"Ryukyu Islands, Japan",earthquake,,9.1,,,reviewed,us,us
+2003-06-18T08:46:13.680Z,31.314,129.857,174,0,,8,187.8,,1.17,us,usp000c053,2014-11-07T01:18:57.251Z,"Kyushu, Japan",earthquake,,10.7,,,reviewed,us,us
+2003-06-12T14:03:39.550Z,31.253,130.244,171.4,4.5,mb,37,126.6,,1.11,us,usp000bzqd,2014-11-07T01:18:54.982Z,"Kyushu, Japan",earthquake,,7.2,,17,reviewed,us,us
+2003-06-10T02:47:34.330Z,30.42,132.768,33,0,,9,193.7,,0.92,us,usp000bzhg,2014-11-07T01:18:53.564Z,"southeast of Shikoku, Japan",earthquake,,,,,reviewed,us,us
+2003-05-30T18:58:22.640Z,33.364,131.764,76,4.4,mb,43,113.5,,1.03,us,usp000byk2,2014-11-07T01:18:44.793Z,"Kyushu, Japan",earthquake,,6.2,,17,reviewed,us,us
+2003-04-22T15:18:21.480Z,30.342,129.026,279.6,4.1,mb,43,119.3,,0.97,us,usp000bvry,2014-11-07T01:18:24.658Z,"Kyushu, Japan",earthquake,,5.6,,13,reviewed,us,us
+2003-04-15T14:56:16.980Z,31.774,131.617,33,4.4,mb,22,122.7,,1.05,us,usp000bv8b,2014-11-07T01:18:20.954Z,"Kyushu, Japan",earthquake,,,,7,reviewed,us,us
+2003-04-12T04:28:44.090Z,31.969,130.324,33,4.2,mb,46,116.5,,1.12,us,usp000bv04,2014-11-07T01:18:19.947Z,"Kyushu, Japan",earthquake,,,,9,reviewed,us,us
+2003-04-06T04:59:27.160Z,32.023,131.005,104.6,4.3,mb,23,125.1,,1.24,us,usp000buh3,2014-11-07T01:18:18.092Z,"Kyushu, Japan",earthquake,,,,3,reviewed,us,us
+2003-03-25T19:08:41.760Z,33.211,132.308,40.3,3.8,mb,15,117.4,,0.91,us,usp000btgh,2014-11-07T01:18:08.187Z,"Shikoku, Japan",earthquake,,10.6,,3,reviewed,us,us
+2003-03-07T11:00:16.580Z,32.207,131.218,99.2,4,mb,10,125,,0.81,us,usp000bs4h,2014-11-07T01:18:00.417Z,"Kyushu, Japan",earthquake,,11.3,,1,reviewed,us,us
+2003-03-05T13:02:37.290Z,30.05,130.769,57.5,4.2,mb,24,122.3,,1.19,us,usp000bs07,2014-11-07T01:17:59.437Z,"Kyushu, Japan",earthquake,,14.5,,7,reviewed,us,us
+2003-02-10T01:50:21.150Z,32.485,130.822,159.5,4.1,mb,15,,,0.81,us,usp000bqbz,2014-11-07T01:17:46.753Z,"Kyushu, Japan",earthquake,,7.3,,1,reviewed,us,us
+2003-01-01T17:20:45.570Z,31.094,130.277,167,3.9,mb,26,,,1.15,us,usp000bmwc,2014-11-07T01:17:30.488Z,"Kyushu, Japan",earthquake,,8.7,,7,reviewed,us,us
+2002-12-07T05:27:54.590Z,30.123,132.205,33,3.9,mb,18,,,1.06,us,usp000bk8q,2014-11-07T01:17:19.167Z,"southeast of Shikoku, Japan",earthquake,,,,4,reviewed,us,us
+2002-12-06T16:45:24.320Z,31.417,130.216,167.8,3.9,mb,12,,,1.22,us,usp000bk7g,2014-11-07T01:17:19.064Z,"Kyushu, Japan",earthquake,,11,,3,reviewed,us,us
+2002-11-24T18:20:58.840Z,31.308,130.398,171,4,mb,10,,,0.75,us,usp000bjas,2014-11-07T01:17:10.901Z,"Kyushu, Japan",earthquake,,8.5,,1,reviewed,us,us
+2002-11-14T02:16:26.470Z,30.047,131.096,33,4.4,mb,25,,,0.61,us,usp000bhn1,2014-11-07T01:17:07.914Z,"Kyushu, Japan",earthquake,,,,7,reviewed,us,us
+2002-11-11T04:50:03.320Z,29.963,131.229,33,4.2,mb,10,,,0.57,us,usp000bhd4,2014-11-07T01:17:06.533Z,"southeast of the Ryukyu Islands, Japan",earthquake,,,,1,reviewed,us,us
+2002-11-04T04:35:57.760Z,32.393,131.55,33,5.4,mb,196,,,0.84,us,usp000bg5g,2015-05-13T18:53:45.000Z,"Kyushu, Japan",earthquake,,,,71,reviewed,us,us
+2002-10-25T14:40:51.690Z,30.564,129.996,125.4,5.4,mwc,255,,,0.97,us,usp000bfbh,2015-02-11T17:17:26.000Z,"Kyushu, Japan",earthquake,,3.1,,,reviewed,us,hrv
+2002-10-13T10:06:30.470Z,33.325,132.258,43.5,4.8,mb,99,,,1.06,us,usp000beeu,2014-11-07T01:16:45.060Z,"Shikoku, Japan",earthquake,,,,35,reviewed,us,us
+2002-10-10T02:50:57.080Z,31.314,130.173,158,4,mb,12,,,0.88,us,usp000be4r,2014-11-07T01:16:43.600Z,"Kyushu, Japan",earthquake,,9.3,,3,reviewed,us,us
+2002-10-06T06:28:16.790Z,31.231,130.254,178.5,4.5,mb,18,,,1.08,us,usp000bdx6,2014-11-07T01:16:42.666Z,"Kyushu, Japan",earthquake,,9.3,,2,reviewed,us,us
+2002-09-25T05:45:07.090Z,33.672,131.822,77.6,4.8,mb,21,,,1.01,us,usp000bd2q,2014-11-07T01:16:34.539Z,"Kyushu, Japan",earthquake,,,,4,reviewed,us,us
+2002-09-19T04:17:18.920Z,31.127,131.382,46.4,4.2,mb,11,,,0.94,us,usp000bcmm,2014-11-07T01:16:32.691Z,"Kyushu, Japan",earthquake,,12.2,,2,reviewed,us,us
+2002-08-31T02:04:24.910Z,29.959,130.753,41.8,4.7,mb,64,,,0.94,us,usp000bayx,2014-11-07T01:16:21.601Z,"Ryukyu Islands, Japan",earthquake,,,,31,reviewed,us,us
+2002-08-17T01:55:45.270Z,30.284,132.35,33,4.2,mb,22,,,0.84,us,usp000ba1u,2014-11-07T01:16:17.169Z,"southeast of Shikoku, Japan",earthquake,,,,8,reviewed,us,us
+2002-07-16T14:50:23.190Z,30.834,132.445,33,4.7,mb,27,,,1.02,us,usp000b87n,2014-11-07T01:16:04.459Z,"southeast of Shikoku, Japan",earthquake,,,,9,reviewed,us,us
+2002-07-16T11:57:26.730Z,30.847,132.394,33,5.5,mwc,260,,,1.02,us,usp000b87c,2015-02-11T17:17:24.000Z,"southeast of Shikoku, Japan",earthquake,,,,,reviewed,us,hrv
+2002-07-15T19:57:59.260Z,31.925,131.612,33,4.5,mb,44,,,1.14,us,usp000b867,2014-11-07T01:16:04.255Z,"Kyushu, Japan",earthquake,,,,17,reviewed,us,us
+2002-07-09T15:01:27.690Z,31.014,130.426,171,4.2,mb,21,,,1.27,us,usp000b7tk,2014-11-07T01:16:02.113Z,"Kyushu, Japan",earthquake,,8.6,,5,reviewed,us,us
+2002-06-29T18:18:07.790Z,30.005,131.032,60.7,4.2,mb,12,,,1.17,us,usp000b762,2014-11-07T01:15:55.105Z,"Kyushu, Japan",earthquake,,12.2,,2,reviewed,us,us
+2002-06-22T17:56:07.550Z,31.174,130.261,161.1,4.3,mb,21,,,1.08,us,usp000b6r1,2014-11-07T01:15:52.633Z,"Kyushu, Japan",earthquake,,8.1,,4,reviewed,us,us
+2002-06-20T13:17:48.320Z,32.975,131.378,132.3,4.1,mb,16,,,0.9,us,usp000b6jw,2014-11-07T01:15:52.012Z,"Kyushu, Japan",earthquake,,6.6,,2,reviewed,us,us
+2002-06-18T07:58:37.660Z,31.364,131.413,33,4.5,mb,42,,,1.15,us,usp000b6dc,2014-11-07T01:15:51.259Z,"Kyushu, Japan",earthquake,,,,17,reviewed,us,us
+2002-05-26T16:22:29.430Z,31.303,131.58,68.8,3.7,mb,15,,,0.89,us,usp000b50j,2014-11-07T01:15:40.436Z,"Kyushu, Japan",earthquake,,9.8,,3,reviewed,us,us
+2002-05-26T14:36:14.910Z,31.355,131.702,33,4.4,mb,41,,,1.31,us,usp000b50d,2014-11-07T01:15:40.423Z,"Kyushu, Japan",earthquake,,,,13,reviewed,us,us
+2002-05-24T10:08:38.650Z,31.079,131.555,45.8,4.5,mb,36,,,1.06,us,usp000b4w5,2014-11-07T01:15:39.822Z,"Kyushu, Japan",earthquake,,8.3,,9,reviewed,us,us
+2002-05-06T17:02:09.030Z,31.224,130.382,181.7,4.1,mb,39,,,1.2,us,usp000b3ve,2014-11-07T01:15:35.295Z,"Kyushu, Japan",earthquake,,7.3,,11,reviewed,us,us
+2002-05-06T09:45:27.120Z,33.179,131.812,62.8,4.4,mb,32,,,1.08,us,usp000b3uv,2014-11-07T01:15:35.228Z,"Kyushu, Japan",earthquake,,,,12,reviewed,us,us
+2002-04-18T22:51:01.690Z,32.772,131.22,134.2,4.1,mb,37,,,1.15,us,usp000b2qh,2014-11-07T01:15:26.511Z,"Kyushu, Japan",earthquake,,,,10,reviewed,us,us
+2002-04-05T16:57:04.680Z,33.39,132.446,52.6,4.5,mb,49,,,1.25,us,usp000b1t2,2014-11-07T01:15:21.595Z,"Shikoku, Japan",earthquake,,8.8,,24,reviewed,us,us
+2002-03-25T13:58:16.510Z,33.724,132.528,52.9,4.6,mb,57,,,1.11,us,usp000b10x,2014-11-07T01:15:14.011Z,"Shikoku, Japan",earthquake,,8.8,,20,reviewed,us,us
+2002-03-24T04:53:36.320Z,29.997,130.993,35.6,4.1,mb,22,,,1.18,us,usp000b0xv,2014-11-07T01:15:13.583Z,"Ryukyu Islands, Japan",earthquake,,15.1,,4,reviewed,us,us
+2002-03-23T21:07:04.670Z,29.98,131.157,33,3.9,mb,23,,,0.89,us,usp000b0x6,2014-11-07T01:15:13.519Z,"southeast of the Ryukyu Islands, Japan",earthquake,,,,10,reviewed,us,us
+2002-03-22T05:54:19.670Z,30.014,130.806,42.7,4.1,mb,26,,,0.97,us,usp000b0u9,2014-11-07T01:15:12.847Z,"Kyushu, Japan",earthquake,,9.5,,3,reviewed,us,us
+2002-03-20T08:15:38.570Z,30.17,131.024,33,4.2,mb,27,,,0.74,us,usp000b0pk,2014-11-07T01:15:12.388Z,"Kyushu, Japan",earthquake,,,,5,reviewed,us,us
+2002-03-08T13:02:41.620Z,32.123,131.901,38.4,4.6,mb,16,,,1.03,us,usp000azxr,2014-11-07T01:15:06.113Z,"Kyushu, Japan",earthquake,,11.7,,1,reviewed,us,us
+2001-12-15T01:25:32.640Z,30.768,132.243,33,3.8,mb,7,,,0.62,us,usp000aumu,2014-11-07T01:14:29.043Z,"southeast of Shikoku, Japan",earthquake,,,,1,reviewed,us,us
+2001-12-11T22:48:53.540Z,31.043,130.339,168.5,4.4,mb,12,,,1.44,us,usp000auey,2014-11-07T01:14:27.970Z,"Kyushu, Japan",earthquake,,12.2,,1,reviewed,us,us
+2001-12-06T17:07:10.900Z,30.467,129.545,33,3.8,mb,6,,,1.36,us,usp000au4a,2014-11-07T01:14:26.596Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+2001-11-20T17:27:34.960Z,33.163,131.77,68.7,4.2,mb,11,,,0.99,us,usp000at74,2014-11-07T01:14:17.030Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+2001-11-11T13:47:17.520Z,31.177,131.687,42.4,4.2,mb,12,,,0.91,us,usp000aspb,2014-11-07T01:14:13.824Z,"Kyushu, Japan",earthquake,,11.2,,1,reviewed,us,us
+2001-11-05T20:08:23.500Z,30.053,130.923,33,4.7,mb,52,,,1.07,us,usp000asa5,2014-11-07T01:14:12.310Z,"Kyushu, Japan",earthquake,,,,21,reviewed,us,us
+2001-10-23T11:16:25.150Z,30.751,132.429,33,4.4,mb,12,,,0.94,us,usp000argc,2014-11-07T01:14:02.407Z,"southeast of Shikoku, Japan",earthquake,,,,1,reviewed,us,us
+2001-10-21T18:37:44.860Z,29.801,129.444,163.3,4.6,mb,80,,,0.91,us,usp000arch,2014-11-07T01:14:01.411Z,"Ryukyu Islands, Japan",earthquake,,5.5,,43,reviewed,us,us
+2001-10-21T17:57:59.420Z,32.955,131.081,10,3.8,mb,7,,,1.06,us,usp000arcf,2014-11-07T01:14:01.407Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+2001-09-17T12:15:07.970Z,31.144,131.273,61.1,4.3,mb,23,,,1.05,us,usp000apbn,2014-11-07T01:13:48.802Z,"Kyushu, Japan",earthquake,,9.2,,4,reviewed,us,us
+2001-09-17T02:21:45.490Z,31.818,131.656,33,4.7,ms,51,,,1.03,us,usp000apaw,2014-11-07T01:13:48.675Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+2001-09-12T08:32:49.550Z,31.284,131.477,44,4.3,mb,35,,,0.89,us,usp000ap1c,2014-11-07T01:13:47.274Z,"Kyushu, Japan",earthquake,,8.6,,9,reviewed,us,us
+2001-09-07T10:12:54.680Z,29.822,128.554,278.3,4.3,mb,40,,,0.99,us,usp000ansj,2014-11-07T01:13:45.339Z,"northwest of the Ryukyu Islands, Japan",earthquake,,5.8,,18,reviewed,us,us
+2001-09-05T16:29:31.090Z,33.12,131.955,61,4.2,mb,25,,,1.09,us,usp000anpx,2014-11-07T01:13:44.979Z,"Kyushu, Japan",earthquake,,8.4,,5,reviewed,us,us
+2001-09-03T07:06:35.540Z,30.105,131.202,33,4.4,mb,17,,,1.08,us,usp000anj2,2014-11-07T01:13:43.954Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+2001-09-02T17:27:15.250Z,30.09,131.018,34.1,4.7,mb,52,,,1.01,us,usp000angq,2014-11-07T01:13:43.694Z,"Kyushu, Japan",earthquake,,,,18,reviewed,us,us
+2001-09-01T10:41:45.770Z,30.024,131.146,33,4.2,mb,31,,,1.13,us,usp000andr,2014-11-07T01:13:41.552Z,"Kyushu, Japan",earthquake,,,,4,reviewed,us,us
+2001-09-01T10:24:21.970Z,30.062,131.105,33,4.3,mb,31,,,1.03,us,usp000andq,2014-11-07T01:13:41.530Z,"Kyushu, Japan",earthquake,,,,8,reviewed,us,us
+2001-08-29T20:52:27.300Z,31.543,131.693,41.7,5,ms,62,,,1.05,us,usp000an94,2014-11-07T01:13:39.192Z,"Kyushu, Japan",earthquake,,8.2,,2,reviewed,us,us
+2001-08-28T19:38:15.720Z,30.011,131.119,33,4.1,mb,22,,,1.29,us,usp000an7m,2014-11-07T01:13:37.779Z,"Kyushu, Japan",earthquake,,,,8,reviewed,us,us
+2001-08-19T09:24:12.280Z,30.151,131.095,34.2,4.5,mb,42,,,0.78,us,usp000amph,2014-11-07T01:13:34.524Z,"Kyushu, Japan",earthquake,,,,7,reviewed,us,us
+2001-08-12T19:04:36.700Z,31.254,130.479,158.9,4.6,mb,104,,,0.91,us,usp000ambn,2014-11-07T01:13:32.105Z,"Kyushu, Japan",earthquake,,,,44,reviewed,us,us
+2001-08-10T06:42:33.630Z,34.086,135.094,33,4.3,mb,43,,,1.28,us,usp000am53,2014-11-07T01:13:31.194Z,"near the south coast of western Honshu, Japan",earthquake,,,,18,reviewed,us,us
+2001-07-24T20:10:42.700Z,31.95,131.562,33,4,mb,12,,,0.88,us,usp000ak3n,2014-11-07T01:13:20.811Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+2001-07-12T17:35:12.040Z,30.092,130.936,33,4.2,mb,26,,,0.81,us,usp000aje7,2014-11-07T01:13:16.604Z,"Kyushu, Japan",earthquake,,,,8,reviewed,us,us
+2001-06-20T19:32:19.840Z,30.35,130.066,33,3.9,mb,9,,,1.04,us,usp000agzp,2014-11-07T01:13:05.547Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+2001-06-13T00:59:24.920Z,31.178,128.821,33,4.5,mb,17,,,0.86,us,usp000agha,2014-11-07T01:13:02.935Z,"northwest of the Ryukyu Islands, Japan",earthquake,,,,6,reviewed,us,us
+2001-06-07T14:45:33.370Z,30.587,131.115,71.4,4,mb,10,,,1.11,us,usp000ag7s,2014-11-07T01:13:00.003Z,"Kyushu, Japan",earthquake,,13.6,,2,reviewed,us,us
+2001-05-27T00:46:37.040Z,32.253,131.199,33,4.3,mb,5,,,0.53,us,usp000afm8,2014-11-07T01:12:51.269Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+2001-05-12T03:32:55.910Z,30.489,130.907,33,5.1,mwc,84,,,1.15,us,usp000aetj,2015-02-11T17:17:14.000Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,hrv
+2001-05-12T00:49:50.710Z,30.454,130.937,48,4.4,mb,18,,,1.24,us,usp000aetd,2014-11-07T01:12:47.303Z,"Kyushu, Japan",earthquake,,11.8,,2,reviewed,us,us
+2001-05-08T21:08:02.050Z,30.466,130.829,33,4.1,mb,12,,,0.92,us,usp000aen2,2014-11-07T01:12:46.616Z,"Kyushu, Japan",earthquake,,,,3,reviewed,us,us
+2001-04-30T22:20:16.430Z,30.165,132.614,33,3.5,mb,9,,,0.89,us,usp000ae8d,2014-11-07T01:12:39.867Z,"southeast of Shikoku, Japan",earthquake,,,,1,reviewed,us,us
+2001-04-28T15:56:54.600Z,30.446,131.454,46.4,4.5,mb,29,,,1.05,us,usp000ae3v,2014-11-07T01:12:39.113Z,"Kyushu, Japan",earthquake,,,,11,reviewed,us,us
+2001-04-27T09:27:18.390Z,30.099,130.717,33,4,mb,15,,,1.28,us,usp000ae19,2014-11-07T01:12:38.574Z,"Kyushu, Japan",earthquake,,,,2,reviewed,us,us
+2001-04-25T14:40:06.040Z,32.824,132.023,33,5.7,mwc,305,,,0.75,us,usp000ady8,2015-05-13T18:53:43.000Z,"Shikoku, Japan",earthquake,,,,,reviewed,us,hrv
+2001-04-14T01:37:54.570Z,30.127,131.236,41.1,4.1,mb,20,,,0.81,us,usp000ad6u,2014-11-07T01:12:34.634Z,"Kyushu, Japan",earthquake,,,,8,reviewed,us,us
+2001-04-08T16:18:05.310Z,31.614,131.78,33,3.6,mb,13,,,1.09,us,usp000actp,2014-11-07T01:12:32.887Z,"Kyushu, Japan",earthquake,,,,3,reviewed,us,us
+2001-04-06T16:54:18.360Z,30.572,131.225,33,4,mb,24,,,1.22,us,usp000acq4,2014-11-07T01:12:32.457Z,"Kyushu, Japan",earthquake,,,,4,reviewed,us,us
+2001-04-03T12:14:41.630Z,33.712,131.918,64,4.6,mb,41,,,1.24,us,usp000acg8,2014-11-07T01:12:31.104Z,"Kyushu, Japan",earthquake,,,,14,reviewed,us,us
+2001-03-25T20:40:51.440Z,34.017,132.542,42.9,5.2,mwc,214,,,0.76,us,usp000ac1b,2015-02-11T17:17:13.000Z,"western Honshu, Japan",earthquake,,,,,reviewed,us,hrv
+2001-03-25T17:15:59.120Z,33.907,132.587,49.2,4.1,mb,20,,,0.88,us,usp000ac14,2014-11-07T01:12:25.429Z,"Shikoku, Japan",earthquake,,16.7,,8,reviewed,us,us
+2001-03-25T10:19:10.320Z,34.01,132.583,48.4,4.4,mb,36,,,1.04,us,usp000ac0e,2014-11-07T01:12:25.026Z,"western Honshu, Japan",earthquake,,,,10,reviewed,us,us
+2001-03-24T13:37:33.380Z,33.997,132.601,61.9,3.8,mb,19,,,1.21,us,usp000abyx,2014-11-07T01:12:24.885Z,"Shikoku, Japan",earthquake,,,,5,reviewed,us,us
+2001-03-24T06:27:53.580Z,34.083,132.526,50,6.8,mwc,596,,,0.85,us,usp000abyg,2016-02-25T17:03:30.166Z,"western Honshu, Japan",earthquake,,,,,reviewed,us,hrv
+2001-03-11T21:54:09.700Z,31.248,131.594,33,4,mb,10,,,1.33,us,usp000ab8n,2014-11-07T01:12:20.104Z,"Kyushu, Japan",earthquake,,,,4,reviewed,us,us
+2001-03-11T21:36:28.000Z,31.339,131.484,33,4.4,mb,23,,,1.36,us,usp000ab8m,2014-11-07T01:12:20.100Z,"Kyushu, Japan",earthquake,,,,10,reviewed,us,us
+2001-03-08T18:46:03.540Z,31.661,131.686,33,4,mb,19,,,1.3,us,usp000ab43,2014-11-07T01:12:19.542Z,"Kyushu, Japan",earthquake,,,,4,reviewed,us,us
+2001-03-08T18:43:37.060Z,31.634,131.732,33,4.2,mb,19,,,1.21,us,usp000ab42,2014-11-07T01:12:19.540Z,"Kyushu, Japan",earthquake,,,,10,reviewed,us,us
+2001-03-06T10:36:04.780Z,31.72,131.737,33,4.4,mb,22,,,1.13,us,usp000ab07,2014-11-07T01:12:18.983Z,"Kyushu, Japan",earthquake,,,,8,reviewed,us,us
+2001-03-06T06:43:42.720Z,31.712,131.736,33,4.1,mb,16,,,1.16,us,usp000aazx,2014-11-07T01:12:18.928Z,"Kyushu, Japan",earthquake,,,,3,reviewed,us,us
+2001-03-05T02:47:25.700Z,30.885,131.357,33,3.6,mb,15,,,1.16,us,usp000aaxs,2014-11-07T01:12:18.498Z,"Kyushu, Japan",earthquake,,,,2,reviewed,us,us
+2001-02-24T18:24:41.720Z,32.456,131.085,145.5,4.4,mb,23,,,1.09,us,usp000aa9c,2014-11-07T01:12:11.602Z,"Kyushu, Japan",earthquake,,,,3,reviewed,us,us
+2001-02-09T21:37:13.400Z,30.605,131.384,33,4.6,mb,17,,,0.98,us,usp000a9cj,2014-11-07T01:12:07.317Z,"Kyushu, Japan",earthquake,,,,3,reviewed,us,us
+2001-02-08T05:12:01.210Z,34.151,134.508,33.6,4.2,mb,18,,,1.03,us,usp000a98m,2014-11-07T01:12:06.658Z,"near the south coast of western Honshu, Japan",earthquake,,10.2,,6,reviewed,us,us
+2001-01-25T12:33:03.070Z,34.007,135.09,33,3.5,mb,10,,,0.89,us,usp000a8cv,2014-11-07T01:11:58.861Z,"near the south coast of western Honshu, Japan",earthquake,,,,2,reviewed,us,us
+2001-01-25T10:45:25.490Z,33.926,134.573,45.1,4.7,mb,54,,,1.13,us,usp000a8cr,2014-11-07T01:11:58.848Z,"Shikoku, Japan",earthquake,,,,26,reviewed,us,us
+2001-01-23T06:27:15.620Z,30.55,130.556,92.1,4.3,mb,21,,,1.34,us,usp000a86p,2014-11-07T01:11:58.195Z,"Kyushu, Japan",earthquake,,10.7,,6,reviewed,us,us
+2001-01-10T10:09:36.450Z,32.809,131.214,33,3.6,mb,12,,,1.21,us,usp000a7eh,2014-11-07T01:11:54.189Z,"Kyushu, Japan",earthquake,,,,3,reviewed,us,us
+2001-01-09T04:37:48.610Z,33.569,132.124,48.9,4.9,mb,93,,,0.99,us,usp000a7bt,2014-11-07T01:11:53.360Z,"Shikoku, Japan",earthquake,,,,38,reviewed,us,us
+2001-01-08T21:55:07.290Z,30.567,130.163,119.8,4.3,mb,33,,,1.14,us,usp000a7b9,2014-11-07T01:11:53.274Z,"Kyushu, Japan",earthquake,,,,9,reviewed,us,us
+2000-12-17T13:40:52.670Z,30.876,131.586,45.1,4.3,mb,15,,,1.11,us,usp000a67q,2014-11-07T01:11:44.472Z,"Kyushu, Japan",earthquake,,,,3,reviewed,us,us
+2000-11-30T18:46:41.540Z,33.619,132.111,69.7,4.5,mb,23,,,0.79,us,usp000a59k,2014-11-07T01:11:35.791Z,"Shikoku, Japan",earthquake,,7,,4,reviewed,us,us
+2000-11-17T21:45:46.130Z,30.362,131.212,44.4,4.2,mb,23,,,1,us,usp000a45m,2014-11-07T01:11:30.837Z,"Kyushu, Japan",earthquake,,9.1,,2,reviewed,us,us
+2000-10-29T22:55:37.400Z,31.102,130.284,179.1,4.7,mb,85,,,0.92,us,usp000a2p4,2014-11-07T01:11:19.862Z,"Kyushu, Japan",earthquake,,,,33,reviewed,us,us
+2000-10-18T03:04:07.550Z,30.878,131.51,33,5,mb,77,,,1.06,us,usp000a20c,2014-11-07T01:11:17.156Z,"Kyushu, Japan",earthquake,,,,32,reviewed,us,us
+2000-10-13T06:34:20.030Z,30.802,131.22,67.1,4.1,mb,10,,,0.75,us,usp000a1q3,2014-11-07T01:11:16.288Z,"Kyushu, Japan",earthquake,,16.7,,1,reviewed,us,us
+2000-09-28T00:11:29.410Z,31.751,131.876,33,3.8,mb,8,,,0.89,us,usp000a0xf,2014-11-07T01:11:07.960Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+2000-09-27T01:56:49.240Z,31.988,131.889,52.3,4.3,mb,15,,,1.31,us,usp000a0vt,2014-11-07T01:11:07.809Z,"Kyushu, Japan",earthquake,,11.8,,3,reviewed,us,us
+2000-09-07T05:51:38.430Z,33.532,132.35,45.6,3.9,mb,10,,,1.29,us,usp0009zu7,2014-11-07T01:11:03.229Z,"Shikoku, Japan",earthquake,,,,1,reviewed,us,us
+2000-08-19T20:02:36.300Z,31.185,131.312,35.5,4.5,mb,24,,,1.16,us,usp0009yt2,2014-11-07T01:10:53.528Z,"Kyushu, Japan",earthquake,,,,7,reviewed,us,us
+2000-08-17T17:27:46.140Z,30.865,129.792,48.6,4.7,mb,23,,,0.91,us,usp0009ynw,2014-11-07T01:10:52.832Z,"Kyushu, Japan",earthquake,,9,,5,reviewed,us,us
+2000-08-14T23:18:57.040Z,31.986,131.733,49.3,4.3,mb,20,,,1.13,us,usp0009yf8,2014-11-07T01:10:51.692Z,"Kyushu, Japan",earthquake,,10,,2,reviewed,us,us
+2000-08-03T05:30:12.260Z,31.078,131.308,35,5.6,mwc,165,,,0.92,us,usp0009xpc,2015-02-11T17:17:07.000Z,"Kyushu, Japan",earthquake,,5.6,,,reviewed,us,hrv
+2000-08-02T11:08:30.120Z,31.197,131.256,60.8,4.7,mb,32,,,1.31,us,usp0009xn1,2014-11-07T01:10:47.241Z,"Kyushu, Japan",earthquake,,10,,9,reviewed,us,us
+2000-07-30T10:04:38.600Z,31.318,130.465,196.8,3.8,mb,21,,,1.09,us,usp0009xf3,2014-11-07T01:10:42.381Z,"Kyushu, Japan",earthquake,,9.8,,4,reviewed,us,us
+2000-07-25T04:02:08.010Z,30.062,130.808,33,4,mb,11,,,0.68,us,usp0009x4k,2014-11-07T01:10:39.915Z,"Kyushu, Japan",earthquake,,,,2,reviewed,us,us
+2000-07-25T00:32:28.540Z,29.993,130.979,33,3.9,mb,16,,,0.86,us,usp0009x4d,2014-11-07T01:10:39.894Z,"Ryukyu Islands, Japan",earthquake,,,,2,reviewed,us,us
+2000-07-06T21:18:08.540Z,30.922,131.571,10,3.5,mb,12,,,1.54,us,usp0009vy4,2014-11-07T01:10:32.874Z,"Kyushu, Japan",earthquake,,,,2,reviewed,us,us
+2000-07-03T16:40:29.640Z,31.12,131.491,33,4.1,mb,13,,,1.39,us,usp0009vq3,2014-11-07T01:10:31.551Z,"Kyushu, Japan",earthquake,,,,2,reviewed,us,us
+2000-07-03T13:24:44.920Z,31.073,131.451,33,4.6,mb,21,,,0.98,us,usp0009vpf,2014-11-07T01:10:31.243Z,"Kyushu, Japan",earthquake,,,,2,reviewed,us,us
+2000-07-03T13:24:30.900Z,31.142,131.439,33,5.4,mwc,134,,,1.05,us,usp0009vpe,2015-02-11T17:17:06.000Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,hrv
+2000-06-29T10:50:22.620Z,31.01,131.505,10,4.5,mb,17,,,1.47,us,usp0009vdh,2014-11-07T01:10:26.062Z,"Kyushu, Japan",earthquake,,,,4,reviewed,us,us
+2000-06-25T07:24:10.360Z,31.175,131.273,10,4.9,mb,24,,,1.36,us,usp0009v39,2014-11-07T01:10:24.722Z,"Kyushu, Japan",earthquake,,,,5,reviewed,us,us
+2000-06-25T06:34:42.880Z,31.183,131.206,10,6,mwc,282,,,1,us,usp0009v37,2015-06-30T16:59:02.653Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,hrv
+2000-06-22T17:49:46.170Z,31.245,133.485,33,4.4,mb,24,,,1.19,us,usp0009uzh,2014-11-07T01:10:24.200Z,"southeast of Shikoku, Japan",earthquake,,,,9,reviewed,us,us
+2000-06-09T20:39:21.890Z,32.786,131.086,33,4.5,mb,16,,,1.3,us,usp0009ub2,2014-11-07T01:10:20.818Z,"Kyushu, Japan",earthquake,,,,2,reviewed,us,us
+2000-06-08T15:30:54.490Z,30.23,132.899,33,4.6,mb,8,,,0.87,us,usp0009u8j,2014-11-07T01:10:20.357Z,"southeast of Shikoku, Japan",earthquake,,,,2,reviewed,us,us
+2000-06-08T00:32:46.500Z,32.679,130.682,21.5,5,mb,75,,,0.84,us,usp0009u73,2014-11-07T01:10:20.101Z,"Kyushu, Japan",earthquake,,6.7,,35,reviewed,us,us
+2000-06-02T12:26:21.400Z,32.543,132.079,45,3.5,mb,10,,,1.16,us,usp0009tty,2014-11-07T01:10:17.053Z,"Shikoku, Japan",earthquake,,,,1,reviewed,us,us
+2000-05-22T23:56:24.900Z,32.182,132.085,52.5,3.8,mb,,,,1.25,us,usp0009tbw,2014-11-07T01:10:11.058Z,"Shikoku, Japan",earthquake,,15.4,,1,reviewed,us,us
+2000-05-18T17:29:59.590Z,32.066,132.127,43.5,4.3,mb,,,,1.44,us,usp0009t52,2014-11-07T01:10:10.148Z,"Shikoku, Japan",earthquake,,12.1,,6,reviewed,us,us
+2000-05-17T03:04:12.150Z,32.083,131.958,68.8,3.9,mb,,,,0.83,us,usp0009t2j,2014-11-07T01:10:09.583Z,"Kyushu, Japan",earthquake,,10.2,,2,reviewed,us,us
+2000-05-05T19:41:26.860Z,30.419,131.102,41.1,3.6,mb,,,,1,us,usp0009sf8,2014-11-07T01:10:04.310Z,"Kyushu, Japan",earthquake,,10,,2,reviewed,us,us
+2000-05-04T02:02:06.130Z,33.771,132.303,58.6,4.3,mb,,,,0.73,us,usp0009sbc,2014-11-07T01:10:02.827Z,"Shikoku, Japan",earthquake,,12,,1,reviewed,us,us
+2000-04-29T09:34:55.450Z,33.1,131.432,35.9,4,mb,,,,1.31,us,usp0009s1x,2014-11-07T01:09:57.635Z,"Kyushu, Japan",earthquake,,11.4,,4,reviewed,us,us
+2000-04-11T02:31:50.930Z,33.89,134.926,33,4.5,mb,,,,0.46,us,usp0009r4a,2014-11-07T01:09:52.861Z,"Shikoku, Japan",earthquake,,,,1,reviewed,us,us
+2000-04-02T12:25:31.530Z,32.477,130.956,151.9,4.8,mb,,,,0.83,us,usp0009qpy,2014-11-07T01:09:50.403Z,"Kyushu, Japan",earthquake,,,,76,reviewed,us,us
+2000-03-28T20:26:46.380Z,30.467,130.707,33,4.1,mb,,,,1.46,us,usp0009qcp,2014-11-07T01:09:45.778Z,"Kyushu, Japan",earthquake,,,,6,reviewed,us,us
+2000-02-08T06:22:23.900Z,31.024,132.11,10,3.8,mb,,,,1.26,us,usp0009n6q,2014-11-07T01:09:28.826Z,"southeast of Shikoku, Japan",earthquake,,,,3,reviewed,us,us
+2000-01-28T01:19:43.650Z,31.295,133.529,33,4.6,mb,,,,1.28,us,usp0009mrn,2014-11-07T01:09:22.326Z,"southeast of Shikoku, Japan",earthquake,,,,13,reviewed,us,us
+2000-01-24T12:46:22.940Z,30.295,130.758,33,4.6,mb,,,,1.03,us,usp0009mm4,2014-11-07T01:09:21.816Z,"Kyushu, Japan",earthquake,,,,17,reviewed,us,us
+2000-01-23T07:40:04.900Z,30.239,130.768,42.9,5.5,mwc,,,,1.08,us,usp0009mjg,2015-02-11T17:17:02.000Z,"Kyushu, Japan",earthquake,,8.4,,,reviewed,us,hrv
+2000-01-18T18:22:54.740Z,30.306,131.152,57.4,4.3,mb,,,,0.88,us,usp0009mb1,2014-11-07T01:09:20.466Z,"Kyushu, Japan",earthquake,,11.2,,3,reviewed,us,us
+2000-01-16T08:50:39.450Z,31.214,130.328,200,4.1,mb,,,,1.1,us,usp0009m7b,2014-11-07T01:09:19.880Z,"Kyushu, Japan",earthquake,,,,4,reviewed,us,us
+2000-01-03T11:25:15.810Z,32.562,130.778,199.4,4.1,mb,,,,0.97,us,usp0009kpx,2014-11-07T01:09:16.846Z,"Kyushu, Japan",earthquake,,15.4,,5,reviewed,us,us
+1999-12-22T15:23:56.570Z,31.216,131.478,66,4.4,mb,,,,1.3,us,usp0009k5g,2014-11-07T01:09:10.813Z,"Kyushu, Japan",earthquake,,19.1,,5,reviewed,us,us
+1999-12-22T11:17:27.110Z,31.969,131.583,42,5.1,mb,,,,0.73,us,usp0009k56,2014-11-07T01:09:10.758Z,"Kyushu, Japan",earthquake,,,,41,reviewed,us,us
+1999-11-09T12:40:36.730Z,31.6,130.546,150.2,4.6,mb,,,,1.01,us,usp0009hag,2014-11-07T01:08:56.286Z,"Kyushu, Japan",earthquake,,7.5,,3,reviewed,us,us
+1999-10-31T14:07:16.550Z,32.86,130.663,10,3.8,mb,,,,1.51,us,usp0009gvz,2014-11-07T01:08:47.699Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+1999-10-31T00:34:23.580Z,31.251,130.611,115.9,3.7,mb,,,,0.89,us,usp0009gv1,2014-11-07T01:08:47.625Z,"Kyushu, Japan",earthquake,,7.8,,1,reviewed,us,us
+1999-10-29T21:25:52.680Z,34.027,133.424,37.6,4.5,mb,,,,1.16,us,usp0009gsr,2014-11-07T01:08:47.159Z,"near the south coast of western Honshu, Japan",earthquake,,11,,2,reviewed,us,us
+1999-10-26T09:47:35.810Z,30.878,130.475,136.1,3.9,mb,,,,0.84,us,usp0009gmm,2014-11-07T01:08:46.382Z,"Kyushu, Japan",earthquake,,7,,2,reviewed,us,us
+1999-10-18T00:47:23.010Z,30.149,130.109,159.2,3.7,mb,,,,1.11,us,usp0009g4f,2014-11-07T01:08:43.645Z,"Kyushu, Japan",earthquake,,18.2,,1,reviewed,us,us
+1999-10-16T10:49:23.700Z,30.632,128.259,322.7,4.5,mb,,,,1.31,us,usp0009fwp,2014-11-07T01:08:42.095Z,"northwest of the Ryukyu Islands, Japan",earthquake,,14.9,,8,reviewed,us,us
+1999-07-15T17:59:10.450Z,34.37,133.188,33,4.2,mb,,,,0.79,us,usp0009bnw,2014-11-07T01:08:06.176Z,"near the south coast of western Honshu, Japan",earthquake,,,,3,reviewed,us,us
+1999-07-12T19:10:27.670Z,30.565,131.387,33,4.1,mb,,,,1.33,us,usp0009bh3,2014-11-07T01:08:05.538Z,"Kyushu, Japan",earthquake,,,,3,reviewed,us,us
+1999-06-23T04:22:04.800Z,30.412,131.378,53.1,4,mb,,,,0.79,us,usp0009abv,2014-11-07T01:07:56.287Z,"Kyushu, Japan",earthquake,,9.6,,4,reviewed,us,us
+1999-06-19T03:50:07.540Z,31.16,131.458,55.1,4.2,mb,,,,1.2,us,usp0009a52,2014-11-07T01:07:54.988Z,"Kyushu, Japan",earthquake,,11.6,,7,reviewed,us,us
+1999-05-23T00:28:34.150Z,30.786,130.897,68,3.6,mb,,,,0.53,us,usp00098jg,2014-11-07T01:07:42.606Z,"Kyushu, Japan",earthquake,,8.1,,3,reviewed,us,us
+1999-05-22T04:19:54.530Z,30.177,127.805,33,4.3,mb,,,,1.05,us,usp00098gj,2014-11-07T01:07:42.251Z,"northwest of the Ryukyu Islands, Japan",earthquake,,,,3,reviewed,us,us
+1999-05-07T23:20:02.160Z,32.545,130.936,169.5,4.5,mb,,,,1.09,us,usp00097j3,2014-11-07T01:07:38.631Z,"Kyushu, Japan",earthquake,,6.6,,35,reviewed,us,us
+1999-05-01T00:36:19.890Z,31.171,133.006,63.2,3.9,mb,,,,1.28,us,usp000974u,2014-11-07T01:07:33.903Z,"southeast of Shikoku, Japan",earthquake,,15.7,,2,reviewed,us,us
+1999-04-23T20:39:28.910Z,31.112,130.359,170.5,4.7,mb,,,,1.26,us,usp00096su,2014-11-07T01:07:29.952Z,"Kyushu, Japan",earthquake,,8.8,,6,reviewed,us,us
+1999-04-21T19:18:42.840Z,30.589,131.292,43,4.5,mb,,,,1.11,us,usp00096p7,2014-11-07T01:07:29.616Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+1999-04-17T16:13:54.660Z,31.533,131.348,47.2,3.7,mb,,,,1.49,us,usp00096ft,2014-11-07T01:07:28.881Z,"Kyushu, Japan",earthquake,,,,3,reviewed,us,us
+1999-04-02T18:44:54.980Z,31.864,130.229,10,4.1,mb,,,,1.23,us,usp00095p2,2014-11-07T01:07:21.752Z,"Kyushu, Japan",earthquake,,,,3,reviewed,us,us
+1999-03-11T02:21:17.350Z,30.775,131.375,58.9,4.2,mb,,,,0.84,us,usp0009499,2014-11-07T01:07:12.923Z,"Kyushu, Japan",earthquake,,17.5,,5,reviewed,us,us
+1999-03-09T03:53:52.860Z,32.93,131.028,12.8,4.6,mb,,,,1.17,us,usp000944u,2014-11-07T01:07:12.311Z,"Kyushu, Japan",earthquake,,8.4,,7,reviewed,us,us
+1999-03-06T11:50:03.600Z,31.267,130.561,137.7,4.6,mb,,,,1.25,us,usp00093z8,2014-11-07T01:07:10.996Z,"Kyushu, Japan",earthquake,,17.9,,1,reviewed,us,us
+1999-03-02T14:20:49.550Z,32.871,132.547,33,4.2,mb,,,,1.25,us,usp00093qy,2014-11-07T01:07:08.802Z,"Shikoku, Japan",earthquake,,,,8,reviewed,us,us
+1999-02-18T07:19:33.780Z,30.608,131.689,33,5.2,mwc,,,,1,us,usp000930m,2015-02-11T17:16:54.000Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,hrv
+1999-02-07T09:14:57.850Z,34.226,132.022,44.8,4.1,mb,,,,0.69,us,usp00092ds,2014-11-07T01:07:00.071Z,"western Honshu, Japan",earthquake,,8.3,,4,reviewed,us,us
+1999-02-05T09:55:28.110Z,30.294,130.252,10,4,mb,,,,0.81,us,usp00092a7,2014-11-07T01:06:58.833Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+1999-02-03T00:04:37.220Z,33.571,134.985,100,4.2,mb,,,,0.78,us,usp000925s,2014-11-07T01:06:56.241Z,"Shikoku, Japan",earthquake,,,,1,reviewed,us,us
+1999-01-24T20:03:12.050Z,32.528,132.467,33,4,mb,,,,1.36,us,usp00091nb,2014-11-07T01:06:51.239Z,"Shikoku, Japan",earthquake,,,,3,reviewed,us,us
+1999-01-24T16:44:21.750Z,30.589,131.247,33,3.4,mb,,,,1.45,us,usp00091n1,2014-11-07T01:06:51.218Z,"Kyushu, Japan",earthquake,,,,2,reviewed,us,us
+1999-01-24T01:03:22.790Z,30.548,131.239,33,5.1,mb,,,,1.24,us,usp00091m2,2014-11-07T01:06:51.035Z,"Kyushu, Japan",earthquake,,,,9,reviewed,us,us
+1999-01-24T00:37:04.630Z,30.618,131.086,33,6.4,mwc,,,,0.92,us,usp00091m0,2015-06-30T16:59:02.436Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,hrv
+1999-01-05T15:56:32.490Z,30.521,130.68,66.4,4.6,mb,,,,1.23,us,usp00090nz,2014-11-07T01:06:46.858Z,"Kyushu, Japan",earthquake,,,,11,reviewed,us,us
+1999-01-03T05:45:26.390Z,29.982,131.093,33,4.3,mb,,,,1.05,us,usp00090jg,2014-11-07T01:06:45.953Z,"southeast of the Ryukyu Islands, Japan",earthquake,,,,2,reviewed,us,us
+1999-01-01T14:30:07.510Z,33.312,130.995,10,4.1,mb,,,,0.59,us,usp00090g1,2014-11-07T01:06:45.286Z,"Kyushu, Japan",earthquake,,,,3,reviewed,us,us
+1998-12-30T14:54:59.150Z,33.632,131.885,100,4.2,mb,,,,1.03,us,usp00090cu,2014-11-07T01:06:42.454Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+1998-12-22T06:20:21.370Z,31.02,130.694,139.1,4.4,mb,,,,1.32,us,usp0009006,2014-11-07T01:06:41.188Z,"Kyushu, Japan",earthquake,,12,,2,reviewed,us,us
+1998-12-20T19:33:38.550Z,31.359,131.637,63.5,4.1,mb,,,,0.83,us,usp0008zy3,2014-11-07T01:06:40.987Z,"Kyushu, Japan",earthquake,,13.2,,4,reviewed,us,us
+1998-12-19T14:24:36.560Z,29.768,129.28,204.1,4.7,mb,,,,0.8,us,usp0008zvx,2014-11-07T01:06:40.520Z,"Ryukyu Islands, Japan",earthquake,,4.6,,35,reviewed,us,us
+1998-12-18T10:08:34.290Z,30.173,129.968,123.7,4.7,mb,,,,1.06,us,usp0008zts,2014-11-07T01:06:39.867Z,"Kyushu, Japan",earthquake,,7.6,,19,reviewed,us,us
+1998-12-16T00:18:45.000Z,31.287,131.286,41.6,6,mwc,,,,0.86,us,usp0008zp9,2015-06-30T16:59:02.428Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,hrv
+1998-11-12T18:30:40.010Z,30.144,129.957,33,3.6,mb,,,,0.86,us,usp0008y3d,2014-11-07T01:06:26.683Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+1998-11-12T02:51:05.740Z,32.115,131.166,111.4,4.5,mb,,,,0.51,us,usp0008y20,2014-11-07T01:06:26.537Z,"Kyushu, Japan",earthquake,,11.1,,1,reviewed,us,us
+1998-11-10T02:21:45.510Z,33.136,132.789,40.5,4.1,mb,,,,1,us,usp0008xya,2014-11-07T01:06:26.085Z,"Shikoku, Japan",earthquake,,,,2,reviewed,us,us
+1998-10-19T03:15:15.190Z,30.207,132.432,33,4.8,mb,,,,1.33,us,usp0008wrd,2014-11-07T01:06:16.195Z,"southeast of Shikoku, Japan",earthquake,,,,1,reviewed,us,us
+1998-10-18T09:51:49.140Z,30.452,132.798,33,4.9,mb,,,,1.01,us,usp0008wpz,2014-11-07T01:06:16.006Z,"southeast of Shikoku, Japan",earthquake,,,,44,reviewed,us,us
+1998-09-28T21:28:34.510Z,32.42,130.79,161.5,3.5,mb,,,,1.42,us,usp0008vp8,2014-11-07T01:06:06.871Z,"Kyushu, Japan",earthquake,,10.1,,2,reviewed,us,us
+1998-09-27T17:50:20.280Z,32.049,131.646,33,4.4,mb,,,,1.05,us,usp0008vm9,2014-11-07T01:06:06.603Z,"Kyushu, Japan",earthquake,,,,11,reviewed,us,us
+1998-09-26T23:43:47.410Z,32.542,132.538,10,4.4,mb,,,,1,us,usp0008vju,2014-11-07T01:06:06.371Z,"Shikoku, Japan",earthquake,,,,5,reviewed,us,us
+1998-09-17T04:03:38.460Z,30.385,130.721,107.4,4.2,mb,,,,1.47,us,usp0008v23,2014-11-07T01:06:04.060Z,"Kyushu, Japan",earthquake,,14.7,,5,reviewed,us,us
+1998-09-14T23:16:20.540Z,32.459,132.317,26.9,4.5,mb,,,,0.69,us,usp0008uxz,2014-11-07T01:06:03.367Z,"Shikoku, Japan",earthquake,,8.5,,1,reviewed,us,us
+1998-09-03T23:02:36.680Z,32.031,131.54,33,4.7,ms,,,,1.38,us,usp0008ucr,2014-11-07T01:06:00.163Z,"Kyushu, Japan",earthquake,,,,2,reviewed,us,us
+1998-08-28T04:10:14.770Z,30.154,132.178,33,4.1,mb,,,,1.41,us,usp0008tzn,2014-11-07T01:05:53.847Z,"southeast of Shikoku, Japan",earthquake,,,,4,reviewed,us,us
+1998-07-23T11:07:24.480Z,31.618,132.042,10,4.5,mb,,,,1.54,us,usp0008s1u,2014-11-07T01:05:37.850Z,"southeast of Shikoku, Japan",earthquake,,,,3,reviewed,us,us
+1998-07-21T17:23:20.830Z,30.111,131.909,29.2,4.6,mb,,,,0.95,us,usp0008rz7,2014-11-07T01:05:37.608Z,"Kyushu, Japan",earthquake,,,,17,reviewed,us,us
+1998-07-16T20:08:45.280Z,32.745,130.761,30.3,4.6,mb,,,,1.23,us,usp0008rmx,2014-11-07T01:05:36.311Z,"Kyushu, Japan",earthquake,,9.8,,8,reviewed,us,us
+1998-07-06T19:08:38.960Z,31.497,131.252,79.4,4.4,mb,,,,0.89,us,usp0008r28,2014-11-07T01:05:33.330Z,"Kyushu, Japan",earthquake,,10.3,,10,reviewed,us,us
+1998-06-10T22:03:37.630Z,29.875,128.229,319.9,4.1,mb,,,,1.07,us,usp0008pq6,2014-11-07T01:05:23.975Z,"northwest of the Ryukyu Islands, Japan",earthquake,,10.4,,9,reviewed,us,us
+1998-06-09T12:14:07.860Z,32.544,134.311,33,3.6,mb,,,,1.07,us,usp0008pmm,2014-11-07T01:05:23.577Z,"Shikoku, Japan",earthquake,,,,1,reviewed,us,us
+1998-06-06T17:40:50.110Z,30.163,131.144,46.6,4.6,mb,,,,1.01,us,usp0008pey,2014-11-07T01:05:22.763Z,"Kyushu, Japan",earthquake,,8.6,,7,reviewed,us,us
+1998-06-03T00:59:54.630Z,29.861,128.336,262.2,3.5,mb,,,,0.89,us,usp0008p7f,2014-11-07T01:05:21.173Z,"northwest of the Ryukyu Islands, Japan",earthquake,,15.1,,1,reviewed,us,us
+1998-05-31T22:49:41.050Z,30.863,131.972,33,3.6,mb,,,,0.99,us,usp0008p3x,2014-11-07T01:05:17.463Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+1998-05-27T23:09:35.480Z,33.558,132.398,62.7,4.1,mb,,,,0.89,us,usp0008ntx,2014-11-07T01:05:16.280Z,"Shikoku, Japan",earthquake,,8.3,,3,reviewed,us,us
+1998-05-24T21:52:34.380Z,31.837,131.65,47,4.6,mb,,,,1.46,us,usp0008np8,2014-11-07T01:05:15.727Z,"Kyushu, Japan",earthquake,,11.9,,13,reviewed,us,us
+1998-05-23T19:25:40.990Z,32.108,130.117,33,3.8,mb,,,,1.3,us,usp0008nmj,2014-11-07T01:05:15.549Z,"Kyushu, Japan",earthquake,,,,2,reviewed,us,us
+1998-05-22T19:49:33.710Z,33.622,131.514,81,5.5,mwc,,,,0.9,us,usp0008njy,2015-02-11T17:16:48.000Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,hrv
+1998-05-20T10:36:22.710Z,30.04,131.89,33,3.5,mb,,,,0.98,us,usp0008ne7,2014-11-07T01:05:14.538Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+1998-05-08T20:47:16.220Z,30.634,131.126,47.2,4.4,mb,,,,1,us,usp0008mpz,2014-11-07T01:05:11.525Z,"Kyushu, Japan",earthquake,,8,,15,reviewed,us,us
+1998-04-21T21:55:09.370Z,31.956,131.814,51.8,4.1,mb,,,,1.25,us,usp0008kqq,2014-11-07T01:05:02.613Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+1998-04-20T01:49:56.630Z,31.837,130.215,33,4.1,mb,,,,1.44,us,usp0008km3,2014-11-07T01:05:02.118Z,"Kyushu, Japan",earthquake,,,,6,reviewed,us,us
+1998-04-17T19:32:18.460Z,29.935,132.252,27.3,4.4,mb,,,,1.18,us,usp0008kes,2014-11-07T01:05:00.362Z,"southeast of Shikoku, Japan",earthquake,,,,9,reviewed,us,us
+1998-04-16T12:49:04.300Z,31.771,131.729,33,4,mb,,,,1.06,us,usp0008kcj,2014-11-07T01:05:00.200Z,"Kyushu, Japan",earthquake,,,,4,reviewed,us,us
+1998-04-11T11:46:29.060Z,33.117,132.156,33,4.4,mb,,,,1.24,us,usp0008jvp,2014-11-07T01:04:58.454Z,"Shikoku, Japan",earthquake,,,,3,reviewed,us,us
+1998-04-11T04:02:16.250Z,31.209,133.68,33,3.7,mb,,,,1.06,us,usp0008jv4,2014-11-07T01:04:58.378Z,"southeast of Shikoku, Japan",earthquake,,,,1,reviewed,us,us
+1998-03-27T06:30:48.360Z,31.885,130.518,33,3.6,mb,,,,1.02,us,usp0008j3x,2014-11-07T01:04:50.558Z,"Kyushu, Japan",earthquake,,,,2,reviewed,us,us
+1998-03-02T11:58:16.220Z,29.89,130.548,61.1,4.7,mb,,,,1.01,us,usp0008gtz,2014-11-07T01:04:39.273Z,"Ryukyu Islands, Japan",earthquake,,,,25,reviewed,us,us
+1998-01-23T21:32:37.670Z,34.084,135.058,10,3.9,mb,,,,0.94,us,usp0008evv,2014-11-07T01:04:22.499Z,"near the south coast of western Honshu, Japan",earthquake,,,,1,reviewed,us,us
+1997-12-27T01:08:17.190Z,34.117,135.081,33,4,mb,,,,1.1,us,usp0008d93,2014-11-07T01:04:10.670Z,"near the south coast of western Honshu, Japan",earthquake,,,,2,reviewed,us,us
+1997-12-24T11:30:10.370Z,31.409,127.871,49.1,4.4,mb,,,,0.92,us,usp0008d4c,2014-11-07T01:04:09.592Z,"northwest of the Ryukyu Islands, Japan",earthquake,,9.8,,4,reviewed,us,us
+1997-12-21T00:10:35.840Z,30.628,132.25,33,3.8,mb,,,,0.92,us,usp0008czj,2014-11-07T01:04:09.019Z,"southeast of Shikoku, Japan",earthquake,,,,1,reviewed,us,us
+1997-12-07T13:39:27.230Z,30.317,131.472,33,4.8,mb,,,,1.17,us,usp0008c6f,2014-11-07T01:04:05.760Z,"Kyushu, Japan",earthquake,,,,25,reviewed,us,us
+1997-11-21T04:59:22.640Z,30.383,130.163,75.7,3.6,mb,,,,0.6,us,usp0008b2a,2014-11-07T01:03:56.355Z,"Kyushu, Japan",earthquake,,13.1,,1,reviewed,us,us
+1997-11-15T23:42:41.610Z,29.981,130.764,41.1,4.5,mb,,,,1.29,us,usp0008arb,2014-11-07T01:03:54.606Z,"Ryukyu Islands, Japan",earthquake,,,,4,reviewed,us,us
+1997-11-11T23:58:41.220Z,32.847,131.108,33,4.4,mb,,,,1.57,us,usp0008agx,2014-11-07T01:03:53.581Z,"Kyushu, Japan",earthquake,,,,2,reviewed,us,us
+1997-11-11T21:46:44.440Z,31.173,130.376,156.5,4.6,mb,,,,0.97,us,usp0008agk,2014-11-07T01:03:53.554Z,"Kyushu, Japan",earthquake,,,,6,reviewed,us,us
+1997-09-25T05:27:33.130Z,31.195,133.5,29.5,4.2,mb,,,,1.17,us,usp00087zm,2014-11-07T01:03:31.078Z,"southeast of Shikoku, Japan",earthquake,,,,7,reviewed,us,us
+1997-09-15T03:03:53.370Z,31.205,131.217,33,4.4,mb,,,,1.36,us,usp00087jd,2014-11-07T01:03:29.019Z,"Kyushu, Japan",earthquake,,,,6,reviewed,us,us
+1997-09-06T17:46:35.470Z,30.188,131.146,31.9,4.4,mb,,,,1.28,us,usp000877d,2014-11-07T01:03:27.623Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+1997-09-02T13:10:32.710Z,30.067,130.876,55.2,4.6,mb,,,,1.17,us,usp000871p,2014-11-07T01:03:25.386Z,"Kyushu, Japan",earthquake,,10.7,,6,reviewed,us,us
+1997-09-01T03:36:54.010Z,30.186,131.04,33,4.7,mb,,,,1.19,us,usp00086zv,2014-11-07T01:03:23.563Z,"Kyushu, Japan",earthquake,,,,21,reviewed,us,us
+1997-08-05T03:20:14.530Z,30.96,131.473,33,4.2,mb,,,,0.96,us,usp00085tr,2014-11-07T01:03:15.896Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+1997-06-25T09:50:12.490Z,34.395,131.603,10,5.9,mwc,,,,1,us,usp00083yd,2015-05-13T18:53:38.000Z,"western Honshu, Japan",earthquake,,,,,reviewed,us,hrv
+1997-06-17T16:35:58.240Z,31.379,132.796,33,4.7,mb,,,,1.18,us,usp00083nc,2014-11-07T01:02:57.897Z,"southeast of Shikoku, Japan",earthquake,,,,5,reviewed,us,us
+1997-06-16T11:38:33.020Z,29.996,130.941,33,4.3,mb,,,,1.34,us,usp00083ke,2014-11-07T01:02:57.034Z,"Ryukyu Islands, Japan",earthquake,,,,2,reviewed,us,us
+1997-05-24T21:10:58.180Z,31.853,130.359,10,4.1,mb,,,,1.21,us,usp00082t6,2014-11-07T01:02:49.232Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+1997-05-22T11:29:30.260Z,32.156,132.064,33,4.3,mb,,,,1.47,us,usp00082pv,2014-11-07T01:02:48.827Z,"Shikoku, Japan",earthquake,,,,3,reviewed,us,us
+1997-05-17T21:24:58.470Z,32.399,130.65,33,4.5,mb,,,,1.08,us,usp00082et,2014-11-07T01:02:47.758Z,"Kyushu, Japan",earthquake,,,,11,reviewed,us,us
+1997-05-14T13:05:28.930Z,29.855,131.98,33,3.9,mb,,,,0.62,us,usp00082a0,2014-11-07T01:02:46.832Z,"southeast of the Ryukyu Islands, Japan",earthquake,,,,1,reviewed,us,us
+1997-05-13T23:32:08.240Z,31.867,130.378,33,4.6,ms,,,,1.25,us,usp0008292,2014-11-07T01:02:46.722Z,"Kyushu, Japan",earthquake,,,,2,reviewed,us,us
+1997-05-13T05:38:30.230Z,31.824,130.281,33,6.1,mwb,,,,1.3,us,usp000827p,2016-02-24T22:32:04.465Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,us
+1997-05-11T18:05:44.640Z,30.002,131.241,33,4.4,mb,,,,0.47,us,usp000824d,2014-11-07T01:02:46.052Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+1997-05-01T19:35:12.210Z,30.681,131.2,57,4.7,ms,,,,1.09,us,usp00081kj,2014-11-07T01:02:42.646Z,"Kyushu, Japan",earthquake,,10.8,,2,reviewed,us,us
+1997-04-28T17:22:42.990Z,31.179,130.362,167.8,4.7,mb,,,,1.24,us,usp00081es,2014-11-07T01:02:39.194Z,"Kyushu, Japan",earthquake,,,,20,reviewed,us,us
+1997-04-23T16:44:37.310Z,30.807,131.409,33,4.9,ms,,,,1.21,us,usp0008147,2014-11-07T01:02:37.939Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+1997-04-23T01:24:32.830Z,33.122,130.699,33,3,mb,,,,1.45,us,usp000812x,2014-11-07T01:02:37.774Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+1997-04-09T14:22:57.980Z,31.862,130.372,10,4.7,mb,,,,1.13,us,usp0008087,2014-11-07T01:02:31.868Z,"Kyushu, Japan",earthquake,,,,7,reviewed,us,us
+1997-04-09T14:20:08.700Z,31.855,130.46,10,4.7,mb,,,,1.13,us,usp0008086,2014-11-07T01:02:31.863Z,"Kyushu, Japan",earthquake,,,,11,reviewed,us,us
+1997-04-07T17:05:08.370Z,33.332,132.334,52.8,4.4,mb,,,,0.82,us,usp000804c,2014-11-07T01:02:31.233Z,"Shikoku, Japan",earthquake,,8.7,,4,reviewed,us,us
+1997-04-05T19:42:19.090Z,31.971,130.249,33,3.2,mb,,,,1.11,us,usp000800d,2014-11-07T01:02:30.554Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+1997-04-05T04:24:51.090Z,31.949,130.43,33,5.1,mwc,,,,0.94,us,usp0007zz0,2015-02-11T17:16:40.000Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,hrv
+1997-04-03T17:33:38.730Z,31.873,130.398,10,4.4,mb,,,,1.27,us,usp0007zwp,2014-11-07T01:02:29.249Z,"Kyushu, Japan",earthquake,,,,4,reviewed,us,us
+1997-04-02T21:47:30.970Z,33.357,132.223,45.5,5.1,mwc,,,,0.94,us,usp0007zvj,2015-02-11T17:16:40.000Z,"Shikoku, Japan",earthquake,,,,,reviewed,us,hrv
+1997-04-02T19:33:22.260Z,31.824,130.089,10,5.5,mwc,,,,1.43,us,usp0007zve,2016-02-24T22:30:41.075Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,hrv
+1997-03-31T15:51:11.650Z,33.316,132.34,42.6,4.8,mb,,,,1.21,us,usp0007zs2,2014-11-07T01:02:24.571Z,"Shikoku, Japan",earthquake,,,,20,reviewed,us,us
+1997-03-27T20:40:59.230Z,30.171,131.645,10,3.9,mb,,,,1.06,us,usp0007zk2,2014-11-07T01:02:23.373Z,"Kyushu, Japan",earthquake,,,,2,reviewed,us,us
+1997-03-27T17:51:52.780Z,32.088,130.37,10,3.6,mb,,,,1.53,us,usp0007zjr,2014-11-07T01:02:23.354Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+1997-03-26T13:24:02.460Z,31.882,130.283,10,4.5,mb,,,,1.51,us,usp0007zfm,2014-11-07T01:02:23.021Z,"Kyushu, Japan",earthquake,,,,5,reviewed,us,us
+1997-03-26T12:15:29.500Z,31.853,129.959,10,4.3,mb,,,,1.22,us,usp0007zfa,2014-11-07T01:02:23.000Z,"Kyushu, Japan",earthquake,,,,2,reviewed,us,us
+1997-03-26T09:04:58.750Z,31.95,130.328,10,4.2,mb,,,,1.27,us,usp0007zez,2014-11-07T01:02:22.958Z,"Kyushu, Japan",earthquake,,,,4,reviewed,us,us
+1997-03-26T08:38:58.950Z,32.105,130.653,10,4.6,mb,,,,1.49,us,usp0007zew,2014-11-07T01:02:22.953Z,"Kyushu, Japan",earthquake,,,,5,reviewed,us,us
+1997-03-26T08:31:47.180Z,31.92,130.429,10,6.1,mwc,,,,1.29,us,usp0007zev,2016-02-24T22:30:00.669Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,hrv
+1997-02-24T02:24:49.050Z,30.509,131.254,53.8,4.7,mb,,,,1.26,us,usp0007xqp,2014-11-07T01:02:11.098Z,"Kyushu, Japan",earthquake,,,,6,reviewed,us,us
+1997-02-02T20:28:08.380Z,30.492,131.308,61,4.3,mb,,,,1.21,us,usp0007wpb,2014-11-07T01:02:05.050Z,"Kyushu, Japan",earthquake,,,,4,reviewed,us,us
+1997-01-19T09:33:11.040Z,31.767,130.956,10,3.4,mb,,,,1.35,us,usp0007w2d,2014-11-07T01:01:58.717Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+1997-01-14T14:46:52.350Z,30.538,131.519,37.1,4.1,ms,,,,0.84,us,usp0007vva,2014-11-07T01:01:57.922Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+1997-01-14T12:21:40.090Z,31.466,131.825,33,3.2,mb,,,,0.52,us,usp0007vv6,2014-11-07T01:01:57.916Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+1997-01-11T05:50:23.790Z,31.631,131.542,52.2,5.5,mwc,,,,1.2,us,usp0007vqz,2015-02-11T17:16:38.000Z,"Kyushu, Japan",earthquake,,5.9,,,reviewed,us,hrv
+1997-01-01T15:05:39.380Z,30.632,132.949,33,4.6,mb,,,,1.09,us,usp0007va1,2014-11-07T01:01:53.552Z,"southeast of Shikoku, Japan",earthquake,,,,7,reviewed,us,us
+1996-12-14T20:00:46.170Z,30.42,131.168,10,4.1,mb,,,,1.46,us,usp0007ufa,2014-11-07T01:01:47.095Z,"Kyushu, Japan",earthquake,,,,2,reviewed,us,us
+1996-12-12T07:44:35.990Z,31.683,131.797,39.7,4.6,ms,,,,1.29,us,usp0007uam,2014-11-07T01:01:46.566Z,"Kyushu, Japan",earthquake,,8.2,,2,reviewed,us,us
+1996-12-12T07:20:34.430Z,31.695,131.807,31.3,5.3,mwc,,,,1.12,us,usp0007uak,2015-02-11T17:16:38.000Z,"Kyushu, Japan",earthquake,,4.8,,,reviewed,us,hrv
+1996-12-10T20:09:20.350Z,30.548,130.993,33,3.7,mb,,,,1.09,us,usp0007u7z,2014-11-07T01:01:46.228Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+1996-12-06T18:25:46.320Z,31.155,131.358,58.3,4,mb,,,,1.14,us,usp0007u1s,2014-11-07T01:01:44.996Z,"Kyushu, Japan",earthquake,,6.4,,3,reviewed,us,us
+1996-12-03T05:10:55.090Z,31.735,131.878,33,3.9,mb,,,,0.64,us,usp0007twn,2014-11-07T01:01:43.571Z,"Kyushu, Japan",earthquake,,,,2,reviewed,us,us
+1996-12-02T22:17:59.240Z,31.789,131.314,49.2,6.7,mwc,,,,1,us,usp0007tw5,2015-06-30T16:59:02.178Z,"Kyushu, Japan",earthquake,,3.5,,,reviewed,us,hrv
+1996-12-02T09:04:08.610Z,30.506,131.258,33.6,4.8,mb,,,,0.83,us,usp0007tv3,2014-11-07T01:01:43.016Z,"Kyushu, Japan",earthquake,,6.1,,7,reviewed,us,us
+1996-11-30T00:23:38.090Z,30.355,131.134,33,4.3,mb,,,,1.4,us,usp0007trn,2014-11-07T01:01:39.641Z,"Kyushu, Japan",earthquake,,,,3,reviewed,us,us
+1996-11-27T01:34:00.750Z,30.573,131.234,49,4.3,mb,,,,1,us,usp0007tkr,2014-11-07T01:01:38.202Z,"Kyushu, Japan",earthquake,,6,,5,reviewed,us,us
+1996-11-22T15:34:35.810Z,31.726,131.713,32.7,4.9,mb,,,,1.23,us,usp0007td7,2014-11-07T01:01:37.410Z,"Kyushu, Japan",earthquake,,,,26,reviewed,us,us
+1996-11-11T03:50:52.610Z,30.592,131.069,33,5.4,mwc,,,,1.06,us,usp0007su3,2015-02-11T17:16:37.000Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,hrv
+1996-11-06T05:19:23.400Z,31.699,131.892,33,4.3,mb,,,,1.02,us,usp0007sh6,2014-11-07T01:01:32.946Z,"Kyushu, Japan",earthquake,,,,2,reviewed,us,us
+1996-11-05T04:27:01.940Z,30.566,130.304,79.4,3.7,mb,,,,0.81,us,usp0007sf9,2014-11-07T01:01:32.601Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+1996-11-03T15:59:15.920Z,31.19,130.091,163.3,3.3,mb,,,,0.6,us,usp0007sc6,2014-11-07T01:01:31.368Z,"Kyushu, Japan",earthquake,,19.2,,1,reviewed,us,us
+1996-10-31T07:29:19.580Z,33.843,134.655,50,4.4,mb,,,,0.55,us,usp0007s6e,2014-11-07T01:01:27.686Z,"Shikoku, Japan",earthquake,,,,1,reviewed,us,us
+1996-10-30T19:29:51.560Z,30.638,131.118,53.5,4.6,mb,,,,1.01,us,usp0007s5q,2014-11-07T01:01:27.501Z,"Kyushu, Japan",earthquake,,5.9,,7,reviewed,us,us
+1996-10-19T21:17:48.630Z,31.732,131.593,33,5.6,mwc,,,,1.04,us,usp0007rph,2015-03-20T17:20:00.762Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,hrv
+1996-10-19T19:25:08.020Z,31.827,131.912,33,4.7,mb,,,,1.46,us,usp0007rpb,2014-11-07T01:01:24.061Z,"Kyushu, Japan",earthquake,,,,9,reviewed,us,us
+1996-10-19T14:44:40.790Z,31.885,131.468,22,6.7,mwc,,,,1.02,us,usp0007rp0,2016-02-24T22:24:43.124Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,hrv
+1996-10-19T14:01:03.900Z,31.959,131.615,33,5.7,mwc,,,,1.15,us,usp0007rnz,2015-06-30T16:59:02.166Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,hrv
+1996-10-19T08:31:49.820Z,31.84,131.804,33,5.5,mwc,,,,1.25,us,usp0007rng,2015-02-11T17:16:37.000Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,hrv
+1996-10-19T08:00:09.800Z,31.697,131.964,33,4.6,mb,,,,1.83,us,usp0007rne,2014-11-07T01:01:23.855Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+1996-10-19T05:03:26.540Z,30.407,131.268,36.9,4.7,mb,,,,1.11,us,usp0007rn7,2014-11-07T01:01:23.827Z,"Kyushu, Japan",earthquake,,6.9,,8,reviewed,us,us
+1996-10-19T03:07:16.320Z,31.861,131.802,33,4.7,mb,,,,1.49,us,usp0007rn3,2014-11-07T01:01:23.812Z,"Kyushu, Japan",earthquake,,,,18,reviewed,us,us
+1996-10-18T11:32:03.940Z,30.444,131.381,10,4.3,mb,,,,1.04,us,usp0007rkx,2014-11-07T01:01:23.651Z,"Kyushu, Japan",earthquake,,,,3,reviewed,us,us
+1996-10-18T11:12:08.360Z,30.436,131.393,10,4.7,mb,,,,1.17,us,usp0007rkv,2014-11-07T01:01:23.636Z,"Kyushu, Japan",earthquake,,,,7,reviewed,us,us
+1996-10-18T10:50:20.860Z,30.568,131.093,10,6.6,mwc,,,,1.21,us,usp0007rku,2015-06-30T16:59:02.165Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,hrv
+1996-10-17T15:24:05.720Z,30.564,131.177,37.5,5.1,mwc,,,,0.98,us,usp0007rjp,2015-02-11T17:16:36.000Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,hrv
+1996-10-06T21:11:02.130Z,31.853,131.646,33,4.3,mb,,,,1.28,us,usp0007r12,2014-11-07T01:01:20.157Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+1996-10-06T11:37:10.080Z,30.168,131.376,50.5,4.5,mb,,,,0.95,us,usp0007r0b,2014-11-07T01:01:19.985Z,"Kyushu, Japan",earthquake,,13.1,,3,reviewed,us,us
+1996-09-14T13:56:56.660Z,30.527,131.254,33,4.8,mb,,,,1.12,us,usp0007pxz,2014-11-07T01:01:10.540Z,"Kyushu, Japan",earthquake,,,,8,reviewed,us,us
+1996-09-09T04:34:20.510Z,30.434,130.726,33,5.7,mwc,,,,1.13,us,usp0007pqe,2016-02-24T22:24:08.711Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,hrv
+1996-09-04T03:37:53.250Z,29.966,130.265,52.1,5.3,mwc,,,,1,us,usp0007pdb,2015-02-11T17:16:35.000Z,"Ryukyu Islands, Japan",earthquake,,5.1,,,reviewed,us,hrv
+1996-08-19T15:29:05.330Z,34.081,134.424,33,3.9,mb,,,,1.2,us,usp0007nt3,2014-11-07T01:01:00.005Z,"near the south coast of western Honshu, Japan",earthquake,,,,3,reviewed,us,us
+1996-07-27T02:49:49.640Z,32.066,131.536,69.4,4.1,mb,,,,1.2,us,usp0007mnq,2014-11-07T01:00:50.534Z,"Kyushu, Japan",earthquake,,6.1,,11,reviewed,us,us
+1996-07-16T05:39:35.870Z,31.388,133.406,33,4.7,mb,,,,1.1,us,usp0007m3s,2014-11-07T01:00:47.972Z,"southeast of Shikoku, Japan",earthquake,,,,17,reviewed,us,us
+1996-07-12T14:23:56.940Z,30.389,127.711,33,3.9,mb,,,,1.3,us,usp0007kze,2014-11-07T01:00:47.509Z,"northwest of the Ryukyu Islands, Japan",earthquake,,,,5,reviewed,us,us
+1996-07-06T05:24:22.700Z,31.128,129.393,91.2,4.1,mb,,,,0.8,us,usp0007ks9,2014-11-07T01:00:46.499Z,"Kyushu, Japan",earthquake,,17.6,,12,reviewed,us,us
+1996-07-05T20:36:21.460Z,34.177,135.081,10,3.5,mb,,,,0.9,us,usp0007krt,2014-11-07T01:00:46.402Z,"near the south coast of western Honshu, Japan",earthquake,,,,1,reviewed,us,us
+1996-06-26T02:18:42.620Z,32.687,132.419,55.5,3.7,mb,,,,1,us,usp0007k9k,2014-11-07T01:00:40.668Z,"Shikoku, Japan",earthquake,,11.5,,3,reviewed,us,us
+1996-06-20T08:42:12.120Z,30.944,132.043,33,3.9,mb,,,,0.7,us,usp0007k0m,2014-11-07T01:00:38.984Z,"southeast of Shikoku, Japan",earthquake,,,,5,reviewed,us,us
+1996-06-13T20:45:31.470Z,31.936,131.973,33,4.4,mb,,,,0.5,us,usp0007jqk,2014-11-07T01:00:37.625Z,"Kyushu, Japan",earthquake,,6.3,,3,reviewed,us,us
+1996-06-10T11:54:20.540Z,29.937,131.316,33,4.1,mb,,,,1.2,us,usp0007jfe,2014-11-07T01:00:36.284Z,"southeast of the Ryukyu Islands, Japan",earthquake,,,,3,reviewed,us,us
+1996-06-05T23:25:16.960Z,30.497,130.962,39.8,4.5,mb,,,,1,us,usp0007j76,2014-11-07T01:00:34.653Z,"Kyushu, Japan",earthquake,,5,,32,reviewed,us,us
+1996-06-03T23:11:50.270Z,31.017,128.945,33,4,mb,,,,0.8,us,usp0007j4h,2014-11-07T01:00:34.031Z,"northwest of the Ryukyu Islands, Japan",earthquake,,,,5,reviewed,us,us
+1996-05-31T02:40:29.770Z,29.976,131.341,40.3,3.9,mb,,,,1.2,us,usp0007hz2,2014-11-07T01:00:29.775Z,"southeast of the Ryukyu Islands, Japan",earthquake,,9.3,,8,reviewed,us,us
+1996-05-26T04:43:43.050Z,30.495,130.704,71,4.3,mb,,,,1,us,usp0007ht6,2014-11-07T01:00:29.153Z,"Kyushu, Japan",earthquake,,5,,26,reviewed,us,us
+1996-05-20T10:41:44.090Z,33.545,131.564,131.8,3.9,mb,,,,0.9,us,usp0007hky,2014-11-07T01:00:28.112Z,"Kyushu, Japan",earthquake,,5.2,,7,reviewed,us,us
+1996-05-07T20:03:04.470Z,32.875,131.312,117.5,4,mb,,,,0.7,us,usp0007h2w,2014-11-07T01:00:25.899Z,"Kyushu, Japan",earthquake,,3.5,,17,reviewed,us,us
+1996-05-03T13:40:34.020Z,32.23,132.266,33,3.9,mb,,,,0.8,us,usp0007gxa,2014-11-07T01:00:24.666Z,"Shikoku, Japan",earthquake,,,,2,reviewed,us,us
+1996-05-02T05:45:12.640Z,31.793,131.629,38.4,5.2,mwc,,,,1.1,us,usp0007gv5,2015-02-11T17:16:33.000Z,"Kyushu, Japan",earthquake,,4.7,,,reviewed,us,hrv
+1996-04-29T08:40:48.740Z,30.21,130.572,152.1,4.7,mb,,,,0.9,us,usp0007gqd,2014-11-07T01:00:19.582Z,"Kyushu, Japan",earthquake,,14,,5,reviewed,us,us
+1996-04-22T11:27:55.960Z,29.797,129.051,196.9,5.6,mwc,,,,1,us,usp0007gfq,2015-05-13T18:53:37.000Z,"Ryukyu Islands, Japan",earthquake,,,,,reviewed,us,hrv
+1996-04-05T11:02:20.400Z,34.171,135.114,33,3.7,mb,,,,0.7,us,usp0007ft0,2014-11-07T01:00:15.028Z,"near the south coast of western Honshu, Japan",earthquake,,,,5,reviewed,us,us
+1996-03-31T21:31:37.260Z,30.468,131.083,43.2,4.6,mb,,,,1,us,usp0007fk4,2014-11-07T01:00:10.472Z,"Kyushu, Japan",earthquake,,,,31,reviewed,us,us
+1996-03-22T22:54:12.710Z,30.443,132.527,19.4,4.7,mb,,,,0.9,us,usp0007f5a,2014-11-07T01:00:08.020Z,"southeast of Shikoku, Japan",earthquake,,,,38,reviewed,us,us
+1996-02-28T16:42:09.280Z,31.923,132.738,33,4.3,mb,,,,1.2,us,usp0007e3t,2014-11-07T00:59:59.509Z,"southeast of Shikoku, Japan",earthquake,,,,18,reviewed,us,us
+1996-02-26T10:53:17.330Z,29.918,131.416,43.3,4.2,mb,,,,0.8,us,usp0007dz1,2014-11-07T00:59:58.930Z,"southeast of the Ryukyu Islands, Japan",earthquake,,6,,13,reviewed,us,us
+1996-02-26T09:47:53.650Z,29.958,131.363,33,4.1,mb,,,,0.6,us,usp0007dyy,2014-11-07T00:59:58.910Z,"southeast of the Ryukyu Islands, Japan",earthquake,,,,1,reviewed,us,us
+1996-02-25T09:29:38.370Z,29.983,131.329,33.4,4.5,mb,,,,0.9,us,usp0007dw6,2014-11-07T00:59:58.434Z,"southeast of the Ryukyu Islands, Japan",earthquake,,5.2,,23,reviewed,us,us
+1996-02-25T06:56:30.810Z,34.058,129.538,33,4,mb,,,,0.3,us,usp0007dvu,2014-11-07T00:59:58.387Z,"Korea Strait",earthquake,,,,3,reviewed,us,us
+1996-02-17T02:49:31.320Z,34.017,132.48,33,3.5,mb,,,,0.2,us,usp0007d1n,2014-11-07T00:59:54.229Z,"western Honshu, Japan",earthquake,,,,1,reviewed,us,us
+1996-02-10T12:48:04.800Z,31.202,131.518,33,4,mb,,,,1.2,us,usp0007cpv,2014-11-07T00:59:52.204Z,"Kyushu, Japan",earthquake,,,,6,reviewed,us,us
+1996-02-04T15:52:50.330Z,31.7,131.866,42.3,4.5,ms,,,,1.2,us,usp0007cb2,2014-11-07T00:59:50.551Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+1996-02-03T21:44:05.310Z,31.234,130.294,200,3.7,mb,,,,0.5,us,usp0007c9j,2014-11-07T00:59:50.320Z,"Kyushu, Japan",earthquake,,,,8,reviewed,us,us
+1996-01-25T11:11:34.000Z,33.703,132.321,66.6,3.9,mb,,,,0.7,us,usp0007bpv,2014-11-07T00:59:43.199Z,"Shikoku, Japan",earthquake,,5.1,,7,reviewed,us,us
+1996-01-20T03:44:52.670Z,30.112,128.895,33,3.9,mb,,,,1.2,us,usp0007bdb,2014-11-07T00:59:42.093Z,"northwest of the Ryukyu Islands, Japan",earthquake,,,,6,reviewed,us,us
+1996-01-13T23:58:39.490Z,33.363,133.801,33,4,mb,,,,0.4,us,usp0007b0x,2014-11-07T00:59:40.037Z,"Shikoku, Japan",earthquake,,,,3,reviewed,us,us
+1996-01-13T02:02:25.550Z,31.22,130.07,33,3.8,mb,,,,0.3,us,usp0007ays,2014-11-07T00:59:39.748Z,"Kyushu, Japan",earthquake,,,,5,reviewed,us,us
+1995-12-22T10:07:14.110Z,34.529,134.787,48.7,3.9,mb,,,,0.6,us,usp00079dc,2014-11-07T00:59:28.434Z,"near the south coast of western Honshu, Japan",earthquake,,9.2,,4,reviewed,us,us
+1995-12-09T13:09:19.620Z,30.655,130.808,33,3.7,mb,,,,1.1,us,usp00078p1,2014-11-07T00:59:24.478Z,"Kyushu, Japan",earthquake,,,,6,reviewed,us,us
+1995-11-14T17:08:06.320Z,31.328,133.464,29.9,5.1,mw,,,,1.1,us,usp00076us,2015-02-11T17:16:29.000Z,"southeast of Shikoku, Japan",earthquake,,,,,reviewed,us,hrv
+1995-10-13T17:04:05.150Z,34.611,135.112,17.7,4.9,mb,,,,1,us,usp0007536,2014-11-07T00:58:57.260Z,"near the south coast of western Honshu, Japan",earthquake,,,,60,reviewed,us,us
+1995-09-03T23:13:30.050Z,30.104,131.185,33,4.8,ms,,,,1.4,us,usp00072vs,2014-11-07T00:58:40.626Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+1995-09-01T17:42:52.440Z,33.88,132.424,60.9,4,mb,,,,0.5,us,usp00072s1,2014-11-07T00:58:39.647Z,"Shikoku, Japan",earthquake,,7.3,,4,reviewed,us,us
+1995-08-26T02:15:39.040Z,29.998,130.786,10,4.3,mb,,,,0.4,us,usp00072eu,2014-11-07T00:58:35.616Z,"Ryukyu Islands, Japan",earthquake,,,,8,reviewed,us,us
+1995-08-12T22:02:13.650Z,32.781,131.534,33,4.6,mb,,,,1.2,us,usp00071s7,2014-11-07T00:58:31.256Z,"Kyushu, Japan",earthquake,,,,46,reviewed,us,us
+1995-06-18T01:10:59.190Z,32.023,129.112,33,4.3,mb,,,,1,us,usp0006zam,2014-11-07T00:58:09.702Z,"Kyushu, Japan",earthquake,,,,6,reviewed,us,us
+1995-06-17T04:31:08.990Z,32.147,131.648,64.9,4.2,mb,,,,1.4,us,usp0006z8a,2014-11-07T00:58:09.518Z,"Kyushu, Japan",earthquake,,7.4,,16,reviewed,us,us
+1995-05-26T22:55:37.750Z,30.222,131.903,33,4.2,mb,,,,1.1,us,usp0006y32,2014-11-07T00:58:00.109Z,"Kyushu, Japan",earthquake,,,,4,reviewed,us,us
+1995-05-18T01:41:36.660Z,31.264,131.329,63.8,4.4,mb,,,,1.1,us,usp0006xme,2014-11-07T00:57:57.206Z,"Kyushu, Japan",earthquake,,8.3,,3,reviewed,us,us
+1995-05-09T20:39:06.160Z,33.616,132.298,73.6,4.4,mb,,,,0.6,us,usp0006x4z,2014-11-07T00:57:54.296Z,"Shikoku, Japan",earthquake,,7.3,,6,reviewed,us,us
+1995-04-29T21:41:04.250Z,31.118,130.361,207,4.4,mb,,,,1,us,usp0006wjy,2014-11-07T00:57:47.350Z,"Kyushu, Japan",earthquake,,9.8,,46,reviewed,us,us
+1995-04-29T20:34:50.830Z,30.024,131.073,33,4.6,mb,,,,1,us,usp0006wjw,2014-11-07T00:57:47.341Z,"Kyushu, Japan",earthquake,,,,31,reviewed,us,us
+1995-04-29T18:35:47.410Z,30.133,131.05,32.8,5.3,mw,,,,1.2,us,usp0006wjq,2015-02-11T17:16:25.000Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,hrv
+1995-04-10T03:11:13.450Z,30.376,130.846,22.2,5.1,mw,,,,1.1,us,usp0006vet,2015-02-11T17:16:24.000Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,hrv
+1995-04-10T01:16:30.080Z,31.634,131.63,29.6,4.7,ms,,,,1,us,usp0006ven,2014-11-07T00:57:40.992Z,"Kyushu, Japan",earthquake,,,,3,reviewed,us,us
+1995-03-27T14:20:05.560Z,31.283,130.546,212.5,4.1,mb,,,,0.8,us,usp0006utu,2014-11-07T00:57:34.001Z,"Kyushu, Japan",earthquake,,10.7,,20,reviewed,us,us
+1995-02-24T13:00:01.190Z,31.438,130.943,33,4.3,mb,,,,0.6,us,usp0006tf9,2014-11-07T00:57:22.554Z,"Kyushu, Japan",earthquake,,,,6,reviewed,us,us
+1995-02-18T12:37:32.360Z,34.444,134.757,10,4.7,mb,,,,1.2,us,usp0006t55,2014-11-07T00:57:20.761Z,"near the south coast of western Honshu, Japan",earthquake,,,,14,reviewed,us,us
+1995-02-14T01:27:51.220Z,30.164,131.046,28.8,4.9,ms,,,,0.9,us,usp0006sx3,2014-11-07T00:57:19.819Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+1995-02-13T09:46:11.250Z,30.79,130.733,33,4.3,mb,,,,0.9,us,usp0006suz,2014-11-07T00:57:19.533Z,"Kyushu, Japan",earthquake,,,,12,reviewed,us,us
+1995-02-11T06:03:21.940Z,32.702,131.164,33,4.2,mb,,,,0.6,us,usp0006sr7,2014-11-07T00:57:18.833Z,"Kyushu, Japan",earthquake,,,,6,reviewed,us,us
+1995-02-02T07:04:21.630Z,34.584,135.074,33,4.2,mb,,,,1,us,usp0006s87,2014-11-07T00:57:15.525Z,"near the south coast of western Honshu, Japan",earthquake,,,,1,reviewed,us,us
+1995-01-22T21:02:26.950Z,34.321,135.02,10,4.4,mb,,,,1.1,us,usp0006rre,2014-11-07T00:57:10.473Z,"near the south coast of western Honshu, Japan",earthquake,,,,7,reviewed,us,us
+1995-01-22T15:33:05.090Z,34.732,134.723,10,4.1,mb,,,,0.8,us,usp0006rr0,2014-11-07T00:57:10.439Z,"near the south coast of western Honshu, Japan",earthquake,,,,2,reviewed,us,us
+1995-01-21T12:12:41.870Z,34.573,134.842,13.2,4,mb,,,,0.6,us,usp0006rpk,2014-11-07T00:57:10.222Z,"near the south coast of western Honshu, Japan",earthquake,,8.8,,5,reviewed,us,us
+1995-01-20T02:48:59.640Z,34.521,134.674,10,4.4,mb,,,,1,us,usp0006rmn,2014-11-07T00:57:09.838Z,"near the south coast of western Honshu, Japan",earthquake,,,,12,reviewed,us,us
+1995-01-19T21:08:25.890Z,30.783,131.775,33,4.8,mb,,,,1.1,us,usp0006rm8,2014-11-07T00:57:09.793Z,"Kyushu, Japan",earthquake,,,,17,reviewed,us,us
+1995-01-18T08:36:35.490Z,34.572,134.581,10,4,mb,,,,1,us,usp0006rhs,2014-11-07T00:57:09.377Z,"near the south coast of western Honshu, Japan",earthquake,,,,4,reviewed,us,us
+1995-01-18T00:21:02.410Z,31.16,130.298,153.6,4.8,mb,,,,0.9,us,usp0006rh9,2014-11-07T00:57:09.313Z,"Kyushu, Japan",earthquake,,7,,45,reviewed,us,us
+1995-01-17T21:50:17.520Z,34.639,135.072,10,4.7,mb,,,,0.4,us,usp0006rh4,2014-11-07T00:57:09.301Z,"near the south coast of western Honshu, Japan",earthquake,,,,8,reviewed,us,us
+1995-01-17T17:35:23.440Z,34.407,134.849,10,4.5,mb,,,,0.8,us,usp0006rgs,2014-11-07T00:57:09.273Z,"near the south coast of western Honshu, Japan",earthquake,,,,11,reviewed,us,us
+1995-01-17T13:18:36.410Z,34.52,134.801,10,4.6,mb,,,,1,us,usp0006rg9,2014-11-07T00:57:09.102Z,"near the south coast of western Honshu, Japan",earthquake,,,,14,reviewed,us,us
+1995-01-17T00:01:24.490Z,34.484,134.782,10,4.6,mb,,,,1.4,us,usp0006rf8,2014-11-07T00:57:08.998Z,"near the south coast of western Honshu, Japan",earthquake,,,,7,reviewed,us,us
+1995-01-16T23:58:17.100Z,34.399,135.127,10,4.7,mb,,,,0.8,us,usp0006rf7,2014-11-07T00:57:08.996Z,"near the south coast of western Honshu, Japan",earthquake,,,,7,reviewed,us,us
+1995-01-16T21:28:58.830Z,34.547,134.829,10,5,mb,,,,1,us,usp0006rey,2014-11-07T00:57:08.968Z,"near the south coast of western Honshu, Japan",earthquake,,,,38,reviewed,us,us
+1995-01-16T20:46:52.120Z,34.583,135.018,21.9,6.9,mw,,,,1,us,usp0006rew,2015-06-30T16:59:01.979Z,"near the south coast of western Honshu, Japan",earthquake,,,,,reviewed,us,hrv
+1994-12-06T06:04:53.200Z,30.343,130.889,116.6,4.5,mb,,,,1.2,us,usp0006pqn,2014-11-07T00:56:55.307Z,"Kyushu, Japan",earthquake,,15.7,,15,reviewed,us,us
+1994-11-04T07:17:37.300Z,33.427,132.161,33,4.5,mb,,,,1.1,us,usp0006n3t,2014-11-07T00:56:39.260Z,"Shikoku, Japan",earthquake,,,,3,reviewed,us,us
+1994-10-05T03:15:33.640Z,31.326,129.235,19.7,5.1,mb,,,,0.9,us,usp0006kj0,2014-11-07T00:56:27.866Z,"Kyushu, Japan",earthquake,,,,43,reviewed,us,us
+1994-09-30T07:26:16.780Z,30.966,130.369,162.7,4.7,mb,,,,1,us,usp0006k7c,2014-11-07T00:56:21.667Z,"Kyushu, Japan",earthquake,,6.7,,54,reviewed,us,us
+1994-09-07T03:54:03.950Z,32.034,130.902,32.2,5.1,mb,,,,1,us,usp0006j23,2014-11-07T00:56:14.204Z,"Kyushu, Japan",earthquake,,4.8,,58,reviewed,us,us
+1994-09-07T03:48:17.120Z,31.967,130.973,30.2,4.7,mb,,,,1.2,us,usp0006j22,2014-11-07T00:56:14.200Z,"Kyushu, Japan",earthquake,,6.8,,12,reviewed,us,us
+1994-08-22T04:05:29.260Z,33.56,134.596,38,4.9,mb,,,,0.8,us,usp0006ha8,2014-11-07T00:56:06.885Z,"Shikoku, Japan",earthquake,,6,,11,reviewed,us,us
+1994-08-21T16:51:07.770Z,30.564,131.656,33,4,mb,,,,0.6,us,usp0006h9v,2014-11-07T00:56:06.841Z,"Kyushu, Japan",earthquake,,,,2,reviewed,us,us
+1994-08-05T12:59:46.060Z,30.308,130.997,48.8,5.2,mb,,,,1,us,usp0006gjr,2014-11-07T00:56:00.538Z,"Kyushu, Japan",earthquake,,7.4,,41,reviewed,us,us
+1994-08-05T04:51:50.370Z,31.943,132.139,33,4.2,mb,,,,0.9,us,usp0006gj8,2014-11-07T00:56:00.367Z,"southeast of Shikoku, Japan",earthquake,,,,5,reviewed,us,us
+1994-07-08T11:24:26.440Z,31.362,130.802,212.6,3.8,mb,,,,0.2,us,usp0006fbz,2014-11-07T00:55:50.589Z,"Kyushu, Japan",earthquake,,18.6,,4,reviewed,us,us
+1994-06-18T15:48:01.320Z,32.131,131.84,39.3,4.4,mb,,,,1,us,usp0006eh0,2014-11-07T00:55:43.257Z,"Kyushu, Japan",earthquake,,,,8,reviewed,us,us
+1994-06-17T02:13:36.980Z,34.024,134.631,10,4.4,mb,,,,0.9,us,usp0006eeb,2014-11-07T00:55:42.839Z,"near the south coast of western Honshu, Japan",earthquake,,,,1,reviewed,us,us
+1994-06-12T16:37:36.000Z,31.489,131.966,33,4.3,mb,,,,1.3,us,usp0006e5u,2014-11-07T00:55:41.645Z,"Kyushu, Japan",earthquake,,,,2,reviewed,us,us
+1994-06-12T10:31:12.400Z,31.619,131.702,34.9,4.8,ms,,,,1.3,us,usp0006e58,2014-11-07T00:55:41.580Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+1994-05-04T20:54:42.910Z,32.663,132.453,33,4.1,mb,,,,0.8,us,usp0006c2x,2014-11-07T00:55:26.498Z,"Shikoku, Japan",earthquake,,,,2,reviewed,us,us
+1994-04-30T03:28:38.730Z,31.42,131.292,26.1,5.9,mw,,,,1,us,usp0006bty,2015-05-13T18:53:34.000Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,hrv
+1994-04-05T09:13:51.340Z,31.656,132.229,21,3.8,mb,,,,1.1,us,usp0006ap1,2014-11-07T00:55:15.889Z,"southeast of Shikoku, Japan",earthquake,,6.5,,1,reviewed,us,us
+1994-02-27T09:04:27.900Z,30.832,131.427,40.2,5.2,mw,,,,1.2,us,usp000691n,2015-02-11T17:16:15.000Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,hrv
+1994-02-27T03:47:02.360Z,30.68,131.652,33.5,3.9,mb,,,,1.3,us,usp000691b,2014-11-07T00:55:01.810Z,"Kyushu, Japan",earthquake,,20.6,,5,reviewed,us,us
+1994-02-27T03:33:43.460Z,30.858,131.452,41.1,4.9,mb,,,,0.9,us,usp000691a,2014-11-07T00:55:01.797Z,"Kyushu, Japan",earthquake,,,,49,reviewed,us,us
+1994-02-27T02:56:27.650Z,30.947,131.38,46.7,4.8,mb,,,,1.1,us,usp0006919,2014-11-07T00:55:01.789Z,"Kyushu, Japan",earthquake,,,,34,reviewed,us,us
+1994-02-27T02:55:07.070Z,30.849,131.604,33.2,4.5,ms,,,,1.1,us,usp0006918,2014-11-07T00:55:01.756Z,"Kyushu, Japan",earthquake,,11.6,,1,reviewed,us,us
+1994-02-12T17:06:58.110Z,32.056,130.577,31.1,5.4,mw,,,,1.1,us,usp00068ef,2015-02-11T17:16:15.000Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,hrv
+1994-01-12T01:00:24.680Z,30.511,131.637,44.7,5,mb,,,,1.1,us,usp00066bk,2014-11-07T00:54:46.430Z,"Kyushu, Japan",earthquake,,,,42,reviewed,us,us
+1993-12-27T22:00:41.310Z,31.026,131.57,47.4,4.4,mb,,,,1,us,usp00065qn,2014-11-07T00:54:38.521Z,"Kyushu, Japan",earthquake,,10.2,,14,reviewed,us,us
+1993-10-30T12:17:45.450Z,30.686,132.568,33,4.2,mb,,,,0.8,us,usp00062xg,2014-11-07T00:54:16.236Z,"southeast of Shikoku, Japan",earthquake,,,,5,reviewed,us,us
+1993-10-07T08:55:37.980Z,31.032,131.527,39.3,4.6,mb,,,,1.3,us,usp00061m0,2014-11-07T00:54:10.930Z,"Kyushu, Japan",earthquake,,11.4,,17,reviewed,us,us
+1993-09-27T04:43:55.600Z,30.678,132.121,37.9,5.6,mw,,,,1,us,usp000613s,2015-05-13T18:53:33.000Z,"southeast of Shikoku, Japan",earthquake,,,,,reviewed,us,hrv
+1993-09-22T17:03:31.020Z,31.09,130.421,168.1,4.5,mb,,,,0.9,us,usp00060vp,2014-11-07T00:54:02.134Z,"Kyushu, Japan",earthquake,,7.1,,7,reviewed,us,us
+1993-08-30T15:08:41.470Z,33.433,132.394,47.4,4.9,mb,,,,1.2,us,usp0005zg2,2014-11-07T00:53:49.971Z,"Shikoku, Japan",earthquake,,,,44,reviewed,us,us
+1993-08-14T01:29:17.620Z,33.365,132.408,41.3,5,mb,,,,1,us,usp0005yh3,2014-11-07T00:53:43.780Z,"Shikoku, Japan",earthquake,,,,69,reviewed,us,us
+1993-08-02T03:23:26.500Z,30.815,131.507,45,4.5,mb,,,,0.7,us,usp0005xtt,2014-11-07T00:53:37.915Z,"Kyushu, Japan",earthquake,,10.7,,9,reviewed,us,us
+1993-08-02T03:13:21.600Z,30.828,131.418,33.2,5.6,mw,,,,1.2,us,usp0005xts,2015-05-13T18:53:33.000Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,hrv
+1993-08-02T03:08:54.360Z,30.77,131.54,33,4.2,mb,,,,0.7,us,usp0005xtr,2014-11-07T00:53:37.786Z,"Kyushu, Japan",earthquake,,,,1,reviewed,us,us
+1993-07-30T17:07:21.150Z,31.582,131.759,90.8,4.2,mb,,,,0.9,us,usp0005xpn,2014-11-07T00:53:34.768Z,"Kyushu, Japan",earthquake,,14.9,,11,reviewed,us,us
+1993-07-07T13:09:13.670Z,32.216,131.592,69.7,4.5,mb,,,,1.1,us,usp0005vrq,2014-11-07T00:53:26.023Z,"Kyushu, Japan",earthquake,,8.7,,12,reviewed,us,us
+1993-06-09T23:24:04.760Z,30.202,131.098,49.8,4.7,mb,,,,1,us,usp0005u9t,2014-11-07T00:53:12.379Z,"Kyushu, Japan",earthquake,,8.8,,19,reviewed,us,us
+1993-06-08T23:23:11.360Z,31.167,130.305,178.2,5.1,mb,,,,1,us,usp0005u7z,2014-11-07T00:53:12.031Z,"Kyushu, Japan",earthquake,,4.1,,45,reviewed,us,us
+1993-06-04T17:30:41.100Z,33.693,132.196,72.8,4.1,mb,,,,1,us,usp0005u0p,2014-11-07T00:53:10.735Z,"Shikoku, Japan",earthquake,,10,,1,reviewed,us,us
+1993-05-18T18:49:56.440Z,31.211,131.532,52.2,4.2,mb,,,,1.1,us,usp0005t1z,2014-11-07T00:53:02.433Z,"Kyushu, Japan",earthquake,,8.8,,7,reviewed,us,us
+1993-05-17T10:21:45.560Z,32.075,132.135,39.4,3.5,mb,,,,0.4,us,usp0005sy4,2014-11-07T00:53:01.265Z,"Shikoku, Japan",earthquake,,12.1,,2,reviewed,us,us
+1993-03-17T17:21:00.960Z,30.109,132.338,33,4.2,mb,,,,1.2,us,usp0005ppj,2014-11-07T00:52:36.170Z,"southeast of Shikoku, Japan",earthquake,,,,4,reviewed,us,us
+1993-03-14T00:46:52.270Z,33.444,135.031,37.2,4.6,mb,,,,1.3,us,usp0005pfp,2014-11-07T00:52:35.336Z,"near the south coast of western Honshu, Japan",earthquake,,7.3,,15,reviewed,us,us
+1993-03-11T10:44:03.490Z,32.363,130.927,59.3,3.7,mb,,,,0.9,us,usp0005pas,2014-11-07T00:52:34.615Z,"Kyushu, Japan",earthquake,,9.9,,2,reviewed,us,us
+1993-02-14T10:21:31.620Z,30.471,128.38,33,4,mb,,,,1.1,us,usp0005n2n,2014-11-07T00:52:24.212Z,"northwest of the Ryukyu Islands, Japan",earthquake,,,,2,reviewed,us,us
+1993-02-07T18:50:05.690Z,30.359,130.616,82.1,4.7,mb,,,,1,us,usp0005ms4,2014-11-07T00:52:22.731Z,"Kyushu, Japan",earthquake,,,,29,reviewed,us,us
+1993-02-05T18:32:04.620Z,31.922,131.243,10,3.9,mb,,,,1.2,us,usp0005mp6,2014-11-07T00:52:21.782Z,"Kyushu, Japan",earthquake,,,,2,reviewed,us,us
+1993-02-03T14:09:59.580Z,31.694,131.908,33,4,mb,,,,1.3,us,usp0005mjn,2014-11-07T00:52:20.743Z,"Kyushu, Japan",earthquake,,,,2,reviewed,us,us
+1993-01-30T13:09:00.310Z,30.273,131.734,93.1,4.1,mb,,,,0.3,us,usp0005mep,2014-11-07T00:52:17.638Z,"Kyushu, Japan",earthquake,,17.2,,1,reviewed,us,us
+1993-01-16T02:29:39.360Z,30.151,131.132,34.2,4.9,mb,,,,1.1,us,usp0005ku9,2014-11-07T00:52:14.290Z,"Kyushu, Japan",earthquake,,,,35,reviewed,us,us
+1992-12-12T04:49:47.950Z,31.779,132.099,33,3.9,mb,,,,1.2,us,usp0005j56,2014-11-07T00:52:01.983Z,"southeast of Shikoku, Japan",earthquake,,,,2,reviewed,us,us
+1992-12-11T23:08:18.820Z,31.738,131.952,51.4,4,mb,,,,0.8,us,usp0005j4v,2014-11-07T00:52:01.952Z,"Kyushu, Japan",earthquake,,12.7,,2,reviewed,us,us
+1992-12-11T20:38:47.880Z,31.733,131.969,43.4,4.1,mb,,,,0.6,us,usp0005j4j,2014-11-07T00:52:01.928Z,"Kyushu, Japan",earthquake,,11.9,,2,reviewed,us,us
+1992-11-29T06:21:30.360Z,31.102,129.29,10,4.5,mb,,,,1.3,us,usp0005hkh,2014-11-07T00:51:55.420Z,"Kyushu, Japan",earthquake,,,,8,reviewed,us,us
+1992-11-19T00:53:10.550Z,31.148,131.423,33.8,5.1,mb,,,,1,us,usp0005h1n,2014-11-07T00:51:53.129Z,"Kyushu, Japan",earthquake,,,,56,reviewed,us,us
+1992-11-19T00:49:27.000Z,31.146,131.445,36.4,5.4,mw,,,,1.2,us,usp0005h1m,2015-02-11T17:16:07.000Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,hrv
+1992-11-09T08:39:29.460Z,32.128,131.712,52.2,3.9,mb,,,,0.4,us,usp0005gkb,2014-11-07T00:51:50.777Z,"Kyushu, Japan",earthquake,,9.4,,2,reviewed,us,us
+1992-11-08T21:51:31.770Z,30.459,129.242,271.7,4.2,mb,,,,0.9,us,usp0005gjg,2014-11-07T00:51:50.688Z,"Kyushu, Japan",earthquake,,9.1,,27,reviewed,us,us
+1992-10-24T12:54:21.990Z,31.516,130.083,94.8,4.6,mb,,,,1.2,us,usp0005fua,2014-11-07T00:51:42.990Z,"Kyushu, Japan",earthquake,,18.1,,8,reviewed,us,us
+1992-09-23T13:38:35.200Z,31.129,130.229,160.7,5.8,mwb,,,,0.9,us,usp0005ecm,2015-05-13T18:53:32.000Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,us
+1992-08-16T02:29:10.960Z,31.918,131.209,74.1,4.5,mb,,,,1.4,us,usp0005chk,2014-11-07T00:51:16.334Z,"Kyushu, Japan",earthquake,,7.8,,14,reviewed,us,us
+1992-08-01T09:00:38.670Z,31.431,130.644,130,4.6,mb,,,,1,us,usp0005bu0,2014-11-07T00:51:11.114Z,"Kyushu, Japan",earthquake,,,,16,reviewed,us,us
+1992-06-09T13:17:53.140Z,31.141,131.356,59,4.8,mb,,,,1.1,us,usp00058vs,2014-11-07T00:50:48.833Z,"Kyushu, Japan",earthquake,,7.5,,39,reviewed,us,us
+1992-05-28T21:08:45.360Z,31.864,131.824,57.6,4.3,mb,,,,1.1,us,usp00058ag,2014-11-07T00:50:42.431Z,"Kyushu, Japan",earthquake,,10.3,,7,reviewed,us,us
+1992-05-21T16:22:50.840Z,30.99,131.503,47.6,4.1,mb,,,,0.7,us,usp00057u3,2014-11-07T00:50:40.313Z,"Kyushu, Japan",earthquake,,16.7,,4,reviewed,us,us
+1992-05-03T16:09:35.670Z,31.265,130.292,170,4.6,mb,,,,0.9,us,usp00056va,2014-11-07T00:50:34.442Z,"Kyushu, Japan",earthquake,,,,36,reviewed,us,us
+1992-01-30T01:51:29.460Z,31.6,129.919,14.5,4.8,mb,,,,1.4,us,usp00052dq,2014-11-07T00:49:57.604Z,"Kyushu, Japan",earthquake,,4.6,,32,reviewed,us,us
+1992-01-26T08:09:48.720Z,29.803,129.451,148.9,5.4,mw,,,,1,us,usp000528y,2015-02-11T17:16:01.000Z,"Ryukyu Islands, Japan",earthquake,,,,,reviewed,us,hrv
+1992-01-20T02:43:02.090Z,30.819,132.934,33,4,mb,,,,1.5,us,usp00051zr,2014-11-07T00:49:55.622Z,"southeast of Shikoku, Japan",earthquake,,,,6,reviewed,us,us
+1991-11-02T22:19:35.700Z,30.229,132.546,33,4.1,mb,,,,0.8,us,usp0004yr5,2014-11-07T00:49:31.663Z,"southeast of Shikoku, Japan",earthquake,,,,5,reviewed,us,us
+1991-10-28T01:09:10.860Z,33.827,131.222,17,5.2,mw,,,,1.1,us,usp0004ygj,2015-03-20T16:51:14.642Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,hrv
+1991-10-27T06:38:07.630Z,31.79,130.884,135.6,4.6,mb,,,,0.9,us,usp0004yff,2014-11-07T00:49:27.907Z,"Kyushu, Japan",earthquake,,14.1,,13,reviewed,us,us
+1991-09-17T03:06:23.150Z,31.749,131.672,57.8,4.3,mb,,,,1,us,usp0004wqk,2014-11-07T00:49:15.544Z,"Kyushu, Japan",earthquake,,7.8,,4,reviewed,us,us
+1991-08-26T12:51:16.030Z,30.439,132.116,33,4,mb,,,,1.3,us,usp0004vwc,2014-11-07T00:49:07.840Z,"southeast of Shikoku, Japan",earthquake,,,,1,reviewed,us,us
+1991-08-23T04:50:24.230Z,31.016,130.469,179.4,4.6,mb,,,,0.8,us,usp0004vr0,2014-11-07T00:49:07.234Z,"Kyushu, Japan",earthquake,,7.6,,10,reviewed,us,us
+1991-08-06T23:27:40.800Z,29.817,131.585,33,4.2,mb,,,,1.4,us,usp0004v2g,2014-11-07T00:49:03.805Z,"southeast of the Ryukyu Islands, Japan",earthquake,,,,6,reviewed,us,us
+1991-07-30T14:32:23.650Z,30.035,131.276,44.3,4.5,mb,,,,1.2,us,usp0004ut8,2014-11-07T00:48:59.437Z,"Kyushu, Japan",earthquake,,11.6,,14,reviewed,us,us
+1991-07-30T05:16:05.040Z,30.049,131.186,30.8,5.2,mw,,,,1,us,usp0004usu,2015-02-11T17:15:58.000Z,"Kyushu, Japan",earthquake,,,,,reviewed,us,hrv
+1991-06-27T00:11:04.480Z,32.474,130.34,33,4.5,mb,,,,1.3,us,usp0004tf9,2014-11-07T00:48:47.444Z,"Kyushu, Japan",earthquake,,,,8,reviewed,us,us
+1991-05-06T09:31:42.850Z,29.853,131.51,31.6,5.2,mb,,,,0.9,us,usp0004rar,2014-11-07T00:48:33.175Z,"southeast of the Ryukyu Islands, Japan",earthquake,,,,41,reviewed,us,us
+1991-04-26T05:11:44.220Z,33.905,132.429,55.9,4.1,mb,,,,0.4,us,usp0004qud,2014-11-07T00:48:27.359Z,"Shikoku, Japan",earthquake,,19,,1,reviewed,us,us
+1991-04-20T08:51:04.400Z,33.226,135.021,424.4,4.1,mb,,,,0.7,us,usp0004qjk,2014-11-07T00:48:24.738Z,"near the south coast of western Honshu, Japan",earthquake,,11.2,,3,reviewed,us,us
+1991-02-17T19:02:06.490Z,31.685,132.101,33,4.1,mb,,,,1.2,us,usp0004n1v,2014-11-07T00:48:01.161Z,"southeast of Shikoku, Japan",earthquake,,,,2,reviewed,us,us
+1991-02-09T08:05:12.230Z,29.931,131.169,34.5,4.6,mb,,,,0.9,us,usp0004mr3,2014-11-07T00:47:58.890Z,"southeast of the Ryukyu Islands, Japan",earthquake,,8.7,,15,reviewed,us,us
+1991-01-28T18:09:25.640Z,30.573,129.009,33,5.6,mb,,,,1.3,us,usp0004m9j,2014-11-07T00:47:53.470Z,"Kyushu, Japan",earthquake,,,,20,reviewed,us,us
+1991-01-06T23:56:42.680Z,33.463,132.292,64,4.3,mb,,,,0.7,us,usp0004kas,2014-11-07T00:47:47.492Z,"Shikoku, Japan",earthquake,,12.8,,6,reviewed,us,us
+1991-01-03T18:36:57.610Z,33.491,132.308,62.5,5,mb,,,,1.3,us,usp0004k5y,2014-11-07T00:47:45.532Z,"Shikoku, Japan",earthquake,,5.8,,20,reviewed,us,us
+1990-11-25T16:22:56.960Z,30.862,130.237,199.3,4.7,mb,,,,1.1,us,usp0004hcv,2014-11-07T00:47:28.727Z,"Kyushu, Japan",earthquake,,14.2,,15,reviewed,us,us
+1990-10-30T03:45:22.660Z,33.341,132.08,70.1,4.4,mb,,,,1,us,usp0004gb1,2014-11-07T00:47:19.443Z,"Shikoku, Japan",earthquake,,8.6,,6,reviewed,us,us
+1990-10-11T02:18:59.940Z,33.407,132.173,33,4.4,mb,,,,1.3,us,usp0004fm9,2014-11-07T00:47:16.307Z,"Shikoku, Japan",earthquake,,,,3,reviewed,us,us
+1990-09-19T17:49:51.330Z,31.002,131.554,47.2,4.7,mb,,,,0.5,us,usp0004evu,2014-11-07T00:47:07.587Z,"Kyushu, Japan",earthquake,,14.2,,7,reviewed,us,us
+1990-08-21T11:13:52.570Z,33.125,131.844,33,4.5,mb,,,,1,us,usp0004dqt,2014-11-07T00:46:58.490Z,"Kyushu, Japan",earthquake,,,,3,reviewed,us,us
+1990-07-30T01:13:18.160Z,29.926,130.361,78.9,5,mb,,,,1,us,usp0004cqj,2014-11-07T00:46:47.007Z,"Ryukyu Islands, Japan",earthquake,,5.4,,54,reviewed,us,us
+1990-07-07T03:57:01.890Z,30.194,130.317,100,4.6,mb,,,,1.3,us,usp0004bg4,2014-11-07T00:46:39.137Z,"Kyushu, Japan",earthquake,,11,,12,reviewed,us,us
+1990-06-23T20:21:12.100Z,32.103,131.114,117,4.4,mb,,,,1.1,us,usp0004ax7,2014-11-07T00:46:33.464Z,"Kyushu, Japan",earthquake,,8.4,,5,reviewed,us,us
+1990-04-22T15:55:23.120Z,29.781,130.987,33,4.3,mb,,,,1.2,us,usp00048au,2014-11-07T00:46:11.328Z,"Ryukyu Islands, Japan",earthquake,,,,6,reviewed,us,us
+1990-04-18T07:22:53.710Z,30.786,131.393,33,4.8,mb,,,,1.6,us,usp000482e,2014-11-07T00:46:10.053Z,"Kyushu, Japan",earthquake,,,,4,reviewed,us,us

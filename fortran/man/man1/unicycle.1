@@ -1,0 +1,362 @@
+.\" Manpage for Unicycle 0.0.1 (beta).
+.\" Contact sbarbot@ntu.edu.sg to correct errors or typos.
+.TH man 1 "14 Jul 2017" "0.0.1 (beta)" "unicycle man page"
+.SH NAME
+unicycle \- Unified Cycle of Earthquakes. Evaluates the deformation due to fault slip and viscoelastic flow using the integral method.
+.SH SYNOPSIS
+
+unicycle [-h] [--dry-run] [--help] [--export-netcdf] [--epsilon] [--maximum-step] [--maximum-iterations]
+
+.SH DESCRIPTION
+
+unicycle computes the evolution of slip on rate-and-state friction faults coupled to viscoelastic flow with a nonlinear (power-law) rheology in the bulk rocks.
+
+.SH OPTIONS
+
+.TP
+.B \-h
+print a short message and abort calculation
+.TP
+.B \-\-dry-run
+write lightweigh information files and abort calculation
+.TP
+.B \-\-help
+print a short message and abort calculation
+.TP
+.B \-\-export-netcdf
+export time series of instantaneous velocity in a GMT compatible netcdf file
+.TP
+.B \-\-epsilon [1e-6]
+set the relative accuracy of the 4/5th order Runge-Kutta integration method
+.TP
+.B \-\-maximum-step [Inf]
+set the maximum time step
+.TP
+.B \-\-maximum-iterations [1000000]
+set the maximum number of iterations
+
+.SH ENVIRONMENT
+
+The calculation is parallelized with MPI. Calling the programs with
+
+.nf
+unicycle-ap-ratestate
+.fi
+
+is equivalent to using
+
+.nf
+mpirun -n 1 unicycle-ap-ratestate
+.fi
+
+
+.SH "INPUT PARAMETERS"
+
+.TP
+.B output directory (wdir)
+All output files are written to the specified directory, including observation patches, observation volumes, observation points and netcdf files.
+
+.TP
+.B elastic moduli
+The uniform rigidity (mu) and Lame parameter (lambda). For the Earth, typical values are lambda=mu=30 GPa. All physical quantities are assumed in SI units (meter, Pascal, second).
+
+.TP
+.B time interval
+Refers to the duration of the calculation in SI units (s), for example 3.15e7 for one year.
+
+.TP
+.B number of rectangular patches
+The number of rectangular fault patches. If the number of patches is positive, the input file must be followed by a list of patch properties
+
+# n   Vpl     x1     x2     x3     length     width     strike     dip     rake
+
+where Vpl is the loading rate of the fault, for example 1e-9 m/s. For antiplane and plane strain applications, these are line segments. The definition simplifies to
+
+# n Vpl x2 x3 width dip
+
+.TP
+.B number of triangular patches
+The number of triangular fault patches. This option is not available for antiplane and plane strain applications. If the number of patches is positive, the input file must be followed by a list of patch properties
+
+# n      Vpl        i1        i2        i3   rake
+
+where i1, i2, and i3 are the indices of the vertices. This must be followed by the number of vertices
+
+# number of vertices
+
+and a list of coordinates
+
+# n      x1       x2       x3
+
+.TP
+.B number of friction properties
+This must be the number of patches. If the number of patches is positive, the input file must be followed by a list of frictional properties
+
+# n tau0 mu0 sig a b L Vo G/(2Vs)
+
+where tau0 is the initial stress, mu0 and sig are the static coefficient of frictiona and the effective confining pressure, a and b are the dynamic friction coefficient of rate-and-state friction, Vo is the reference velocity and G/(2Vs) is the radiation damping coefficient. When 0=tau0, the initial stress is set
+to the value that makes the fault slip at the velocity Vpl.
+
+.TP
+.B number of strain volumes
+The number of strain volumes. If the number of strain volumes is positive, the input file must be followed by a list of volume properties, as follows
+
+# n    e11     e12     e13     e22    e23    e33    x1   x2   x3  length  width thickness   strike    dip
+
+where the eij are the tensor components of the loading rate in (1/s). In antiplane strain this simplifies to
+
+# n    e12     e13   x1   x2   x3  width thickness dip
+
+In plane strain this becomes
+
+# n    e22    e23    e33    x2   x3  width thickness dip
+
+.TP
+.B number of nonlinear Maxwell strain volumes
+The number of nonlinear Maxwell viscoelastic properties. This must be the number of strain volumes. This must be followed by a list of rheological properties for dislocation creep, as follows:
+
+# n        Gm gammadot0m         n         Q
+
+and then followed by a list of thermal properties
+
+# number of thermal strain volumes
+
+# n     rhoc  temperature
+
+where rho c is the thermal conductivity and "temperature" is the absolute temperature in Kelvin.
+
+.TP
+.B number of observation patches
+The number of patch elements that will be monitored during the calculation. For these patches, the time series of dynamic variables and their time derivatives will be exported in wdir/patch-0000001.dat, where 0000001 will be substituted with the patch number. These time series will include slip components, traction components, state variables, the log10 of the instantaneous velocity. The following columns of the file will contain the time derivatives of these variables. If the number is positive, this must be followed by
+
+# n   index
+
+where index is the index of the patch.
+
+.TP
+.B number of observation volumes
+The number of volume elements that will be monitored during the calculation. For these volumes, the time series of dynamic variables and their time derivatives will be exported in wdir/volume-0000001.dat, where 0000001 will be substituted with the volume number. These time series will include the strain components and the stress components. The following columns of the file will contain the time derivatives of these variables. If the number is positive, this must be following by
+
+# n   index
+
+where index is the index of the strain volume.
+
+This input line is not required for the programs unicycle-ap-ratestate, unicycle-ps-ratestate, and unicycle-3d-ratestate.
+
+.TP
+.B number of observation points
+The number of observation points where the displacement is exported as time series in ASCII files. If the number is positive, it must be followed by:
+
+# n NAME    x1    x2    x3
+
+where n is an index running starting at 1, NAME is ignored (!), x1, x2 and x3 are the point coordinates. The time series of displacement at these points are written to file opts-0001.dat.
+
+.SH "EXAMPLE INPUTS"
+
+The lines starting with the '#' symbol are commented.
+
+.IP "CALLING SEQUENCE"
+
+mpirun -n 4 unicycle-3d-ratestate input.dat
+
+.IP "VISCOELASTIC EARTHQUAKE CYCLE"
+Simulates the slip evolution on a normal fault in a brittle lid above a nonlinear ductile region.
+
+.B mpirun -n 1 unicycle-ap-viscouscycles
+--maximum-step 3.15e7 <<EOF | tee output/in.param
+.nf
+# output directory
+output
+# rigidity
+30e3
+# time interval
+3.15e10
+# number of patches
+20
+# n  Vpl x2   x3 width dip
+  1 1e-9  0  0e3   1e3  90
+  2 1e-9  0  1e3   1e3  90
+  3 1e-9  0  2e3   1e3  90
+  4 1e-9  0  3e3   1e3  90
+  5 1e-9  0  4e3   1e3  90
+  6 1e-9  0  5e3   1e3  90
+  7 1e-9  0  6e3   1e3  90
+  8 1e-9  0  7e3   1e3  90
+  9 1e-9  0  8e3   1e3  90
+ 10 1e-9  0  9e3   1e3  90
+ 11 1e-9  0 10e3   1e3  90
+ 12 1e-9  0 11e3   1e3  90
+ 13 1e-9  0 12e3   1e3  90
+ 14 1e-9  0 13e3   1e3  90
+ 15 1e-9  0 14e3   1e3  90
+ 16 1e-9  0 15e3   1e3  90
+ 17 1e-9  0 16e3   1e3  90
+ 18 1e-9  0 17e3   1e3  90
+ 19 1e-9  0 18e3   1e3  90
+ 20 1e-9  0 19e3   1e3  90
+# number of frictional patches
+20
+# n mu0 sig    a     b    L   Vo G/2Vs
+  1 0.6 100 0.01 0.006 0.01 1e-6     5
+  2 0.6 100 0.01 0.006 0.01 1e-6     5
+  3 0.6 100 0.01 0.006 0.01 1e-6     5
+  4 0.6 100 0.01 0.006 0.01 1e-6     5
+  5 0.6 100 0.01 0.006 0.01 1e-6     5
+  6 0.6 100 0.01 0.006 0.01 1e-6     5
+  7 0.6 100 0.01 0.014 0.01 1e-6     5
+  8 0.6 100 0.01 0.014 0.01 1e-6     5
+  9 0.6 100 0.01 0.014 0.01 1e-6     5
+ 10 0.6 100 0.01 0.014 0.01 1e-6     5
+ 11 0.6 100 0.01 0.014 0.01 1e-6     5
+ 12 0.6 100 0.01 0.006 0.01 1e-6     5
+ 13 0.6 100 0.01 0.006 0.01 1e-6     5
+ 14 0.6 100 0.01 0.006 0.01 1e-6     5
+ 15 0.6 100 0.01 0.006 0.01 1e-6     5
+ 16 0.6 100 0.01 0.006 0.01 1e-6     5
+ 17 0.6 100 0.01 0.006 0.01 1e-6     5
+ 18 0.6 100 0.01 0.006 0.01 1e-6     5
+ 19 0.6 100 0.01 0.006 0.01 1e-6     5
+ 20 0.6 100 0.01 0.006 0.01 1e-6     5
+# number of cuboid strain volumes
+10
+# n   e12 e13   x2   x3 width thickness dip
+  1 1e-14   0 -4e3 20e3   2e3       2e3  90
+  2 1e-14   0 -2e3 20e3   2e3       2e3  90
+  3 1e-14   0  0e3 20e3   2e3       2e3  90
+  4 1e-14   0  2e3 20e3   2e3       2e3  90
+  5 1e-14   0  4e3 20e3   2e3       2e3  90
+  6 1e-14   0 -4e3 22e3   2e3       2e3  90
+  7 1e-14   0 -2e3 22e3   2e3       2e3  90
+  8 1e-14   0  0e3 22e3   2e3       2e3  90
+  9 1e-14   0  2e3 22e3   2e3       2e3  90
+ 10 1e-14   0  4e3 22e3   2e3       2e3  90
+# number of nonlinear Maxwell strain volumes
+10
+# n sig0 gammadot0 n   Q    R
+  1  1e0 3.58300e5 3.5 480e3 8.314
+  2  1e0 3.58300e5 3.5 480e3 8.314
+  3  1e0 3.58300e5 3.5 480e3 8.314
+  4  1e0 3.58300e5 3.5 480e3 8.314
+  5  1e0 3.58300e5 3.5 480e3 8.314
+  6  1e0 3.58300e5 3.5 480e3 8.314
+  7  1e0 3.58300e5 3.5 480e3 8.314
+  8  1e0 3.58300e5 3.5 480e3 8.314
+  9  1e0 3.58300e5 3.5 480e3 8.314
+ 10  1e0 3.58300e5 3.5 480e3 8.314
+# number of thermal strain volumes
+10
+# n rhoc temperature
+  1 1e-6    698.4338
+  2 1e-6    698.4338
+  3 1e-6    698.4338
+  4 1e-6    698.4338
+  5 1e-6    698.4338
+  6 1e-6    734.4356
+  7 1e-6    734.4356
+  8 1e-6    734.4356
+  9 1e-6    734.4356
+ 10 1e-6    734.4356
+# number of observation patches
+1
+# n   index
+  1      10
+# number of observation volumes
+1
+# n   index
+  1       3
+# number of observation points
+2
+# n name   x2 x3
+  1 TES1  3e3  0
+  2 TES2 -3e3  0
+EOF
+.fi
+.PP
+
+.SH "FAULT GEOMETRY"
+
+Rectangular fault patches are defined in terms of position (y1,y2,y3), orientation (strike and dip), and dimension (length and width), as illustrated in the following figure. For positive slip, a zero rake corresponds to left-lateral strike-slip motion and a 90 degree rake corresponds to a thrust motion (when dip is smaller than 90 degrees).
+
+               N (x1)
+              /
+             /| strike
+ x1,x2,x3 ->@--------------------------    E (x2)
+            |\\          .            \\ w
+            :-\\      l .              \\ i
+            |  \\    p .                \\ d
+            :90 \\  V .                  \\ t
+            |-dip\\  .                    \\ h
+            :     \\. | Rake               \\
+            |      --------------------------
+            :             l e n g t h
+            Z (x3)
+
+.TP
+Fault structures can be described as a combination of rectnagular patches, for example:
+
+.nf
+# number of rectangular patches
+4
+#  n  Vpl x1   x2   x3 length width strike dip rake
+   1 1e-9  0    0    0  1.0e3 2.0e3      0  90    0
+   2 1e-9  0  1e3    0  1.0e3 2.0e3      0  90    0
+   3 1e-9  0    0  2e3  1.0e3 2.0e3      0  90    0
+   4 1e-9  0  1e3  2e3  1.0e3 2.0e3      0  90    0
+.fi
+
+.SH "STRAIN VOLUMES"
+
+The geometry of the strain volumes is defined with the reference position (y1,y2,y3), length, width, thickness, strike and dip, as illustrated below. 
+
+               N (x1)
+              /
+             /| strike        
+ x1,x2,x3 ->@--------------------------   E (x2)       
+            |\\                       \\ w         + 
+            :-\\                       \\ i       /
+            |  \\                       \\ d     / s
+            :90 \\                       \\ t   / s
+            |-dip\\                       \\ h / e
+            :     \\                       \\ / n
+            |      --------------------------  k
+            :             l e n g t h      /  c
+            |                             /  i
+            :                            /  h
+            |                           /   t
+            :                          /
+            |                         +
+            Z (x3)
+
+.TP
+The input can be defined as follows:
+
+.nf
+# number of strain volumes
+1
+#  n e11   e12 e13 e22 e23 e33 x1 x2  x3 length width thickness strike dip
+   1   0 1e-15   0   0   0   0  0  0 5e4    1e3   1e3       1e3      0  90
+.fi
+
+.SH "PHYSICAL UNITS"
+
+All physical quantities are assumed to be in SI units (meter, Pascal, second). A good practice is to use MPa instead of Pa for the confining pressure and the effective viscosity.
+
+.SH "REFERENCES"
+
+Barbot S., J. D.-P. Moore, and V. Lambert, "Displacement and Stress Associated with Distributed Anelastic Deformation in a Half-Space", Bull. Seism. Soc. Am., 10.1785/0120160237, 2017.
+
+Lambert, V., and S. Barbot. "Contribution of viscoelastic flow in earthquake cycles within the lithosphere‐asthenosphere system." Geophys. Res. Lett. 43.19 (2016).
+
+.SH BUGS
+The dip angles of strain volumes must be 90 degrees.
+
+.SH AUTHOR
+Sylvain Barbot (sbarbot@ntu.edu.sg)
+
+.SH COPYRIGHT
+
+UNICYCLE is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+UNICYCLE is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with UNICYCLE.  If not, see <http://www.gnu.org/licenses/>.

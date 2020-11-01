@@ -1,0 +1,5 @@
+.DS_Store
+.hg
+*.grd
+matlab/examples/japan/kumamoto16/Inversion/
+

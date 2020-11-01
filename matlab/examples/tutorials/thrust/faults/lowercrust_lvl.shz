@@ -1,0 +1,3 @@
+# shear zone model for the Kathmandu, Nepal section of the lower crust
+# n    x1    x2   x3 length width thickness strike dip   lo   wo   to alphal alphaw alphat
+  1 -150e3 100e3 50e3  280e3  30e3     240e3      0  90 30e3 10e3 30e3      1      1      1

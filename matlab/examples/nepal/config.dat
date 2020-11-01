@@ -1,0 +1,22 @@
+# Number of forward models
+64
+# Number of model parameters
+2
+# Bounds on the model parameters
+-3.5 -1.7
+17 19
+# Type of prior distribution. (1 -> Uniform, 2 -> Lognormal, 3 -> Normal)
+1
+# Marginal estimation method. (1-> Kernel density method, 2-> Gaussian mixture method,3 -> emperica CDF)
+3
+# Whether to compute the forward model (1) or not (0)
+1
+# Std deviation:  1 -> constant,2-> data depedent)
+1
+# Synthetic/real data location
+./gps/
+# gps network name
+gps_network.dat
+# Number of cores/processors to use
+4
+#EOF
