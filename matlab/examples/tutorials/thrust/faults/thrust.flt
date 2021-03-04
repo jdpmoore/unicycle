@@ -1,0 +1,5 @@
+# dip-slip (thrust) fault
+# no slip  north       east     depth length width strike  dip rake
+   1 0.10 -150e3 177.2654e3 31.2567e3  300e3 300e3      0 10.0   90
+   2 0.10 -550e3          0         0  400e3 480e3      0 10.0   90
+   3 0.10  150e3          0         0  400e3 480e3      0 10.0   90

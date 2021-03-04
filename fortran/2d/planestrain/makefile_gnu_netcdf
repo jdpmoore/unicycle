@@ -1,0 +1,62 @@
+
+# # # # # # # # # # # # # # # # # # 
+# this make file for GNU compilation
+
+INCPATH=-I/sw/include
+LIBS=-L/sw/lib -lnetcdff -llapack -lm
+
+F77=gfortran -cpp
+F90=mpif90 -cpp -DNETCDF
+CC=gcc
+CXX=mpicxx
+
+F77FLAGS=$(INCPATH) -finit-local-zero
+F90FLAGS=$(INCPATH) -finit-local-zero -ffree-line-length-none
+CFLAGS=$(INCPATH)
+CXXFLAGS=
+
+SRC=src
+DST=build
+
+OBJRS=$(SRC)/macros.f90 $(patsubst %,$(DST)/%, \
+      atan3.o \
+      heaviside.o xlogy.o omega.o s.o \
+      computeStressStrainVolumePlaneStrain.o \
+      computeDisplacementStrainVolumePlaneStrain.o \
+      types.o \
+      getopt_m.o exportnetcdf.o getdata.o \
+      planestrain.o greens.o ode45.o ratestate.o )
+
+OBJVC=$(SRC)/macros.f90 $(patsubst %,$(DST)/%, \
+      atan3.o \
+      heaviside.o xlogy.o omega.o s.o \
+      computeStressStrainVolumePlaneStrain.o \
+      computeDisplacementStrainVolumePlaneStrain.o \
+      types.o \
+      getopt_m.o exportnetcdf.o getdata.o \
+      planestrain.o greens.o ode45.o viscouscycles.o )
+
+$(DST)/%.o:$(SRC)/%.c
+	$(CC) $(CFLAGS) -c $^ -o $(DST)/$*.o
+
+$(DST)/%.o: $(SRC)/%.f $(SRC)/macros.f90
+	$(F77) $(F77FLAGS) -c $(filter-out $(SRC)/macros.f90,$^) -o $(DST)/$*.o
+
+$(DST)/%.o: $(SRC)/%.f90 $(SRC)/macros.f90
+	$(F90) $(F90FLAGS) -c $(filter-out $(SRC)/macros.f90,$^) -o $(DST)/$*.o -J $(DST)
+
+$(DST)/%.o: $(SRC)/%.cpp
+	$(F90) $(CXXFLAGS) -c $^ -o $(DST)/$*.o
+
+unicycle-ps-ratestate: $(filter-out $(SRC)/macros.f90,$(OBJRS))
+	$(F90) -o $(DST)/$@ $^ $(LIBS)
+
+unicycle-ps-viscouscycles: $(filter-out $(SRC)/macros.f90,$(OBJVC))
+	$(F90) -o $(DST)/$@ $^ $(LIBS)
+
+clean:
+	rm -f $(DST)/*.o $(DST)/*.mod
+
+test:
+	echo $(OBJ)
+

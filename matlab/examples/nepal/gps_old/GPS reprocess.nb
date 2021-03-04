@@ -1,0 +1,126 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3724,        118]
+NotebookOptionsPosition[      2750,         85]
+NotebookOutlinePosition[      3169,        103]
+CellTagsIndexPosition[      3126,        100]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"SetDirectory", "[", 
+  RowBox[{"NotebookDirectory", "[", "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.702291915029406*^9, 
+  3.7022919221430807`*^9}},ExpressionUUID->"6bef4bd8-da54-4285-b9a7-\
+7bd750b2614b"],
+
+Cell[BoxData["\<\"/Users/James/Documents/src/unicycle/matlab/examples/nepal/\
+gps_old\"\>"], "Output",
+ CellChangeTimes->{
+  3.702291953712771*^9},ExpressionUUID->"370ae255-1d97-4f25-b8f5-\
+580bc840a79d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"FileNames", "[", "\"\<*.dat\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.7022919546271763`*^9, 
+  3.702291961553733*^9}},ExpressionUUID->"02d73af6-8a85-47f4-97d6-\
+e8eaeab00a46"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"caltech-dase-network.dat\"\>", 
+   ",", "\<\"caltech-dase-network original.dat\"\>", 
+   ",", "\<\"CHLMout.dat\"\>", ",", "\<\"gpsmissing2.dat\"\>", 
+   ",", "\<\"gpsmissing.dat\"\>", ",", "\<\"KKN4out.dat\"\>", 
+   ",", "\<\"NASTout.dat\"\>", ",", "\<\"SNDLout.dat\"\>"}], "}"}]], "Output",\
+
+ CellChangeTimes->{{3.702291955967885*^9, 
+  3.702291961872333*^9}},ExpressionUUID->"fe953d8b-ffb1-41c6-921b-\
+a5030d433f32"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+     "#1", ",", "#2", ",", "#3", ",", "#4", ",", "0.00001", ",", "0.00001", 
+      ",", "0.00001"}], "}"}], "&"}], "@@@", 
+   RowBox[{"Import", "[", "\"\<SNDLout.dat\>\"", "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Export", "[", 
+  RowBox[{"\"\<SNDL.dat\>\"", ",", "%"}], "]"}]}], "Input",
+ CellChangeTimes->{{3.7022919687742987`*^9, 3.70229203832397*^9}, {
+  3.702292069888597*^9, 3.702292088358343*^9}, {3.702292152117752*^9, 
+  3.702292188740466*^9}, {3.702292224485362*^9, 
+  3.702292288505589*^9}},ExpressionUUID->"026af49d-67e4-4685-a551-\
+851ca6590282"],
+
+Cell[BoxData["\<\"SNDL.dat\"\>"], "Output",
+ CellChangeTimes->{{3.702291970568068*^9, 3.702292038630402*^9}, {
+   3.702292082715477*^9, 3.7022920861558228`*^9}, 3.7022921591255207`*^9, 
+   3.702292189981485*^9, {3.702292224956506*^9, 
+   3.7022922891468487`*^9}},ExpressionUUID->"bb85bb09-a499-4737-a4b2-\
+8837e4045393"]
+}, Open  ]]
+},
+PrintingStyleEnvironment->"Printout",
+WindowSize->{808, 911},
+WindowMargins->{{363, Automatic}, {Automatic, 110}},
+ShowSyntaxStyles->True,
+FrontEndVersion->"11.1 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 16, \
+2017)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 232, 5, 32, "Input", "ExpressionUUID" -> \
+"6bef4bd8-da54-4285-b9a7-7bd750b2614b"],
+Cell[815, 29, 204, 4, 32, "Output", "ExpressionUUID" -> \
+"370ae255-1d97-4f25-b8f5-580bc840a79d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1056, 38, 202, 4, 32, "Input", "ExpressionUUID" -> \
+"02d73af6-8a85-47f4-97d6-e8eaeab00a46"],
+Cell[1261, 44, 463, 10, 54, "Output", "ExpressionUUID" -> \
+"fe953d8b-ffb1-41c6-921b-a5030d433f32"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1761, 59, 650, 16, 54, "Input", "ExpressionUUID" -> \
+"026af49d-67e4-4685-a551-851ca6590282"],
+Cell[2414, 77, 320, 5, 32, "Output", "ExpressionUUID" -> \
+"bb85bb09-a499-4737-a4b2-8837e4045393"]
+}, Open  ]]
+}
+]
+*)
+

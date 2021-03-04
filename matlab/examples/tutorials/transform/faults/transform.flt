@@ -1,0 +1,5 @@
+# dextral strike-slip fault
+# no slip  north east depth length width strike  dip rake
+   1 0.03      0    0  40e3  200e3 210e3      0 90.0    0
+   2 0.03 -400e3    0     0  400e3 250e3      0 90.0    0
+   3 0.03  200e3    0     0  400e3 250e3      0 90.0    0

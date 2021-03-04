@@ -1,0 +1,72 @@
+
+# # # # # # # # # # # # # # # # # # 
+# this make file for GNU compilation
+
+INCPATH=-I/sw/include
+LIBS=-L/sw/lib -llapack -lm
+
+F77=gfortran -cpp
+F90=mpif90 -cpp -Wall
+CC=gcc
+CXX=mpicxx
+
+F77FLAGS=$(INCPATH) -finit-local-zero
+F90FLAGS=$(INCPATH) -finit-local-zero -ffree-line-length-none
+CFLAGS=$(INCPATH)
+CXXFLAGS=
+
+SRC=src
+DST=build
+
+OBJRS=$(SRC)/macros.f90 $(patsubst %,$(DST)/%, getopt_m.o types.o getdata.o \
+     strainvolume.o comdun.o mod_dtrigreen.o stuart97.o dc3d.o okada92.o \
+     exportvtk_rfaults.o exportvtk_volumes.o \
+     DispInHalfSpace.o StrainInHalfSpace.o nikkhoo15.o greens.o ode45.o ratestate.o )
+
+OBJVC=$(SRC)/macros.f90 $(patsubst %,$(DST)/%, getopt_m.o types.o getdata.o \
+     strainvolume.o comdun.o mod_dtrigreen.o stuart97.o dc3d.o okada92.o \
+     exportvtk_rfaults.o exportvtk_volumes.o \
+     DispInHalfSpace.o StrainInHalfSpace.o nikkhoo15.o greens.o ode45.o viscouscycles.o )
+
+OBJ3D=$(SRC)/macros.f90 $(patsubst %,$(DST)/%, getopt_m.o types.o getdata.o \
+     input.o strainvolume.o comdun.o mod_dtrigreen.o stuart97.o dc3d.o okada92.o \
+     exportvtk_rfaults.o exportvtk_volumes.o \
+     DispInHalfSpace.o StrainInHalfSpace.o nikkhoo15.o greens.o rheology.o ode45.o unicycle.o )
+
+OBJAP=$(SRC)/macros.f90 $(patsubst %,$(DST)/%, getopt_m.o types.o getdata.o \
+     input.o strainvolume.o comdun.o mod_dtrigreen.o stuart97.o dc3d.o okada92.o \
+     exportvtk_rfaults.o exportvtk_volumes.o \
+     DispInHalfSpace.o StrainInHalfSpace.o nikkhoo15.o greens.o rheology.o ode45.o unicycle.o )
+
+OBJTEST= $(SRC)/macros.f90 $(patsubst %,$(DST)/%, strainvolume.o test_strainvolume.o )
+
+$(DST)/%.o:$(SRC)/%.c
+	$(CC) $(CFLAGS) -c $^ -o $(DST)/$*.o
+
+$(DST)/%.o: $(SRC)/%.f $(SRC)/macros.f90
+	$(F77) $(F77FLAGS) -c $(filter-out $(SRC)/macros.f90,$^) -o $(DST)/$*.o
+
+$(DST)/%.o: $(SRC)/%.f90 $(SRC)/macros.f90
+	$(F90) $(F90FLAGS) -c $(filter-out $(SRC)/macros.f90,$^) -o $(DST)/$*.o -J $(DST)
+
+$(DST)/%.o: $(SRC)/%.cpp
+	$(F90) $(CXXFLAGS) -c $^ -o $(DST)/$*.o
+
+unicycle-3d: $(filter-out $(SRC)/macros.f90,$(OBJ3D))
+	$(F90) -o $(DST)/$@ $^ $(LIBS)
+
+unicycle-3d-ratestate: $(filter-out $(SRC)/macros.f90,$(OBJRS))
+	$(F90) -o $(DST)/$@ $^ $(LIBS)
+
+unicycle-3d-viscouscycles: $(filter-out $(SRC)/macros.f90,$(OBJVC))
+	$(F90) -o $(DST)/$@ $^ $(LIBS)
+
+clean:
+	rm -f $(DST)/*.o $(DST)/*.mod
+
+test:
+	echo $(OBJ)
+
+test_strainvolume: $(filter-out $(SRC)/macros.f90,$(OBJTEST))
+	$(F90) -o $(DST)/$@ $^ $(LIBS)
+
