@@ -1,5 +1,5 @@
 # Unicycle (unified cycles of earthquakes)
-Unicycle is a community code for simulating the evolution of fault slip and distributed deformation using the integral method under the radiation damping approximation. The method is computationally efficient and may be used to simulate to simulate earthquake cycles (with radiation damping), afterslip, slow-slip events, viscoelastic relaxation and other aseismic processes.
+Unicycle is a community code developed at the Earth Observatory of Singapore, Nanyang Technological University, for simulating the evolution of fault slip and distributed deformation using the integral method under the radiation damping approximation. The method is computationally efficient and may be used to simulate to simulate earthquake cycles (with radiation damping), afterslip, slow-slip events, viscoelastic relaxation and other aseismic processes.
 
 If you find any bugs or wish to get involved in the development of Unicycle, please contact James D P Moore (earth@jamesdpmoore.com).
 
@@ -35,7 +35,7 @@ The intellectual property for this software belongs to Nanyang Technological Uni
 https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 
 ## References
-If you use this code, please cite as James D P Moore, Sylvain Barbot, Lujia Feng, Yu Hang, Valere Lambert, Eric Lindsey, Sagar Masuti, Takanori Matsuzawa, Jun Muto, Priyamvada Nanjundiah, Rino Salman, Sharadha Sathiakumar, and Harpreet Sethi. (2019, September 25). jdpmoore/unicycle: Unicycle (Version 1.0). Zenodo. http://doi.org/10.5281/zenodo.4471162       
+If you use this code, please cite as James D P Moore, Sylvain Barbot, Lujia Feng, Yu Hang, Valere Lambert, Eric Lindsey, Sagar Masuti, Takanori Matsuzawa, Jun Muto, Priyamvada Nanjundiah, Rino Salman, Sharadha Sathiakumar, and Harpreet Sethi. (2019, September 25). jdpmoore/unicycle: Unicycle (Version 1.0). Zenodo. http://doi.org/10.5281/zenodo.5688288       
 
 Depending on which Green's functions you use, also cite:
 

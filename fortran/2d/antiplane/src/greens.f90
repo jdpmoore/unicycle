@@ -20,7 +20,7 @@
 ! If you use this code, please cite as James D P Moore, Sylvain Barbot, 
 ! Eric Lindsey, Jun Muto, & Sagar Masuti. (2019, September 25). 
 ! jdpmoore/unicycle: Unicycle (Version 1.0). Zenodo. 
-! http://doi.org/10.5281/zenodo.4471162
+! http://doi.org/10.5281/zenodo.5688288
 !
 !-----------------------------------------------------------------------
 

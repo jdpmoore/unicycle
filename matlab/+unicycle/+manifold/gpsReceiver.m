@@ -23,7 +23,7 @@ classdef gpsReceiver < unicycle.manifold.gps
     % Takanori Matsuzawa, Jun Muto, Priyamvada Nanjundiah, Rino Salman,      %
     % Sharadha Sathiakumar, and Harpreet Sethi. (2019, September 25).        %
     % jdpmoore/unicycle: Unicycle (Version 1.0). Zenodo.                     %
-    % http://doi.org/10.5281/zenodo.4471162                                  %
+    % http://doi.org/10.5281/zenodo.5688288                                  %
     %                                                                        %
     %% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
     methods
