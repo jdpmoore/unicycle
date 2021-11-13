@@ -1,8 +1,13 @@
 function [s11,s12,s13,s22,s23,s33]=computeStressVerticalShearZone( ...
     x1,x2,x3,q1,q2,q3,L,T,W,theta,epsv11p,epsv12p,epsv13p,epsv22p,epsv23p,epsv33p,G,nu)
 % function COMPUTESTRESSVERTICALSHEARZONE computes the stress field 
-% associated with deforming vertical shear zones using the analytic 
-% solution considering the following geometry.
+% associated with deforming vertical shear zones considering the following
+% geometry using the analytical solution of James D P Moore, published in 
+%
+%   Barbot S., J. D. P. Moore, and V. Lambert, "Displacement and Stress
+%   Associated with Distributed Anelastic Deformation in a Half-Space",
+%   Bull. Seism. Soc. Am., 10.1785/0120160237, 2017.
+%
 %
 %                      N (x1)
 %                     /
@@ -38,8 +43,9 @@ function [s11,s12,s13,s22,s23,s33]=computeStressVerticalShearZone( ...
 % sij                stress components in the unprimed reference system.
 %
 % Author: 
-% Sylvain Barbot and James D. P. Moore (earth@jamesdpmoore.com) - 11 Jul, 2016,
-% Earth Observatory of Singapore
+% Author: James Moore (earth@jamesdpmoore.com) - original version
+%         Sylvain Barbot (sbarbot@ntu.edu.sg) - modifications
+%         11 July, 2016, Earth Observatory of Singapore
 %
 % SEE ALSO: unicycle
 

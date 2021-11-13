@@ -1,7 +1,8 @@
 !------------------------------------------------------------------------
 !! subroutine computeDisplacementStrainVolumePlaneStrain computes the
 !! displacement field associated with deforming dipping strain volumes 
-!! considering the following geometry using the analytical solution of
+!! considering the following geometry using James D P Moore's analytical
+!! solution published in
 !!
 !!   Barbot S., J. D. P. Moore and V. Lambert, Displacement and Stress
 !!   Associated with Distributed Anelastic Deformation in a Half Space,
@@ -47,7 +48,8 @@
 !! u2                 displacement component in the east direction,
 !! u3                 displacement component in the depth direction.
 !!
-!! \author Sylvain Barbot (06/15/17) - original Fortran form
+!! \author James D P Moore (original version 14/03/16)
+!! \author Sylvain Barbot (modified 15/06/17)
 !-----------------------------------------------------------------------
 SUBROUTINE computeDisplacementStrainVolumePlaneStrain(r2,x3,q2,q3,T,W,dip, &
                               eps22p,eps23p,eps33p,G,lambda,u2,u3)

@@ -1,9 +1,18 @@
 function [u1,u2,u3]=computeDisplacementVerticalShearZone( ...
     x1,x2,x3,q1,q2,q3,L,T,W,theta,epsv11p,epsv12p,epsv13p,epsv22p,epsv23p,epsv33p,G,nu)
 % function COMPUTEDISPLACEMENTVERTICALSHEARZONE computes the displacement 
-% field associated with deforming vertical shear zones using the analytic 
-% solution considering the following geometry.
+% field associated with deforming vertical shear zones.
 %
+% This function evaluates the stresses and displacements using the 
+% James-functions (J integrals) derived by James D P Moore and 
+% published in
+%
+%   Barbot S., J. D. P. Moore and V. Lambert, Displacement and Stress
+%   Associated with Distributed Anelastic Deformation in a Half Space,
+%   Bull. Seism. Soc. Am., 107(2), 10.1785/0120160237, 2017.
+%
+% considering the following geometry.
+% 
 %                      N (x1)
 %                     /
 %                    /| strike (theta)          E (x2)
@@ -19,11 +28,11 @@ function [u1,u2,u3]=computeDisplacementVerticalShearZone( ...
 %                   |                        /  i
 %                   :                       /  h
 %                   |                      /  t
-%                   :                     /
+%                   :                     /gre
 %                   |                    +
 %                   Z (x3)
-%
-%
+% 
+% 
 % Input:
 % x1, x2, x3         northing, easting, and depth of the observation point,
 % q1, q2, q3         north, east and depth coordinates of the shear zone,
@@ -33,14 +42,15 @@ function [u1,u2,u3]=computeDisplacementVerticalShearZone( ...
 %                    in the shear zone in the system of reference tied to 
 %                    the shear zone,
 % G, nu              shear modulus and Poisson's ratio in the half space.
-%
+% 
 % Output:
 % u1                 displacement component in the north direction,
 % u2                 displacement component in the east direction,
 % u3                 displacement component in the down direction.
-%
-% Author: Sylvain Barbot and James D. P. Moore (earth@jamesdpmoore.com) - 10 Jun, 2016, Singapore.
-%
+% 
+% Author: James Moore (earth@jamesdpmoore.com) - original version
+%         Sylvain Barbot (sbarbot@ntu.edu.sg) - modifications
+%         10 June, 2016, Singapore.
 % SEE ALSO: unicycle
 
 assert(-1<=nu & 1/2>=nu,'unicycle:greens:computeDisplacementVerticalShearZone -1<nu<0.5');

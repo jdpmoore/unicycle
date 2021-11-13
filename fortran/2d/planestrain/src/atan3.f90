@@ -2,6 +2,7 @@
 !------------------------------------------------------------------------
 !> function atan3
 !! computes atan2 with the required value at infinity
+!! \author James D P Moore, June 2016
 !------------------------------------------------------------------------
 REAL*8 FUNCTION atan3(y,x)
   IMPLICIT NONE

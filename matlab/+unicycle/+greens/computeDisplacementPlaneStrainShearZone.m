@@ -2,7 +2,12 @@ function [u2,u3]=computeDisplacementPlaneStrainShearZone( ...
     x2,x3,q2,q3,T,W,phi,epsv22p,epsv23p,epsv33p,G,nu)
 % function COMPUTEDISPLACEMENTPLANESTRAINSHEARZONE computes the
 % displacement field associated with deforming dipping shear zones
-% considering the following geometry using the analytical solution.
+% considering the following geometry using the analytical solution
+% of James D P Moore, published in 
+%
+%   Barbot S., J. D. P. Moore, and V. Lambert, "Displacement and Stress
+%   Associated with Distributed Anelastic Deformation in a Half-Space",
+%   Bull. Seism. Soc. Am., 10.1785/0120160237, 2017.
 %
 %              surface
 %      -------------+-------------- E (x2)
@@ -43,7 +48,8 @@ function [u2,u3]=computeDisplacementPlaneStrainShearZone( ...
 % u2                 displacement component in the east direction,
 % u3                 displacement component in the down direction.
 %
-% Author: Sylvain Barbot (sbarbot@ntu.edu.sg) and James Moore (earth@jamesdpmoore.com)
+% Author: James Moore (earth@jamesdpmoore.com) - original version
+%         Sylvain Barbot (sbarbot@ntu.edu.sg) - modifications
 %         March 19, 2016, Singapore.
 %
 % SEE ALSO: unicycle

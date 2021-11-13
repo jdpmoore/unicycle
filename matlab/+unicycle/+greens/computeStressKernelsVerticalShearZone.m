@@ -35,7 +35,7 @@ function [K1111,K1211,K1311,K2211,K2311,K3311, ...
 % Kijkl is the stress component Skl due to shear Eij, both in the shear 
 % zone centric (primed) system of coordinates.
 %
-% Sylvain Barbot and James D. P. Moore, 07/16/2016
+% James D. P. Moore and Sylvain Barbot 16/07/2016
 % Earth Observatory of Singapore
 %
 % SEE ALSO: unicycle

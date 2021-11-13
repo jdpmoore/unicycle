@@ -37,7 +37,7 @@ function [K11s,K12s,K13s,K22s,K23s,K33s, ...
 % dip slip and Kdd is the traction in the dip direction due to dip slip.
 %
 %
-% Sylvain Barbot, 07/16/2016
+% Sylvain Barbot and James D P Moore, 07/16/2016
 % Earth Observatory of Singapore
 %
 % SEE ALSO: unicycle

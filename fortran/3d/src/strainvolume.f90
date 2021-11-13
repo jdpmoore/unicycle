@@ -1,20 +1,37 @@
 !-----------------------------------------------------------------------
-! Copyright (c) 2017 Sylvain Barbot
+! Copyright 2017 Nanyang Technological University, Singapore
 !
 ! This file is part of UNICYCLE
 !
-! UNICYCLE is free software: you can redistribute it and/or modify
-! it under the terms of the GNU General Public License as published by
-! the Free Software Foundation, either version 3 of the License, or
-! (at your option) any later version.
+! UNICYCLE is free software for non commercial usage: 
+! you can redistribute it and/or modify it under the terms of the 
+! Creative Commons CC BY-NC-SA 4.0 licence, please see
+! https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 !
 ! UNICYCLE is distributed in the hope that it will be useful,
 ! but WITHOUT ANY WARRANTY; without even the implied warranty of
-! MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-! GNU General Public License for more details.
+! MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 !
-! You should have received a copy of the GNU General Public License
-! along with UNICYCLE.  If not, see <http://www.gnu.org/licenses/>.
+! All intellectual property rights and licences for commercial usage 
+! are reserved by Nanyang Technological University, please contact
+! NTUItive if you are interested in a commericial licence for UNICYCLE.
+! https://www.ntuitive.sg/
+!
+! If you use this code, please cite as James D P Moore, Sylvain Barbot, 
+! Lujia Feng, Yu Hang, Valere Lambert, Eric Lindsey, Sagar Masuti,
+! Takanori Matsuzawa, Jun Muto, Priyamvada Nanjundiah, Rino Salman,
+! Sharadha Sathiakumar, and Harpreet Sethi. (2019, September 25). 
+! jdpmoore/unicycle: Unicycle (Version 1.0). Zenodo. 
+! http://doi.org/10.5281/zenodo.4471162
+!
+! This file evaluates the stresses and displacements using the 
+! James-functions (J integrals) derived by James D P Moore and 
+! published in
+!
+!   Barbot S., J. D. P. Moore and V. Lambert, Displacement and Stress
+!   Associated with Distributed Anelastic Deformation in a Half Space,
+!   Bull. Seism. Soc. Am., 107(2), 10.1785/0120160237, 2017.
+!
 !-----------------------------------------------------------------------
 
 #include "macros.f90"
@@ -69,6 +86,7 @@ CONTAINS
   !------------------------------------------------------------------------
   !> function atan3
   !! computes atan2 with the required value at infinity
+  !! \author James Moore, June 2016
   !------------------------------------------------------------------------
   REAL*8 FUNCTION atan3(y,x)
     REAL*8, INTENT(IN) :: y,x
@@ -84,6 +102,7 @@ CONTAINS
   !------------------------------------------------------------------------
   !> function xLogY
   !! computes x*log(y) and enforces 0*log(0)=0 to avoid NaN
+  !! \author James Moore, June 2016
   !------------------------------------------------------------------------
   REAL*8 FUNCTION xLogy(x,y)
     REAL*8, INTENT(IN) :: x,y
@@ -110,7 +129,8 @@ CONTAINS
   !! @param sv,dv,nv    - strike, dip and normal vectors of the fault patch
   !! @param xc          - coordinates (north, east, down) of the center
   !!
-  !! \author Sylvain Barbot (21/02/17) - original fortran form
+  !! \author James D P Moore (original version 11/06/16)
+  !! \author Sylvain Barbot (modified 21/02/17)
   !------------------------------------------------------------------------
   SUBROUTINE computeReferenceSystemVerticalStrainVolume(ns,x,L,W,strike,sv,dv,nv,xc)
     IMPLICIT NONE
@@ -145,7 +165,7 @@ CONTAINS
   !------------------------------------------------------------------------
   !> subroutine ComputeDisplacementVerticalStrainVolume computes the stress
   !! field associated with deforming vertical strain volume using the
-  !! analytic solution of 
+  !! analytic J(ames) integrals of James D P Moore published in
   !!
   !!   Barbot S., J. D. P. Moore and V. Lambert, Displacement and Stress
   !!   Associated with Distributed Anelastic Deformation in a Half Space,
@@ -188,8 +208,9 @@ CONTAINS
   !! OUTPUT:
   !! ui                        displacement components in the unprimed reference system.
   !!
-  !! \author James D. P. Moore (10/06/16) - J-functions in original form
-  !! \author Sylvain Barbot (21/02/17) - original fortran form
+  !! \author James D. P. Moore (original version 10/06/16) - original version
+  !! \author Sylvain Barbot (modifications 21/02/17)
+  !! \author James D. P. Moore (further modifications)
   !------------------------------------------------------------------------
   SUBROUTINE computeDisplacementVerticalStrainVolume( &
                           x1,x2,x3,q1,q2,q3,L,T,W,theta, &
@@ -972,7 +993,7 @@ ACOTH(lr2**(-1)*(x3+y3))+xLogy(2*((-3._8)*x3-2._8*y3+6._8*nu*(x3+y3)-4._8*nu**2*
   !------------------------------------------------------------------------
   !> subroutine ComputeStressVerticalStrainVolume computes the stress field 
   !! associated with deforming vertical strain volume using the analytic 
-  !! solution of
+  !! solution of James D P Moore published in
   !!
   !!   Barbot S., J. D. P. Moore and V. Lambert, Displacement and Stress
   !!   Associated with Distributed Anelastic Deformation in a Half Space,
@@ -1015,8 +1036,8 @@ ACOTH(lr2**(-1)*(x3+y3))+xLogy(2*((-3._8)*x3-2._8*y3+6._8*nu*(x3+y3)-4._8*nu**2*
   !! OUTPUT:
   !! sij                stress components in the unprimed reference system.
   !!
-  !! \author James D. P. Moore (10/06/16) - derivatives of J-functions in original form
-  !! \author Sylvain Barbot (21/02/17) - original fortran form
+  !! \author James D. P. Moore (original version 10/06/16)
+  !! \author Sylvain Barbot (modified 21/02/17)
   !------------------------------------------------------------------------
   SUBROUTINE computeStressVerticalStrainVolume(x1,x2,x3,q1,q2,q3,L,T,W,theta, &
                                 eps11p,eps12p,eps13p,eps22p,eps23p,eps33p,G,nu, &
@@ -4621,7 +4642,8 @@ ACOTH(lr2**(-1)*(x3+y3))+xLogy(2*((-3._8)*x3-2._8*y3+6._8*nu*(x3+y3)-4._8*nu**2*
   !------------------------------------------------------------------------
   !> subroutine computeTractionKernelsVerticalStrainVolume
   !! calculates the traction kernels associated with distributed anelastic
-  !! strain in an elastic half-space using the analytic solution of
+  !! strain in an elastic half-space using James D P Moore's analytic 
+  !! solution published in
   !!
   !!   Barbot S., J. D. P. Moore and V. Lambert, Displacement and Stress
   !!   Associated with Distributed Anelastic Deformation in a Half Space,
@@ -4643,7 +4665,8 @@ ACOTH(lr2**(-1)*(x3+y3))+xLogy(2*((-3._8)*x3-2._8*y3+6._8*nu*(x3+y3)-4._8*nu**2*
   !! OUTPUT:
   !! ts,td,tn          - traction in the strike, dip and normal directions
   !!
-  !! \author Sylvain Barbot (21/02/17) - original fortran form
+  !! \author James D P Moore (original version 11/06/16)
+  !! \author Sylvain Barbot (modified 21/02/17)
   !------------------------------------------------------------------------
   SUBROUTINE computeTractionKernelsVerticalStrainVolume( &
                          x,sv,dv,nv, &
@@ -4690,7 +4713,8 @@ ACOTH(lr2**(-1)*(x3+y3))+xLogy(2*((-3._8)*x3-2._8*y3+6._8*nu*(x3+y3)-4._8*nu**2*
   !------------------------------------------------------------------------
   !> subroutine computeStressKernelsVerticalStrainVolume
   !! calculates the traction kernels associated with strain in finite
-  !! volumes in an elastic half-space using the analytic solution of 
+  !! volumes in an elastic half-space using James D P Moore's analytic 
+  !! solution published in
   !!
   !!   Barbot S., J. D. P. Moore and V. Lambert, Displacement and Stress
   !!   Associated with Distributed Anelastic Deformation in a Half Space,
@@ -4713,7 +4737,8 @@ ACOTH(lr2**(-1)*(x3+y3))+xLogy(2*((-3._8)*x3-2._8*y3+6._8*nu*(x3+y3)-4._8*nu**2*
   !! s11,s12,s13,s22,s23,s33 - the stress components in the reference
   !!                           system tied to the strain volume.
   !!
-  !! \author Sylvain Barbot (sbarbot@ntu.edu.sg)
+  !! \author James D P Moore (original version 11/06/16)
+  !! \author Sylvain Barbot (modified 21/02/17)
   !------------------------------------------------------------------------
   SUBROUTINE computeStressKernelsVerticalStrainVolume( &
                          x,sv,dv,nv, &
@@ -4776,8 +4801,8 @@ ACOTH(lr2**(-1)*(x3+y3))+xLogy(2*((-3._8)*x3-2._8*y3+6._8*nu*(x3+y3)-4._8*nu**2*
   !------------------------------------------------------------------------
   !> subroutine computeDisplacementKernelsVerticalStrainVolume
   !! calculates the displacement kernels associated with distributed
-  !! anelastic strain in an elastic half-space using the analytic solution of
-  !! of
+  !! anelastic strain in an elastic half-space using James D P Moore's  
+  !! analytic solution published in
   !!
   !!   Barbot S., J. D. P. Moore and V. Lambert, Displacement and Stress
   !!   Associated with Distributed Anelastic Deformation in a Half Space,
@@ -4800,7 +4825,8 @@ ACOTH(lr2**(-1)*(x3+y3))+xLogy(2*((-3._8)*x3-2._8*y3+6._8*nu*(x3+y3)-4._8*nu**2*
   !! u1,u2,u3          - array. displacement in the strike, dip and normal 
   !!                     directions
   !!
-  !! \author Sylvain Barbot (21/02/17) - original fortran form
+  !! \author James D P Moore (original version 11/06/16)
+  !! \author Sylvain Barbot (modified 21/02/17)
   !------------------------------------------------------------------------
   SUBROUTINE computeDisplacementKernelsVerticalStrainVolume( &
                          x,&

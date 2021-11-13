@@ -91,6 +91,13 @@
 !!
 !! References:<br>
 !!
+!!   James D P Moore, Sylvain Barbot, Lujia Feng, Yu Hang, Valere Lambert, 
+!!   Eric Lindsey, Sagar Masuti, Takanori Matsuzawa, Jun Muto, 
+!!   Priyamvada Nanjundiah, Rino Salman, Sharadha Sathiakumar, 
+!!   and Harpreet Sethi. (2019, September 25). 
+!!   jdpmoore/unicycle: Unicycle (Version 1.0). Zenodo.
+!!   http://doi.org/10.5281/zenodo.4471162
+!!
 !!   Barbot S., J. D.-P. Moore, and V. Lambert, "Displacement and Stress
 !!   Associated with Distributed Anelastic Deformation in a Half-Space",
 !!   Bull. Seism. Soc. Am., 10.1785/0120160237, 2017.

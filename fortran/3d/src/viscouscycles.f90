@@ -166,9 +166,21 @@
 !!
 !! References:<br>
 !!
+!!   James D P Moore, Sylvain Barbot, Lujia Feng, Yu Hang, Valere Lambert, 
+!!   Eric Lindsey, Sagar Masuti, Takanori Matsuzawa, Jun Muto, 
+!!   Priyamvada Nanjundiah, Rino Salman, Sharadha Sathiakumar, 
+!!   and Harpreet Sethi. (2019, September 25). 
+!!   jdpmoore/unicycle: Unicycle (Version 1.0). Zenodo.
+!!   http://doi.org/10.5281/zenodo.4471162
+!!
 !!   Barbot S., J. D.-P. Moore, and V. Lambert, "Displacement and Stress
 !!   Associated with Distributed Anelastic Deformation in a Half-Space",
 !!   Bull. Seism. Soc. Am., 10.1785/0120160237, 2017.
+!!
+!!   Jun Muto, James D P Moore, Sylvain Barbot, Iinuma T, Ohta Y, 
+!!   Horiuchi S, Hikaru I. Coupled afterslip and transient mantle flow 
+!!   after the 2011 Tohoku earthquake, Science Advances 2019.
+!!   https://doi.org/10.1126/sciadv.aaw1164
 !!
 !!   Lambert, V., and S. Barbot. "Contribution of viscoelastic flow in 
 !!   earthquake cycles within the lithosphere‐asthenosphere system." 
@@ -183,6 +195,7 @@
 !!   partial rupture of a locked megathrust: The role of fault morphology." 
 !!   Geology 44.10 (2016): 875-878.
 !!
+!! \author James D P Moore (2016)
 !! \author Sylvain Barbot (2017).
 !----------------------------------------------------------------------
 PROGRAM viscouscycles

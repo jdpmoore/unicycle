@@ -1,7 +1,8 @@
 !------------------------------------------------------------------------
 !! subroutine computeStressStrainVolumePlaneStrain computes the stress
 !! field associated with deforming dipping strain volumes considering the
-!! following geometry using the analytical solution of
+!! following geometry using James D P Moore's analytical solution 
+!! published in
 !!
 !!   Barbot S., J. D. P. Moore and V. Lambert, Displacement and Stress
 !!   Associated with Distributed Anelastic Deformation in a Half Space,
@@ -46,7 +47,8 @@
 !! OUTPUT:
 !! s22, s23, s33      stress components
 !!
-!! \author Sylvain Barbot (06/09/17) - original Fortran form
+!! \author James D P Moore (original version 01/06/16)
+!! \author Sylvain Barbot (modified 09/06/17)
 !-----------------------------------------------------------------------
 SUBROUTINE computeStressStrainVolumePlaneStrain(r2,x3,q2,q3,T,W,dip, &
                               eps22p,eps23p,eps33p,G,lambda,s22,s23,s33)
