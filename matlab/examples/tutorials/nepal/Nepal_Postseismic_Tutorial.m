@@ -177,7 +177,7 @@ shz.epsilonPlate=[0,1,0,0,0,0]*1e-15;
 %                                                      %
 % % % % % % % % % % % % % % % % % % % % % % % % % % % %%
 
-if false
+if true
     figure(1000);clf;set(gcf,'name','geometry & properties');
     hold on
     
