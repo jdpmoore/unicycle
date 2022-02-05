@@ -89,6 +89,21 @@ classdef okada92 < unicycle.greens.earthModel
             varargout = cell(1,nargout);
             [varargout{:}]=computeStressKernelsOkada92(src,rcv,obj.G,obj.nu);
         end
+      
+      
+        function [varargout]=displacementKernelsInternal(obj,src,x,vecsize)
+            % DISPLACEMENTKERNELS computes the stress on receiver faults due to
+            % motion of rectangular dislocations in a half space.
+            %
+            % src - source fault
+            %
+            % SEE ALSO: unicycle
+            
+            import unicycle.greens.*
+
+            varargout = cell(1,nargout);
+            [varargout{:}]=computeDisplacementKernelsOkada92(src,obj.G, obj.nu,x,vecsize);
+        end
         
         function [varargout]=displacementKernels(obj,src,x,vecsize)
             % DISPLACEMENTKERNELS computes the stress on receiver faults due to
@@ -99,7 +114,6 @@ classdef okada92 < unicycle.greens.earthModel
             % SEE ALSO: unicycle
             
             import unicycle.greens.*
-            
             varargout = cell(1,nargout);
             [varargout{:}]=computeDisplacementKernelsOkada85(src,obj.nu,x,vecsize);
         end

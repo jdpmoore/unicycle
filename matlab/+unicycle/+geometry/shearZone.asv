@@ -362,25 +362,26 @@ classdef shearZone < handle
             quiver3(obj.xc(:,1),obj.xc(:,2),obj.xc(:,3),sc*obj.dv(:,1),sc*obj.dv(:,2),sc*obj.dv(:,3),0,'b');
         end
         
-        function plotPrincipalDirections(obj, sigma, sc, varargin)
+        function plotPrincipalDirections(obj, sigma, sc, normalised, indices)
             % PLOTPRINCIPALDIRECTIONS plot principal directions of tensor
-            % input, where sigma is of the form
+            % input, where sigma is of the form 
             % [s11, s12, s13, s22, s23, s33]
             % SEE ALSO: unicycle
-            %
-            %             [xp,yp,zp,up]=unicycle.geometry.transform4patch_general(...
-            %                 obj.x(:,1),obj.x(:,2),-obj.x(:,3),obj.L(:)*0,...
-            %                 obj.L(:),obj.W(:),obj.dip(:),obj.strike(:));
+%             
+%             [xp,yp,zp,up]=unicycle.geometry.transform4patch_general(...
+%                 obj.x(:,1),obj.x(:,2),-obj.x(:,3),obj.L(:)*0,...
+%                 obj.L(:),obj.W(:),obj.dip(:),obj.strike(:));
             %patch(xp,yp,-zp,0*up,'FaceColor','None','LineWidth',1);
-            if nargin == 5
-                nRange = varargin{2};
-            else
-                nRange = 1:obj.N;
-            end
+if size(indices) >0
+    nrange - 
+else 
+    nMin = 1
+    nMax = obj.N
+end
             X = obj.xc(:,1);
             Y = obj.xc(:,2);
             Z = obj.xc(:,3);
-            
+
             u1 = 0*X;
             v1 = 0*Y;
             w1 = 0*Z;
@@ -390,13 +391,11 @@ classdef shearZone < handle
             u3 = 0*X;
             v3 = 0*Y;
             w3 = 0*Z;
-            for i=nRange
+            for i=nMin:nMax
                 A = [ sigma(i,1) sigma(i,2) sigma(i,3); sigma(i,2) sigma(i,4) sigma(i,5); sigma(i,3) sigma(i,5) sigma(i,6); ];
                 [V,D] = eig(A);
-                if nargin > 3
-                    if (varargin{1})
-                        D = ones(3);
-                    end
+                if (normalised)
+                    D = ones(3);
                 end
                 u1(i) = sc*D(1,1)*V(1,1);
                 v1(i) = sc*D(1,1)*V(2,1);
@@ -410,10 +409,12 @@ classdef shearZone < handle
                 v3(i) = sc*D(3,3)*V(2,3);
                 w3(i) = sc*D(3,3)*V(3,3);
             end
-            quiver3(X - u1/2, Y - v1/2, Z - w1/2, u1,v1,w1,0,'r','ShowArrowHead','off');
-            quiver3(X - u2/2, Y - v2/2, Z - w2/2, u2,v2,w2,0,'g','ShowArrowHead','off');
-            quiver3(X - u3/2, Y - v3/2, Z - w3/2, u3,v3,w3,0,'b','ShowArrowHead','off');
-           
+            quiver3(X - u1/2, Y - v1/2, Z - w1/2, u1,v1,w1,0,'r');
+            quiver3(X - u2/2, Y - v2/2, Z - w2/2, u2,v2,w2,0,'g');
+            quiver3(X - u3/2, Y - v3/2, Z - w3/2, u3,v3,w3,0,'b');
+            
+%             quiver3(obj.xc(:,1),obj.xc(:,2),obj.xc(:,3),sc*obj.sv(:,1),sc*obj.sv(:,2),sc*obj.sv(:,3),0,'g');
+%             quiver3(obj.xc(:,1),obj.xc(:,2),obj.xc(:,3),sc*obj.dv(:,1),sc*obj.dv(:,2),sc*obj.dv(:,3),0,'b');
         end
         
         %% % % % % % % % % % % % % % % % % % % % % % % % % %

@@ -39,7 +39,8 @@ classdef evolution < handle
         % KK{i,j} is traction s{j} due to fault slip d{i}, where
         % s={strike shear, dip shear, normal stress} and d={strike slip, dip slip}.
         KK=cell(2,3); % cell(causes, receivers)
-        
+        ET=cell(2,3); % elasticity traction kernels
+        ED=cell(2,1); % elasticity displacement kernels
         % stress on shear zones due to fault slip
         % KL{i,j} is stress s{j} due to slip d{i}, where d{i}={strike slip, dip slip}
         % and s=[s11,s12,s13,s22,s23,s33]
@@ -80,6 +81,8 @@ classdef evolution < handle
         flt;
         % fault receiver geometry
         shz;
+        % elastic regions
+        elast;
         % simulation result (time and model)
         t;y;
         
@@ -94,7 +97,7 @@ classdef evolution < handle
         %      c o n s t r u c t o r       %
         %                                  %
         % % % % % % % % % % % % % % % % % %%
-        function o=evolution(src,flt,shz,evts,varargin)
+        function o=evolution(src,flt,shz,evts,elast,varargin)
             % EVOLUTION is a class encapsulating the geometry and physical
             % properties of fault patches for sources and receivers and
             % methods for solving integral equations for fault slip.
@@ -123,31 +126,49 @@ classdef evolution < handle
                 o.flt=struct('N',0,'dgf',0);
             end
             
+
+            
             % receiver faults
             o.flt=flt;
             % receiver shear zones
             o.shz=shz;
             % source faults
             o.src=src;
+            % elastic regions
+            if (6==nargin)
+                if isempty(elast)
+                    o.elast=struct('N',0,'dgf',0);
+                end
+                o.elast=elast;
+                if ~isempty(varargin)  
+                     if isempty(varargin{:})
+                        varargin={};
+                     else
+                        % kernel path
+                        o.knlpath=char(varargin{:});
+                        if ~exist(o.knlpath,'dir')
+                            st=strsplit(o.knlpath,'/');
+                            mkdir(st{end-1});
+                        end
+                     end
+                end
+            end
 
-            
-            if ~isempty(varargin)  
-                 if isempty(varargin{:})
-                    varargin={};
-                 else
+            if (5==nargin)
+                if ~isempty(elast)
                     % kernel path
-                    o.knlpath=char(varargin{:});
+                    o.knlpath=char(elast);
                     if ~exist(o.knlpath,'dir')
                         st=strsplit(o.knlpath,'/');
                         mkdir(st{end-1});
                     end
-                 end
+                end
             end
             
             o.knl.KK={'ss', 'sd', 'sn'; 'ds', 'dd', 'dn'};
             % stress interactions
             if isobject(flt)
-                if isempty(varargin)
+                if isempty(o.knlpath)
                     [o.KK{:}]=flt.tractionKernels(flt);
                 else
                     if ~exist(strcat(o.knlpath,'KK_ss.grd'),'file')
@@ -179,7 +200,7 @@ classdef evolution < handle
                 if isobject(flt)
                     o.knl.KL={'s11', 's12', 's13','s22', 's23', 's33';...
                         'd11', 'd12', 'd13','d22', 'd23', 'd33'};
-                    if isempty(varargin)
+                    if isempty(o.knlpath)
                         [o.KL{:}]=flt.stressKernels(shz);
                     else
                         if ~exist(strcat(o.knlpath,'KL_s11.grd'),'file')
@@ -208,7 +229,7 @@ classdef evolution < handle
                     o.knl.LK={'s11', 'd11', 'n11'; 's12', 'd12', 'n12'; ...
                         's13', 'd13', 'n13'; 's22', 'd22', 'n22'; ...
                         's23', 'd23', 'n23'; 's33', 'd33', 'n33'};
-                    if isempty(varargin)
+                    if isempty(o.knlpath)
                         [o.LK{:}]=shz.tractionKernels(flt);
                     else
                         if ~exist(strcat(o.knlpath,'LK_s11.grd'),'file')
@@ -241,7 +262,7 @@ classdef evolution < handle
                     '1122','1222','1322','2222','2322','3322';...
                     '1123','1223','1323','2223','2323','3323';...
                     '1133','1233','1333','2233','2333','3333'};
-                if isempty(varargin)
+                if isempty(o.knlpath)
                     [o.LL{:}]=shz.stressKernels(shz);
                 else
                     if ~exist(strcat(o.knlpath,'LL_1111.grd'),'file')
@@ -281,7 +302,7 @@ classdef evolution < handle
                 else
                     if isobject(flt)
                         o.knl.FK={'ss', 'sd', 'sn'; 'ds', 'dd', 'dn'};
-                        if isempty(varargin)
+                        if isempty(o.knlpath)
                             [o.FK{:}]=src.tractionKernels(flt);
                         else
                             if ~exist(strcat(o.knlpath,'FK_ss.grd'),'file')
@@ -312,7 +333,7 @@ classdef evolution < handle
                     if isobject(shz)
                         o.knl.FL={'s11', 's12', 's13','s22', 's23', 's33';...
                         'd11', 'd12', 'd13','d22', 'd23', 'd33'};
-                        if isempty(varargin)
+                        if isempty(o.knlpath)
                             [o.FL{:}]=src.stressKernels(shz);
                         else
                             if ~exist(strcat(o.knlpath,'FL_s11.grd','file'))
@@ -337,6 +358,45 @@ classdef evolution < handle
                                     [~,~,o.FL{i}]=unicycle.export.grdread(fname);
                                 end
                             end
+                        end
+                    end
+                end
+            end
+            
+            if isobject(elast)
+                o.knl.ET={'ss', 'sd', 'sn'; 'ds', 'dd', 'dn'};
+                o.knl.ED={'s', 'd'};
+                if isempty(o.knlpath)
+                    [o.ET{:}]=elast.tractionKernels(elast);
+                    [o.ED{:}]=elast.eigenDisplacementKernels(elast);
+                else
+                    % CREATE NEW TRACTION/DISPLACEMENT CODE BASED ON THE
+                    % TRACTION CODE WHICH ALSO SAVES THE DISPLACEMENTS AT
+                    % THE SAME TIME - THEY ARE BEING CALCULATED! MORE
+                    % EFFICIENT!!!
+                    if ~exist(strcat(o.knlpath,'ET_ss.grd'),'file')
+                        [o.ET{:}]=elast.tractionKernels(elast);
+                        for i = 1:numel(o.ET)
+                            fname=strcat(o.knlpath,'ET_',o.knl.ET{i},'.grd');
+                            unicycle.export.grdwrite([0 1], [0 1], o.ET{i}, fname)
+                        end
+                    else
+                        for i = 1:numel(o.ET)
+                            fname=strcat(o.knlpath,'ET_',o.knl.ET{i},'.grd');
+                            [~,~,o.ET{i}]=unicycle.export.grdread(fname);
+                        end
+                    end
+                    
+                    if ~exist(strcat(o.knlpath,'ED_s.grd'),'file')
+                        [o.ED{:}]=elast.eigenDisplacementKernels(elast);
+                        for i = 1:numel(o.ED)
+                            fname=strcat(o.knlpath,'ED_',o.knl.ED{i},'.grd');
+                            unicycle.export.grdwrite([0 1], [0 1], o.ED{i}, fname)
+                        end
+                    else
+                        for i = 1:numel(o.ED)
+                            fname=strcat(o.knlpath,'ED_',o.knl.ED{i},'.grd');
+                            [~,~,o.ED{i}]=unicycle.export.grdread(fname);
                         end
                     end
                 end

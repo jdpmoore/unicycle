@@ -1,8 +1,9 @@
-function [ux,uy,uz]=computeDisplacementOkada92(X,Y,Z,G,nu,depth,angle,L,W,type,strike)
+function [ux,uy,uz]=computeDisplacementOkada92(U,X,Y,Z,G,nu,depth,angle,L,W,type,strike)
 % COMPUTESTRESSOKADA92 calculates the displacement due to shear or tensile
 % faults in a half space using the analytical solution of Okada (1992).
 %
 % INPUT:
+%   U - slip
 %   x, y, z  - coordinate of observation point. units: m. column vector; (z negative down)
 %   G        - rigidity
 %   nu       - Poisson's ratio
@@ -42,7 +43,7 @@ global critical lama lamu lamequot;
 % critical: shortest distance to the points with singularities, this value is prescribed to
 % avoid singularities in the calculation
 
-WARNING('OFF');
+% WARNING('OFF');
 
 % shear modulus
 lamu=G;
@@ -63,19 +64,42 @@ p0=y.*cos(angle)+(-z-depth).*sin(angle);        % Vector // to fault surface
 p1=y.*cos(angle)+( z-depth).*sin(angle);        % Vector // to IMAGE fault surface
 
 % Calculate the displacement
-UA = FA(x,y,z,depth,angle,x-L1,p0-W1,type)-FA(x,y,z,depth,angle,x-L1,p0-W2,type)...
-    -FA(x,y,z,depth,angle,x-L2,p0-W1,type)+FA(x,y,z,depth,angle,x-L2,p0-W2,type);
-UAIMAGE = FA(x,y,-z,depth,angle,x-L1,p1-W1,type)-FA(x,y,-z,depth,angle,x-L1,p1-W2,type)...
-    -FA(x,y,-z,depth,angle,x-L2,p1-W1,type)+FA(x,y,-z,depth,angle,x-L2,p1-W2,type);
-UB = FB(x,y,z,depth,angle,x-L1,p0-W1,type)-FB(x,y,z,depth,angle,x-L1,p0-W2,type)...
-    -FB(x,y,z,depth,angle,x-L2,p0-W1,type)+FB(x,y,z,depth,angle,x-L2,p0-W2,type);
-UC = FC(x,y,z,depth,angle,x-L1,p0-W1,type)-FC(x,y,z,depth,angle,x-L1,p0-W2,type)...
-    -FC(x,y,z,depth,angle,x-L2,p0-W1,type)+FC(x,y,z,depth,angle,x-L2,p0-W2,type);
+% FA(x,y,z,depth,angle,x-L1,p0-W1,type)
+FA1 = FA(x,y,z,depth,angle,x-L1,p0-W1,type);
+FA2 = FA(x,y,z,depth,angle,x-L1,p0-W2,type);
+FA3 = FA(x,y,z,depth,angle,x-L2,p0-W1,type);
+FA4 = FA(x,y,z,depth,angle,x-L2,p0-W2,type);
+FAI1 = FA(x,y,-z,depth,angle,x-L1,p1-W1,type);
+FAI2 = FA(x,y,-z,depth,angle,x-L1,p1-W2,type);
+FAI3 = FA(x,y,-z,depth,angle,x-L2,p1-W1,type);
+FAI4 = FA(x,y,-z,depth,angle,x-L2,p1-W2,type);
+FB1 = FB(x,y,z,depth,angle,x-L1,p0-W1,type);
+FB2 = FB(x,y,z,depth,angle,x-L1,p0-W2,type);
+FB3 = FB(x,y,z,depth,angle,x-L2,p0-W1,type);
+FB4 = FB(x,y,z,depth,angle,x-L2,p0-W2,type);
+FC1 = FC(x,y,z,depth,angle,x-L1,p0-W1,type);
+FC2 = FC(x,y,z,depth,angle,x-L1,p0-W2,type);
+FC3 = FC(x,y,z,depth,angle,x-L2,p0-W1,type);
+FC4 = FC(x,y,z,depth,angle,x-L2,p0-W2,type);
 
-Ux = 1./(2.*pi).*( UA{1}- UAIMAGE{1}+UB{1}+ z.*UC{1});
-Uy = 1./(2.*pi).*((UA{2}-UAIMAGE{2}+UB{2}+z.*UC{2}).*cos(angle) ...
+UA=cell(1,3);
+UAIMAGE=cell(1,3);
+UB=cell(1,3);
+UC=cell(1,3);
+
+for i=1:3
+    UA{i} = FA1{i} - FA2{i} - FA3{i} + FA4{i};
+    UAIMAGE{i} = FAI1{i} - FAI2{i} - FAI3{i} + FAI4{i};
+    UB{i} = FB1{i} - FB2{i} - FB3{i} + FB4{i};
+    UC{i} =  FC1{i} - FC2{i} - FC3{i} + FC4{i};
+    
+end
+Const = -U/(2*pi);
+
+Ux = Const.*( UA{1}- UAIMAGE{1}+UB{1}+ z.*UC{1});
+Uy = Const.*((UA{2}-UAIMAGE{2}+UB{2}+z.*UC{2}).*cos(angle) ...
     -(UA{3}-UAIMAGE{3}+UB{3}+z.*UC{3}).*sin(angle));
-uz = 1./(2.*pi).*((UA{2}-UAIMAGE{2}+UB{2}-z.*UC{2}).*sin(angle) ...
+uz = Const.*((UA{2}-UAIMAGE{2}+UB{2}-z.*UC{2}).*sin(angle) ...
     +(UA{3}-UAIMAGE{3}+UB{3}-z.*UC{3}).*cos(angle));
 
 % rotate in the original reference system
@@ -88,13 +112,15 @@ end
 % Functions called for calculating the displacement and its derivative for a rectangular source
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Displacement caused by infinite medium terms
-function FA=FA(x,y,z,depth,angle,epson,inta,type)
+function FA=FA(x,y,z,depth,angle,epson,inta,typeIn)
 global critical lamequot;
-WARNING('OFF');
+% WARNING('OFF');
 
 [~,~,q,R,~,~,~,X11,~,~,Y11,~,~,~,~,~,~,~] ...
     =COMMONPARA(x,y,z,depth,angle,epson,inta);
 [theta,~,~,~,~,~]=DISPPARA(x,y,z,depth,angle,epson,inta);
+types = ['S','D','T'];
+type = types(typeIn);
 switch upper(type)
     case 'S'
         FA{1}=theta./2+lamequot./2.*epson.*q.*Y11;
@@ -126,12 +152,14 @@ end
 end
 
 % Displacement caused by surface deformation related term
-function FB=FB(x,y,z,depth,angle,epson,inta,type)
+function FB=FB(x,y,z,depth,angle,epson,inta,typeIn)
 global lamequot;
-WARNING('OFF');
+% WARNING('OFF');
 [~,~,q,R,yg,dg,~,X11,~,~,Y11,~,~,~,~,~,~,~]...
     =COMMONPARA(x,y,z,depth,angle,epson,inta);
 [theta,~,I4,I3,I2,I1]=DISPPARA(x,y,z,depth,angle,epson,inta);
+types = ['S','D','T'];
+type = types(typeIn);
 switch upper(type)
     case 'S'
         FB{1}=-epson.*q.*Y11-theta-(1-lamequot)./lamequot.*I1.*sin(angle);
@@ -152,11 +180,13 @@ end
 end
 
 % Displacement caused by depth dependent term
-function FC=FC(x,y,z,depth,angle,epson,inta,type)
+function FC=FC(x,y,z,depth,angle,epson,inta,typeIn)
 global lamequot;
-WARNING('OFF');
+% WARNING('OFF');
 [~,~,q,R,yg,dg,cg,X11,X32,~,Y11,~,~,~,Z32,~,~,~]...
     =COMMONPARA(x,y,z,depth,angle,epson,inta);
+types = ['S','D','T'];
+type = types(typeIn);
 switch upper(type)
     case 'S'
         FC{1}=(1-lamequot).*epson.*Y11.*cos(angle)-lamequot.*epson.*q.*Z32;
@@ -183,7 +213,7 @@ end
 %----------------------------------------------------------------------------------------------------
 function [theta,X,I4,I3,I2,I1]=DISPPARA(x,y,z,depth,angle,epson,inta)
 global critical;
-WARNING('OFF');
+% WARNING('OFF');
 
 [~,~,q,R,yg,dg,~,~,~,~,~,~,~,~,~,~,~,~]...
     =COMMONPARA(x,y,z,depth,angle,epson,inta);
@@ -225,7 +255,7 @@ end
 function [d,p,q,R,yg,dg,cg,X11,X32,X53,Y11,Y32,Y53,h,Z32,Z53,Y0,Z0]...
     =COMMONPARA(x,y,z,depth,angle,epson,inta)
 global critical;
-WARNING('OFF');
+% WARNING('OFF');
 d=-z-depth;
 p=y.*cos(angle)+d.*sin(angle);
 q=y.*sin(angle)-d.*cos(angle);

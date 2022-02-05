@@ -101,13 +101,23 @@ classdef patch < handle
             [varargout{:}]=obj.earthModel.stressKernels(obj,rcv);
         end
         
-        function [varargout]=displacementKernels(obj,x,vecsize)
-            % DISPLACEMENTKERNELS computes the stress on receiver faults due to
+        function [varargout]=eigenDisplacementKernels(obj,rcv)
+            % EIGENDISPLACEMENTKERNELS computes the virtual displacement on receiver faults due to
             % motion of dislocations.
             %
             % x       - observations points coordinates
             % vecsize - length of displacement vector
             
+            varargout = cell(1,nargout);
+            [varargout{:}]=obj.earthModel.displacementKernelsInternal(obj,rcv.xc,size(rcv.xc,2));
+        end
+        
+        function [varargout]=displacementKernels(obj,x,vecsize)
+            % DISPLACEMENTKERNELS computes the displacement at x due to
+            % motion of dislocations.
+            %
+            % x       - observations points coordinates
+            % vecsize - length of displacement vector
             varargout = cell(1,nargout);
             [varargout{:}]=obj.earthModel.displacementKernels(obj,x,vecsize);
         end
