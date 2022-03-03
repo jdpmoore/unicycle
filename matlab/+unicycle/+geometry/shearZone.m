@@ -367,19 +367,15 @@ classdef shearZone < handle
             % input, where sigma is of the form
             % [s11, s12, s13, s22, s23, s33]
             % SEE ALSO: unicycle
-            %
-            %             [xp,yp,zp,up]=unicycle.geometry.transform4patch_general(...
-            %                 obj.x(:,1),obj.x(:,2),-obj.x(:,3),obj.L(:)*0,...
-            %                 obj.L(:),obj.W(:),obj.dip(:),obj.strike(:));
-            %patch(xp,yp,-zp,0*up,'FaceColor','None','LineWidth',1);
+
             if nargin == 5
                 nRange = varargin{2};
             else
                 nRange = 1:obj.N;
             end
-            X = obj.xc(:,1);
-            Y = obj.xc(:,2);
-            Z = obj.xc(:,3);
+            X = obj.xc(nRange,1);
+            Y = obj.xc(nRange,2);
+            Z = obj.xc(nRange,3);
             
             u1 = 0*X;
             v1 = 0*Y;
@@ -414,6 +410,65 @@ classdef shearZone < handle
             quiver3(X - u2/2, Y - v2/2, Z - w2/2, u2,v2,w2,0,'g','ShowArrowHead','off');
             quiver3(X - u3/2, Y - v3/2, Z - w3/2, u3,v3,w3,0,'b','ShowArrowHead','off');
            
+        end
+
+        function exportPrincipalDirections(obj, sigma, sc, fname, varargin)
+            % EXPORTPRINCIPALDIRECTIONS exports the first and third principal
+            % directions of tensor input, in the format for GMT to consume
+            % with -Sx option in psvelo to create a strain cross, 
+            % where sigma is of the form [s11, s12, s13, s22, s23, s33]
+            % SEE ALSO: unicycle
+
+            if nargin == 5
+                nRange = varargin{2};
+            else
+                nRange = 1:obj.N;
+            end
+            X = obj.xc(nRange,1);
+            Y = obj.xc(nRange,2);
+            Z = obj.xc(nRange,3);
+            
+            u1 = 0*X;
+            v1 = 0*Y;
+            w1 = 0*Z;
+            u2 = 0*X;
+            v2 = 0*Y;
+            w2 = 0*Z;
+            u3 = 0*X;
+            v3 = 0*Y;
+            w3 = 0*Z;
+            s1 = 0*X;
+            s3 = 0*X;
+            az = 0*X;
+            fid=fopen(fname,'wt');
+            fprintf(fid,'# export from unicycle.geometry.shearZone.exportPrincipalDirections\n');
+            fprintf(fid,'# X Y S1 S3 Azimuth\n');
+            for i=nRange
+                A = [ sigma(i,1) sigma(i,2) sigma(i,3); sigma(i,2) sigma(i,4) sigma(i,5); sigma(i,3) sigma(i,5) sigma(i,6); ];
+                [V,D] = eig(A);
+                s1(i) = max([D(1,1), D(2,2), D(3,3)]);
+                s3(i) = min([D(1,1), D(2,2), D(3,3)]);
+                az(i) = 360*atan2(Y(i) - v1(i), X(i) - u1(i))/(2*pi);
+                if nargin > 3
+                    if (varargin{1})
+                        D = ones(3);
+                    end
+                end
+                u1(i) = sc*D(1,1)*V(1,1);
+                v1(i) = sc*D(1,1)*V(2,1);
+                w1(i) = sc*D(1,1)*V(3,1);
+                
+                u2(i) = sc*D(2,2)*V(1,2);
+                v2(i) = sc*D(2,2)*V(2,2);
+                w2(i) = sc*D(2,2)*V(3,2);
+                
+                u3(i) = sc*D(3,3)*V(1,3);
+                v3(i) = sc*D(3,3)*V(2,3);
+                w3(i) = sc*D(3,3)*V(3,3);
+                fprintf(fid,'%f %f %f %f %f %f\n', ...
+                    [X(i),Y(i),Z(i), s1(i), s3(i), az(i)]);
+            end
+            fclose(fid);
         end
         
         %% % % % % % % % % % % % % % % % % % % % % % % % % %
