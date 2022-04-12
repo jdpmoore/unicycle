@@ -466,7 +466,7 @@ classdef shearZone < handle
                 v3(i) = sc*D(3,3)*V(2,3);
                 w3(i) = sc*D(3,3)*V(3,3);
                 fprintf(fid,'%f %f %f %f %f %f\n', ...
-                    [X(i),Y(i),Z(i), s1(i), s3(i), az(i)]);
+                    [X(i), Y(i), s1(i), s3(i), az(i)]);
             end
             fclose(fid);
         end
